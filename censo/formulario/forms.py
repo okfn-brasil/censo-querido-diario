@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Mapeamento
+from .models import Municipio, Mapeamento
 
 class PostCityForm(forms.ModelForm):
 	class Meta:
