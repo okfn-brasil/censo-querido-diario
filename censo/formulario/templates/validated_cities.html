@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div>
+        <h3>Temos {{percentage}}% das cidades brasileiras mapeadas</h3>
+    </div>
+
+    <div class="dropdown">
+      <div class="btn-group">
+          <button type="button" class="btn btn-success">Norte</button>
+          <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Acre (AC)</a>
+            <a class="dropdown-item" href="#">Amapá (AP)</a>
+            <a class="dropdown-item" href="#">Amazonas (AM)</a>
+            <a class="dropdown-item" href="#">Pará (PA)</a>
+            <a class="dropdown-item" href="#">Rondônia (RO)</a>
+            <a class="dropdown-item" href="#">Roraima (RR)</a>
+            <a class="dropdown-item" href="#">Tocantins (TO)</a>
+          </div>
+      </div>
+
+      <div class="btn-group">
+          <button type="button" class="btn btn-primary">Nordeste</button>
+          <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Alagoas (AL)</a>
+            <a class="dropdown-item" href="#">Bahia (BA)</a>
+            <a class="dropdown-item" href="#">Ceará (CE)</a>
+            <a class="dropdown-item" href="#">Maranhão (MA)</a>
+            <a class="dropdown-item" href="#">Paraíba (PB)</a>
+            <a class="dropdown-item" href="#">Pernambuco (PE)</a>
+            <a class="dropdown-item" href="#">Piauí (PI)</a>
+            <a class="dropdown-item" href="#">Rio Grande do Norte (RN)</a>
+            <a class="dropdown-item" href="#">Sergipe (SE)</a>
+          </div>
+      </div>
+
+      <div class="btn-group">
+          <button type="button" class="btn btn-info">Centro-Oeste</button>
+          <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Distrito Federal (DF)</a>
+            <a class="dropdown-item" href="#">Goiás (GO)</a>
+            <a class="dropdown-item" href="#">Mato Grosso (MT)</a>
+            <a class="dropdown-item" href="#">Mato Grosso do Sul (MS)</a>
+          </div>
+      </div>
+
+      <div class="btn-group">
+          <button type="button" class="btn btn-danger">Sudeste</button>
+          <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Espírito Santo (ES)</a>
+            <a class="dropdown-item" href="#">Minas Gerais (MG)</a>
+            <a class="dropdown-item" href="#">Rio de Janeiro (RJ)</a>
+            <a class="dropdown-item" href="#">São Paulo (SP)</a>
+          </div>
+      </div>
+
+      <div class="btn-group">
+          <button type="button" class="btn btn-warning">Sul</button>
+          <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Paraná (PR)</a>
+            <a class="dropdown-item" href="#">Rio Grande do Sul (RS)</a>
+            <a class="dropdown-item" href="#">Santa Catarina (SC)</a>
+          </div>
+      </div>
+
+
+    <div style="margin-top: 1rem">
+        <h4>Lista de cidades mapeadas em todo o Brasil</h4>
+        <ul>
+            {% for city in cities %}
+                <li><a href="{{city.mapeamento__link_do}}" target="_blank">{{city.municipio}} {{city.uf}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

@@ -22,4 +22,6 @@ from formulario import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.post_city, name='post_city'),
+    path('andamento/', views.validated_cities, name='validated_cities'),
+    path('sobre/', views.about, name='about'),
 ]

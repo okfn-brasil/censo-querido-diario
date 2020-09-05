@@ -7,6 +7,9 @@ class MunicipioAdmin(admin.ModelAdmin):
     fields = ('ibge', 'ibge7', 'municipio', 'uf', 'regiao', 'populacao_2010', 'capital', 'validacao')
     readonly_fields = ('ibge', 'ibge7', 'municipio', 'uf', 'regiao', 'populacao_2010', 'capital')
 
+    def has_delete_permission(self, request, obj=None):
+        return False
+
 class MapeamentoAdmin(admin.ModelAdmin):
     def get_queryset(self, request):
         qs = super(MapeamentoAdmin, self).get_queryset(request)
