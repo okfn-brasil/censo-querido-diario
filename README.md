@@ -21,13 +21,12 @@ $ pip install -r requirements.txt
 
 ### Carregado os dados
 ```
-$ python censo/manage.py read_data --file data/municipal_data.csv
+$ python censo/manage.py migrate
+$ python censo/manage.py read_data --file censo/data/municipal_data.csv
 ```
-
 
 ## Executando o Projeto
 ```
-$ python censo/manage.py migrate
 $ python censo/manage.py runserver
 ```
 Após subir o Django, verifique na porta 8000:
