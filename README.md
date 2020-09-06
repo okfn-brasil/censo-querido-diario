@@ -12,8 +12,6 @@ Temos um longo caminho pela frente. Afinal, precisamos libertar informações de
 
 ## Configuração de Ambiente
 
-Pode ser inserido esses comandos no arquivo *bashrc* do sistema.
-
 ### **Instalando todas as dependências**
 
 ```
@@ -21,16 +19,16 @@ $ mkvirtualenv censo -p python3
 $ pip install -r requirements.txt
 ```
 
-## Carregado os dados
+### Carregado os dados
 ```
-$ python manage.py read_data --file data/municipal_data.csv
+$ python censo/manage.py read_data --file data/municipal_data.csv
 ```
 
 
 ## Executando o Projeto
 ```
-$ python project/manage.py migrate
-$ python project/manage.py runserver
+$ python censo/manage.py migrate
+$ python censo/manage.py runserver
 ```
 Após subir o Django, verifique na porta 8000:
 *http://localhost:8000/*
