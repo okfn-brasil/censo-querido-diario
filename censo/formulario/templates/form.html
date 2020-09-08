@@ -7,7 +7,20 @@
 {% block content %}
   <form method="post" novalidate>
     {% csrf_token %}
-    {{ form|crispy }}
+    {# {{ form|crispy }} #}
+    <select id='municipio'>
+	    {% for city in form.municipio %}
+	    	<option value="{{city}}">{{city}}</option>        
+	    {% endfor %}	
+    </select>
+
     <button type="submit" class="btn btn-success">Enviar</button>
   </form>
+
+<!-- Select filter -->
+<script>
+    $(document).ready(function() {
+        $('#municipio').select2();
+    });
+</script> 
 {% endblock %}
