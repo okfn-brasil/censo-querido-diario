@@ -1,14 +1,21 @@
 from django import forms
+from django.conf import settings
 from django_select2 import forms as s2forms
 
 from .models import Municipio, Mapeamento
 
 
-class MunicipioWidget(s2forms.ModelSelect2MultipleWidget):
-	search_fields = ['municipio__icontains']
-
 class PostCityForm(forms.ModelForm):
-	class Meta:
-		model = Mapeamento
-		fields = ('municipio', 'link_do', 'status', 'data_inicial', 'tipo_arquivo')
-		widgets = {'municipio': s2forms.Select2Widget}
+    data_inicial = forms.DateField(label='Desde quando o minicípio publica os diários oficiais de forma online?',
+                                   input_formats=settings.DATE_INPUT_FORMATS,
+                                   widget=forms.TextInput(attrs= {'placeholder': 'dd/mm/yyyy'}))
+    class Meta:
+        model = Mapeamento
+        fields = ('municipio', 'link_do', 'is_online', 'data_inicial', 'tipo_arquivo')
+        widgets = {'municipio': s2forms.Select2Widget}
+        labels = {
+            'municipio': 'Selecione o Município',
+            'link_do': 'Informe as fontes de publicação',
+            'is_online': 'Existe uma fonte de publicação disponível de forma online?',
+            'tipo_arquivo': 'Qual o formato dos arquivos?',
+        }

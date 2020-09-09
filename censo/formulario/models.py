@@ -14,9 +14,9 @@ class Municipio(models.Model):
         return '%s %s' % (self.municipio, self.uf)
 
 class Mapeamento(models.Model):
-    STATUS = (
-        (1, 'Público'),
-        (2, 'Não público'),
+    IS_ONLINE = (
+        (1, 'Sim'),
+        (2, 'Não'),
         (3, 'Sem confirmação'),
         )
 
@@ -30,7 +30,7 @@ class Mapeamento(models.Model):
         )
 
     municipio = models.ForeignKey('Municipio', on_delete=models.CASCADE)
-    status = models.IntegerField(choices=STATUS)
+    is_online = models.IntegerField(choices=IS_ONLINE, default=3)
     data_inicial = models.DateField()
     link_do = models.URLField()
     tipo_arquivo = models.IntegerField(choices=TIPOS_ARQUIVOS)
