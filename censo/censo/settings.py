@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'formulario',
     'crispy_forms',
+    'django_select2',
 ]
 
 MIDDLEWARE = [

@@ -7,20 +7,18 @@
 {% block content %}
   <form method="post" novalidate>
     {% csrf_token %}
-    {# {{ form|crispy }} #}
-    <select id='municipio'>
-	    {% for city in form.municipio %}
-	    	<option value="{{city}}">{{city}}</option>        
-	    {% endfor %}	
-    </select>
+    
+    <div class="form-group">
+        {{ form|crispy }}
+    </div>
 
-    <button type="submit" class="btn btn-success">Enviar</button>
+    <div class="form-group row">
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </div>
+    </div>
   </form>
 
-<!-- Select filter -->
-<script>
-    $(document).ready(function() {
-        $('#municipio').select2();
-    });
-</script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  {{ form.media.js }}
 {% endblock %}
