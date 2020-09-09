@@ -31,9 +31,9 @@ class Mapeamento(models.Model):
 
     municipio = models.ForeignKey('Municipio', on_delete=models.CASCADE)
     is_online = models.IntegerField(choices=IS_ONLINE, default=3)
-    data_inicial = models.DateField()
-    link_do = models.URLField()
-    tipo_arquivo = models.IntegerField(choices=TIPOS_ARQUIVOS)
+    data_inicial = models.DateField(blank=True, null=True)
+    link_do = models.URLField(blank=True, null=True)
+    tipo_arquivo = models.IntegerField(choices=TIPOS_ARQUIVOS, blank=True, null=True)
     navegacao = models.FloatField(blank=True, null=True)
 
     def __str__(self):

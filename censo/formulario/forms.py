@@ -8,10 +8,12 @@ from .models import Municipio, Mapeamento
 class PostCityForm(forms.ModelForm):
     data_inicial = forms.DateField(label='Desde quando o minicípio publica os diários oficiais de forma online?',
                                    input_formats=settings.DATE_INPUT_FORMATS,
-                                   widget=forms.TextInput(attrs= {'placeholder': 'dd/mm/yyyy'}))
+                                   widget=forms.DateInput(attrs={'placeholder':'DD/MM/YYYY'}),
+                                   required=False)
+
     class Meta:
         model = Mapeamento
-        fields = ('municipio', 'link_do', 'is_online', 'data_inicial', 'tipo_arquivo')
+        fields = ('municipio', 'is_online', 'link_do', 'data_inicial', 'tipo_arquivo')
         widgets = {'municipio': s2forms.Select2Widget}
         labels = {
             'municipio': 'Selecione o Município',
