@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from formulario.models import Municipio, Mapeamento
+from formulario.models import Municipio, Fonte, Mapeamento
 
 
 class MunicipioAdmin(admin.ModelAdmin):
@@ -17,3 +17,4 @@ class MapeamentoAdmin(admin.ModelAdmin):
 
 admin.site.register(Mapeamento, MapeamentoAdmin)
 admin.site.register(Municipio, MunicipioAdmin)
+admin.site.register(Fonte)

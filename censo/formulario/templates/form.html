@@ -22,16 +22,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     function Hide() {
-        console.log(document.getElementById('id_is_online'));
         if(document.getElementById('id_is_online').options[document.getElementById('id_is_online').selectedIndex].value != 1) {
-             document.getElementById('div_id_link_do').style.display = 'none';
+             document.getElementById('div_id_links_fontes').style.display = 'none';
              document.getElementById('div_id_data_inicial').style.display = 'none';
              document.getElementById('div_id_tipo_arquivo').style.display = 'none';
         } else {
-             document.getElementById('div_id_link_do').style.display = '';
+             document.getElementById('div_id_links_fontes').style.display = '';
              document.getElementById('div_id_data_inicial').style.display = '';
              document.getElementById('div_id_tipo_arquivo').style.display = '';
-             div_id_tipo_arquivo
         }
     };
   </script>

@@ -13,6 +13,13 @@ class Municipio(models.Model):
     def __str__(self):
         return '%s %s' % (self.municipio, self.uf)
 
+
+class Fonte(models.Model):
+    link = models.URLField()
+
+    # def __str__(self):
+    #     return '%s' % (self.link)
+
 class Mapeamento(models.Model):
     IS_ONLINE = (
         (1, 'Sim'),
@@ -30,9 +37,9 @@ class Mapeamento(models.Model):
         )
 
     municipio = models.ForeignKey('Municipio', on_delete=models.CASCADE)
+    links_fontes = models.ForeignKey('Fonte', on_delete=models.CASCADE, blank=True, null=True)
     is_online = models.IntegerField(choices=IS_ONLINE, default=3)
     data_inicial = models.DateField(blank=True, null=True)
-    link_do = models.URLField(blank=True, null=True)
     tipo_arquivo = models.IntegerField(choices=TIPOS_ARQUIVOS, blank=True, null=True)
     navegacao = models.FloatField(blank=True, null=True)
 
