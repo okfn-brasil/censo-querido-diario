@@ -84,8 +84,8 @@
         <h4>Lista de cidades mapeadas em todo o Brasil</h4>
         <ul>
             {% for city in cities %}
-                {% if city.mapeamento__links_fontes__link %}
-                    <li><a href="{{city.mapeamento__links_fontes__link}}" target="_blank">{{city.municipio}} {{city.uf}}</a></li>
+                {% if city.mapeamento__fonte_1 %}
+                    <li><a href="{{city.mapeamento__fonte_1}}" target="_blank">{{city.municipio}} {{city.uf}}</a></li>
                 {% else %}
                     <li>{{city.municipio}} {{city.uf}} - <strong>Município sem diário oficial online</strong></li>
                 {% endif %}

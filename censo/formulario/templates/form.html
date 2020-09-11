@@ -12,6 +12,17 @@
         {{ form|crispy }}
     </div>
 
+    <div class="form-group row" id="id_buttons_control">
+        <div class="col-sm-6" id="id_plus_control">
+          Adicionar fonte de divulgação
+          <button type="button" id="id_plus" class="btn btn-info btn-default btn-circle">+</button>
+        </div>
+
+        <div class="col-sm-6" id="id_minus_control">
+          Remover fonte de divulgação
+          <button type="button" id="id_minus" class="btn btn-danger btn-default btn-circle" disabled>-</button>
+        </div>
+    </div>
     <div class="form-group row">
         <div class="col-sm-10">
           <button type="submit" class="btn btn-success">Enviar</button>
@@ -21,19 +32,95 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-    function Hide() {
-        if(document.getElementById('id_is_online').options[document.getElementById('id_is_online').selectedIndex].value != 1) {
-             document.getElementById('div_id_links_fontes').style.display = 'none';
+    function fontes_control() {
+        if (document.getElementById('id_is_online').options[document.getElementById('id_is_online').selectedIndex].value != 1) {
+             document.getElementById('div_id_fonte_1').style.display = 'none';
+             document.getElementById('div_id_fonte_2').style.display = 'none';
+             document.getElementById('div_id_fonte_3').style.display = 'none';
+             document.getElementById('div_id_fonte_4').style.display = 'none';
+             document.getElementById('id_buttons_control').style.display = 'none';
              document.getElementById('div_id_data_inicial').style.display = 'none';
              document.getElementById('div_id_tipo_arquivo').style.display = 'none';
         } else {
-             document.getElementById('div_id_links_fontes').style.display = '';
+             document.getElementById('div_id_fonte_1').style.display = '';
+             document.getElementById('id_buttons_control').style.display = '';
              document.getElementById('div_id_data_inicial').style.display = '';
              document.getElementById('div_id_tipo_arquivo').style.display = '';
         }
     };
+
+    function fontes_fonte_add() {
+        var fonte_2 = document.getElementById('div_id_fonte_2').style.display == 'none';
+        var fonte_3 = document.getElementById('div_id_fonte_3').style.display == 'none';
+        var fonte_4 = document.getElementById('div_id_fonte_4').style.display == 'none';
+        var fontes_control = document.getElementById('id_is_online').options[document.getElementById('id_is_online').selectedIndex].value == 1;
+
+        if (fontes_control) {
+          if (fonte_2) {
+              document.getElementById('div_id_fonte_2').style.display = '';
+              document.getElementById('id_minus').disabled = false;
+          } else if (fonte_3) {
+              document.getElementById('div_id_fonte_3').style.display = '';
+          } else if (fonte_4) {
+              document.getElementById('div_id_fonte_4').style.display = '';
+              document.getElementById('id_plus').disabled = true;
+          }
+        }
+    }
+
+    function fontes_fonte_rm() {
+        var fonte_2 = document.getElementById('div_id_fonte_2').style.display == '';
+        var fonte_3 = document.getElementById('div_id_fonte_3').style.display == '';
+        var fonte_4 = document.getElementById('div_id_fonte_4').style.display == '';
+        var fontes_control = document.getElementById('id_is_online').options[document.getElementById('id_is_online').selectedIndex].value == 1;
+
+        if (fontes_control) {
+          if (fonte_4) {
+              document.getElementById('div_id_fonte_4').style.display = 'none';
+              document.getElementById('id_plus').disabled = false;
+          } else if (fonte_3) {
+              document.getElementById('div_id_fonte_3').style.display = 'none';
+          } else if (fonte_2) {
+              document.getElementById('div_id_fonte_2').style.display = 'none';
+              document.getElementById('id_minus').disabled = true;
+          }
+        }
+    }
+
   </script>
-  <script type="text/javascript"> window.addEventListener("load", Hide);</script> <script type="text/javascript"> var el = document.getElementById("div_id_is_online"); el.addEventListener("click", Hide);</script>
+  <script type="text/javascript"> window.addEventListener("load", fontes_control);</script>
+  <script type="text/javascript"> window.addEventListener("load", fontes_fonte_add);</script>
+  <script type="text/javascript"> window.addEventListener("load", fontes_fonte_rm);</script>
+  <script type="text/javascript">
+    var el = document.getElementById("div_id_is_online");
+    var el_add = document.getElementById("id_plus_control");
+    var el_rm = document.getElementById("id_minus_control");
+
+    el.addEventListener("click", fontes_control);
+    el_add.addEventListener("click", fontes_fonte_add);
+    el_rm.addEventListener("click", fontes_fonte_rm);
+  </script>
+
+  <style type="text/css">
+        .btn-circle.btn-xl {
+        width: 70px;
+        height: 70px;
+        padding: 10px 16px;
+        border-radius: 35px;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+
+    .btn-circle {
+        width: 30px;
+        height: 30px;
+        padding: 6px 0px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.42857;
+    }
+    </style>
   
   {{ form.media.js }}
 {% endblock %}
