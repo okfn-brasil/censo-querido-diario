@@ -7,8 +7,7 @@ class Municipio(models.Model):
     municipio = models.CharField(max_length=128)
     regiao = models.CharField(max_length=15)
     populacao_2010 = models.IntegerField(null=True)
-    capital = models.BooleanField()
-    validacao = models.BooleanField(default=False)
+    capital = models.BooleanField(default=False)
 
     def __str__(self):
         return '%s %s' % (self.municipio, self.uf)
@@ -38,6 +37,7 @@ class Mapeamento(models.Model):
     is_online = models.IntegerField(choices=IS_ONLINE, default=3)
     data_inicial = models.DateField(blank=True, null=True)
     tipo_arquivo = models.IntegerField(choices=TIPOS_ARQUIVOS, blank=True, null=True)
+    validacao = models.BooleanField(default=False)
     navegacao = models.FloatField(blank=True, null=True)
 
     def __str__(self):

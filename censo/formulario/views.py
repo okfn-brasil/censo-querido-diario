@@ -4,6 +4,15 @@ from .forms import PostCityForm
 from .models import Municipio, Mapeamento
 
 
+REGIONS = {
+    'norte': ['AC', 'AP', 'AM', 'PA', 'RO', 'RR', 'TO'],
+    'nordeste': ['AL', 'BA', 'CE', 'MA', 'PB', 'PE', 'PI', 'RN', 'SE'],
+    'centro-oeste': ['DF', 'GO', 'MT', 'MS'],
+    'sudeste': ['ES', 'MG', 'RJ', 'SP'],
+    'sul': ['PR', 'RS', 'SC'],
+}
+
+
 def post_city(request):
     if request.method == 'POST':
         form = PostCityForm(request.POST)
@@ -13,17 +22,40 @@ def post_city(request):
         return render(request, 'error_template.html', {'form': form})
     else:
         form = PostCityForm()
-        form.fields['municipio'].queryset = Municipio.objects.filter(validacao=False).order_by('municipio')
+        form.fields['municipio'].queryset = Municipio.objects.filter(mapeamento__isnull=True).order_by('municipio')
 
     return render(request, 'form.html', {'form': form})
 
 
-def validated_cities(request):
-    cities = Municipio.objects.filter(validacao=True).values('municipio', 'uf', 'mapeamento__fonte_1').distinct()
-    total_cities = Municipio.objects.count()
+def mapped_cities(request):
+    state = request.GET.get('state')
+    region = request.GET.get('region')
+    values_list = [
+        'municipio',
+        'uf',
+        'mapeamento__fonte_1',
+        'mapeamento__fonte_2',
+        'mapeamento__fonte_3',
+        'mapeamento__fonte_4'
+        ]
+    if state:
+        state = state.upper()
+        cities = Municipio.objects.filter(mapeamento__validacao=True, uf=state).values(*values_list).distinct()
+        total_cities = Municipio.objects.filter(uf=state).count()
+        context = state
+    elif region:
+        cities = Municipio.objects.filter(mapeamento__validacao=True, uf__in=REGIONS[region]).values(*values_list).distinct()
+        total_cities = Municipio.objects.filter(uf__in=REGIONS[region]).count()
+        context = region
+    else:
+        cities = Municipio.objects.filter(mapeamento__validacao=True).values(*values_list).distinct()
+        total_cities = Municipio.objects.count()
+        context = 'Brasil'
+    
     percentage = round(len(cities)/total_cities*100, 2)
 
-    return render(request, 'validated_cities.html', {'cities': cities, 'percentage': percentage})
+    return render(request, 'mapped_cities.html', {'cities': cities, 'percentage': percentage, 'context': context})
+
 
 def about(request):
     return render(request, 'sobre.html')

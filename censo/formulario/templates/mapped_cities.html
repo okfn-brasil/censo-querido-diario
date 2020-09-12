@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="dropdown">
+      <div class="btn-group">
+          <a href=/andamento/?region=norte><button type="button" class="btn btn-success">Norte</button></a>
+          <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/andamento/?state=ac">Acre (AC)</a>
+            <a class="dropdown-item" href=/andamento/?state=ap>Amapá (AP)</a>
+            <a class="dropdown-item" href=/andamento/?state=am>Amazonas (AM)</a>
+            <a class="dropdown-item" href=/andamento/?state=pa>Pará (PA)</a>
+            <a class="dropdown-item" href=/andamento/?state=ro>Rondônia (RO)</a>
+            <a class="dropdown-item" href=/andamento/?state=rr>Roraima (RR)</a>
+            <a class="dropdown-item" href=/andamento/?state=to>Tocantins (TO)</a>
+          </div>
+      </div>
+
+      <div class="btn-group">
+          <a href=/andamento/?region=nordeste><button type="button" class="btn btn-primary">Nordeste</button></a>
+          <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href=/andamento/?state=al>Alagoas (AL)</a>
+            <a class="dropdown-item" href=/andamento/?state=ba>Bahia (BA)</a>
+            <a class="dropdown-item" href=/andamento/?state=ce>Ceará (CE)</a>
+            <a class="dropdown-item" href=/andamento/?state=ma>Maranhão (MA)</a>
+            <a class="dropdown-item" href=/andamento/?state=pb>Paraíba (PB)</a>
+            <a class="dropdown-item" href=/andamento/?state=pe>Pernambuco (PE)</a>
+            <a class="dropdown-item" href=/andamento/?state=pi>Piauí (PI)</a>
+            <a class="dropdown-item" href=/andamento/?state=rn>Rio Grande do Norte (RN)</a>
+            <a class="dropdown-item" href=/andamento/?state=se>Sergipe (SE)</a>
+          </div>
+      </div>
+
+      <div class="btn-group">
+          <a href=/andamento/?region=centro-oeste><button type="button" class="btn btn-info">Centro-Oeste</button></a>
+          <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href=/andamento/?state=df>Distrito Federal (DF)</a>
+            <a class="dropdown-item" href=/andamento/?state=go>Goiás (GO)</a>
+            <a class="dropdown-item" href=/andamento/?state=mt>Mato Grosso (MT)</a>
+            <a class="dropdown-item" href=/andamento/?state=ms>Mato Grosso do Sul (MS)</a>
+          </div>
+      </div>
+
+      <div class="btn-group">
+          <a href=/andamento/?region=sudeste><button type="button" class="btn btn-danger">Sudeste</button></a>
+          <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href=/andamento/?state=es>Espírito Santo (ES)</a>
+            <a class="dropdown-item" href=/andamento/?state=mg>Minas Gerais (MG)</a>
+            <a class="dropdown-item" href=/andamento/?state=rj>Rio de Janeiro (RJ)</a>
+            <a class="dropdown-item" href=/andamento/?state=sp>São Paulo (SP)</a>
+          </div>
+      </div>
+
+      <div class="btn-group">
+          <a href=/andamento/?region=sul><button type="button" class="btn btn-warning">Sul</button></a>
+          <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href=/andamento/?state=pr>Paraná (PR)</a>
+            <a class="dropdown-item" href=/andamento/?state=rs>Rio Grande do Sul (RS)</a>
+            <a class="dropdown-item" href=/andamento/?state=sc>Santa Catarina (SC)</a>
+          </div>
+      </div>
+
+
+    <div style="margin-top: 1rem">
+        <div class="alert alert-success" role="alert">
+          <h4 class="alert-heading">Temos <strong>{{percentage}}%</strong> das cidades mapeadas</h4>
+          <hr>
+          <p style="text-transform: uppercase;">{{context}}</p>
+        </div>
+
+        <ul class="list-group list-group-flush">
+            {% for city in cities %}
+                {% if city.mapeamento__fonte_1 %}
+                    <li class="list-group-item"><a href="{{city.mapeamento__fonte_1}}" target="_blank">{{city.municipio}} {{city.uf}}</a></li>
+                    {% if city.mapeamento__fonte_2 %}
+                        <ul>
+                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_2}}" target="_blank">{{city.municipio}} {{city.uf}}</a> - <strong>Fonte de publicação alternativa</strong></li>
+                        {% endif %}
+                        {% if city.mapeamento__fonte_3 %}
+                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_3}}" target="_blank">{{city.municipio}} {{city.uf}}</a> - <strong>Fonte de publicação alternativa</strong></li>
+                        {% endif %}
+                        {% if city.mapeamento__fonte_4 %}
+                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_4}}" target="_blank">{{city.municipio}} {{city.uf}}</a> - <strong>Fonte de publicação alternativa</strong></li>
+                        {% endif %}
+                    </ul>
+                {% else %}
+                    <li class="list-group-item">{{city.municipio}} {{city.uf}} - <strong>Município sem diário oficial online</strong></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

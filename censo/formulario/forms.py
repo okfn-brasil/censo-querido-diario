@@ -2,11 +2,11 @@ from django import forms
 from django.conf import settings
 from django_select2 import forms as s2forms
 
-from .models import Municipio, Mapeamento
+from .models import Mapeamento
 
 
 class PostCityForm(forms.ModelForm):
-    data_inicial = forms.DateField(label='Desde quando o minicípio publica os diários oficiais de forma online?',
+    data_inicial = forms.DateField(label='Qual a data do arquivo mais antigo, disponível online?',
                                    input_formats=settings.DATE_INPUT_FORMATS,
                                    widget=forms.DateInput(attrs={'placeholder':'DD/MM/YYYY'}),
                                    required=False)

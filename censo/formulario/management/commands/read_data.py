@@ -26,7 +26,7 @@ class Command(BaseCommand):
                     'municipio': elements[3],
                     'regiao': elements[4],
                     'populacao_2010': elements[5],
-                    'capital': elements[6] == 'capital',
+                    'capital': elements[6] == 'Capital',
                     }
                     Municipio(**obj).save()
             self.stdout.write(self.style.SUCCESS('Successfully read data'))
