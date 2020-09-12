@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    command: gunicorn censo.wsgi:application --bind 0.0.0.0:8000
+    container_name: censo
+    volumes:
+      - .:/censo
+    expose:
+      - 8000
+  nginx:
+    build: ./nginx
+    ports:
+      - 1337:80
+    depends_on:
+      - web
