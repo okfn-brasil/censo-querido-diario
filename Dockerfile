@@ -17,7 +17,5 @@ ENV PYTHONUNBUFFERED 1
 COPY . .
 
 RUN python manage.py collectstatic --no-input
-RUN python manage.py migrate
-RUN python manage.py read_data --file data/municipal_data.csv
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
