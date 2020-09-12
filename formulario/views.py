@@ -18,7 +18,7 @@ def post_city(request):
         form = PostCityForm(request.POST)
         if form.is_valid():
             form.save()
-            return render(request, 'base.html')
+            return render(request, 'success.html')
         return render(request, 'error_template.html', {'form': form})
     else:
         form = PostCityForm()
