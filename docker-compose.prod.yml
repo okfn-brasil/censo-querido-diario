@@ -5,15 +5,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.prod
-    command: gunicorn censo.wsgi:application --bind 0.0.0.0:8000
+    command: ["gunicorn", "censo.wsgi:application", "--reload", "--bind", "0.0.0.0:1337", "--workers", "1", "--log-level", "INFO", "--timeout", "300"]
     container_name: censo
     volumes:
       - .:/censo
-    expose:
-      - 8000
-  nginx:
-    build: ./nginx
     ports:
-      - 1337:80
-    depends_on:
-      - web
+      - "8001:8001"
