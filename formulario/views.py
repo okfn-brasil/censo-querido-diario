@@ -40,15 +40,15 @@ def mapped_cities(request):
         ]
     if state:
         state = state.upper()
-        cities = Municipio.objects.filter(mapeamento__validacao=True, uf=state).values(*values_list).distinct()
+        cities = Municipio.objects.filter(mapeamento__validacao=True, uf=state).values(*values_list).order_by('municipio').distinct()
         total_cities = Municipio.objects.filter(uf=state).count()
         context = state
     elif region:
-        cities = Municipio.objects.filter(mapeamento__validacao=True, uf__in=REGIONS[region]).values(*values_list).distinct()
+        cities = Municipio.objects.filter(mapeamento__validacao=True, uf__in=REGIONS[region]).values(*values_list).order_by('municipio').distinct()
         total_cities = Municipio.objects.filter(uf__in=REGIONS[region]).count()
         context = region
     else:
-        cities = Municipio.objects.filter(mapeamento__validacao=True).values(*values_list).distinct()
+        cities = Municipio.objects.filter(mapeamento__validacao=True).values(*values_list).order_by('municipio').distinct()
         total_cities = Municipio.objects.count()
         context = 'Brasil'
     
