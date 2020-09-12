@@ -3,7 +3,7 @@ version: '3'
 services:
   web:
     build: .
-    command: bash -c "python censo/manage.py makemigrations && python censo/manage.py migrate && python censo/manage.py read_data --file censo/data/municipal_data.csv && python censo/manage.py runserver 0.0.0.0:8000"
+    command: bash -c "python censo/manage.py makemigrations && python censo/manage.py migrate && python censo/manage.py runserver 0.0.0.0:8000"
     container_name: censo
     volumes:
       - .:/censo
