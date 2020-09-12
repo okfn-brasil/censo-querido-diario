@@ -7,4 +7,4 @@ services:
       - "1337:1337"
     volumes:
       - .:/code
-    # command: gunicorn censo.wsgi:application --reload --bind 0.0.0.0:1337 --workers 1 --log-level INFO --timeout 300
+    command: gunicorn censo.wsgi:application --reload --bind 0.0.0.0:1337 --workers 1 --log-level INFO --timeout 300

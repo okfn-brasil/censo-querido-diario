@@ -16,7 +16,6 @@ ENV PYTHONUNBUFFERED 1
 
 COPY . .
 
-RUN python censo/manage.py collectstatic --no-input
+RUN python manage.py collectstatic --no-input
 
-CMD ["gunicorn", "censo.wsgi:application", "--reload", "--bind", "0.0.0.0:1337"]
-CMD ["python", "censo/manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
