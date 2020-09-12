@@ -2,12 +2,9 @@ version: '3'
 
 services:
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile.prod
-    command: ["gunicorn", "censo.wsgi:application", "--reload", "--bind", "0.0.0.0:1337", "--workers", "1", "--log-level", "INFO", "--timeout", "300"]
-    container_name: censo
-    volumes:
-      - .:/censo
+    build: .
     ports:
-      - "8001:8001"
+      - "1337:1337"
+    volumes:
+      - .:/code
+    # command: gunicorn censo.wsgi:application --reload --bind 0.0.0.0:1337 --workers 1 --log-level INFO --timeout 300

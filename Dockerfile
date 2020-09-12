@@ -1,25 +1,22 @@
-# The first instruction is what image we want to base our container on
-# We Use an official Python runtime as a parent image
-FROM python:3.6
+FROM python:3.7.2-alpine
 
-# The enviroment variable ensures that the python output is set straight
-# to the terminal with out buffering it first
-ENV PYTHONUNBUFFERED 1
-ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONBREAKPOINT=ipdb.set_trace
+ENV SECRET_KEY=temporary-secret-key-to-generate-staticfiles
 
-# create root directory for our project in the container
-RUN mkdir /censo
+RUN mkdir /code
+WORKDIR /code
 
-# Set the working directory to /censo
-WORKDIR /censo
-
-# Copy the current directory contents into the container at /censo
-ADD . /censo/
-
-# install dependencies
+COPY requirements.txt /code/
 RUN pip install --upgrade pip
-COPY ./requirements.txt .
 RUN pip install -r requirements.txt
 
-# copy project
+# set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
 COPY . .
+
+RUN python censo/manage.py collectstatic --no-input
+
+CMD ["gunicorn", "censo.wsgi:application", "--reload", "--bind", "0.0.0.0:1337"]
+CMD ["python", "censo/manage.py", "runserver", "0.0.0.0:8000"]
