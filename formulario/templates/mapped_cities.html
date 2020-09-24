@@ -104,4 +104,30 @@
             {% endfor %}
         </ul>
     </div>
+
+    <nav aria-label="Page navigation example">
+    {% if cities.has_other_pages %}
+      <ul class="pagination justify-content-center">
+        {% if cities.has_previous %}
+          <li class="page-item"><a class="page-link" href="?page={{ cities.previous_page_number }}">Anterior</a></li>
+        {% else %}
+          <li class="page-item disabled"><a class="page-link">Anterior</a></li>
+        {% endif %}
+
+        {% for i in cities.paginator.page_range %}
+          {% if cities.number == i %}
+            <li class="page-item active"><a class="page-link">{{ i }}</a></li>
+          {% else %}
+            <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+          {% endif %}
+        {% endfor %}
+
+        {% if cities.has_next %}
+          <li class="page-item"><a class="page-link" href="?page={{ cities.next_page_number }}">Próximo</a></li>
+        {% else %}
+          <li class="page-item disabled"><a class="page-link">Anterior</a></li>
+        {% endif %}
+      </ul>
+    {% endif %}
+    </nav>
 {% endblock %}
