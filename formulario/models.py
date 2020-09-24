@@ -39,6 +39,7 @@ class Mapeamento(models.Model):
     tipo_arquivo = models.IntegerField(choices=TIPOS_ARQUIVOS, blank=True, null=True)
     validacao = models.BooleanField(default=False)
     navegacao = models.FloatField(blank=True, null=True)
+    observacoes = models.TextField(blank=True, null=True)
 
     def __str__(self):
         return '%s' % (self.municipio)
