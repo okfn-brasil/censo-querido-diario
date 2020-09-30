@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Montserrat+Alternates:wght@400;600;700&display=swap');
+
+body {
+    background-image: url('../images/background.png');    
+    background-attachment: fixed;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.conteudo-bloco {    
+    background-color: #fff;      
+}
+
+.qd-logo{    
+    max-width: 60%;   
+    text-align: center;
+    padding: 15px 0;         
+}
+
+.box-titulo {
+    border-top: 3px dotted #ff8600;
+    margin-top: 10px;
+}
+
+.navbar {
+    background-color: #ff8600;
+    border: #fff 5px solid;
+    border-radius: 50px;
+}
+
+.navbar-style{
+ color: #fff;
+ font-size: 1.1rem;
+ font-weight: 600;
+}
+
+.qd-titulo {
+    text-align: center;
+    font-family: "Baloo 2";
+    font-weight: 700;
+    padding: 10px 0;
+    color: #e55330;
+}
+
+.form-group {
+    font-size: 1.2rem;
+}
+
+#id_municipio,
+#id_is_online,
+#id_fonte_1,
+#id_fonte_2,
+#id_fonte_3,
+#id_fonte_4,
+#id_data_inicial,
+#id_tipo_arquivo {
+    border: #e55330 5px solid;
+    border-radius: 50px;
+    background-color:  #ff8600;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+#select2-id_municipio-container {
+    border: #e55330 5px solid;
+    border-radius: 50px;
+    background-color:  #ff8600;
+    color: #fff;
+    padding: 7px;    
+}
+
+label {
+    padding-left: 10px;
+}
+
+#div_id_is_online {
+    padding-top: 20px;
+}
