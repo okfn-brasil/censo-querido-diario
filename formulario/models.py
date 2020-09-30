@@ -21,7 +21,7 @@ class Mapeamento(models.Model):
         )
 
     TIPOS_ARQUIVOS = (
-        (1, 'PDF Texto'),
+        (1, 'PDF texto'),
         (2, 'PDF imagem'),
         (3, 'DOCX'),
         (4, 'HTML'),

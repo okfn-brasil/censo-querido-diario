@@ -29,9 +29,14 @@ body {
 
 .navbar-style{
  color: #fff;
- font-size: 1.1rem;
+ font-size: 1rem;
  font-weight: 600;
 }
+
+.navbar-style:hover {
+    color: #e55330;
+   }
+   
 
 .qd-titulo {
     text-align: center;
@@ -40,6 +45,8 @@ body {
     padding: 10px 0;
     color: #e55330;
 }
+
+
 
 .form-group {
     font-size: 1.2rem;
@@ -53,17 +60,16 @@ body {
 #id_fonte_4,
 #id_data_inicial,
 #id_tipo_arquivo {
-    border: #e55330 5px solid;
+    border: #e55330 3px solid;
     border-radius: 50px;
     background-color:  #ff8600;
     color: #fff;
+    font-weight: 600;
     padding: 20px;
 }
 
-
-
 #select2-id_municipio-container {
-    border: #e55330 5px solid;
+    border: #e55330 3px solid;
     border-radius: 50px;
     background-color:  #ff8600;
     color: #fff;
@@ -76,4 +82,24 @@ label {
 
 #div_id_is_online {
     padding-top: 20px;
+}
+
+.btn-region{
+    background-color: #ff8600;
+    color: #fff;
+}
+
+.block-regions{
+    text-align: center;
+}
+
+/* O que é o Querido Diário */
+.about-link{
+    color: #e55330;
+    font-weight: 600;
+}
+
+.about-link:hover {
+    color:  #ff8600;
+    font-weight: 600;
 }

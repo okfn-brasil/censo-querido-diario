@@ -6,7 +6,7 @@ from .models import Mapeamento
 
 
 class PostCityForm(forms.ModelForm):
-    data_inicial = forms.DateField(label='Qual a data do arquivo mais antigo, disponível online?',
+    data_inicial = forms.DateField(label='Qual a data do arquivo mais antigo disponível online?',
                                    input_formats=settings.DATE_INPUT_FORMATS,
                                    widget=forms.DateInput(attrs={'placeholder':'DD/MM/YYYY'}),
                                    required=False)
@@ -17,7 +17,7 @@ class PostCityForm(forms.ModelForm):
                   'fonte_4', 'data_inicial', 'tipo_arquivo')
         widgets = {'municipio': s2forms.Select2Widget}
         labels = {
-            'municipio': 'Selecione o Município',
+            'municipio': 'Selecione o município',
             'fonte_1': 'Informe uma fonte de publicação de arquivos',
             'fonte_2': 'Informe uma fonte de publicação de arquivos',
             'fonte_3': 'Informe uma fonte de publicação de arquivos',
