@@ -10,7 +10,7 @@ class Municipio(models.Model):
     capital = models.BooleanField(default=False)
 
     def __str__(self):
-        return '%s %s' % (self.municipio, self.uf)
+        return '%s (%s)' % (self.municipio, self.uf)
 
 
 class Mapeamento(models.Model):
