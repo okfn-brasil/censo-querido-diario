@@ -1,3 +1,4 @@
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render
 
 from .forms import PostCityForm
@@ -28,6 +29,7 @@ def post_city(request):
 
 
 def mapped_cities(request):
+    page = request.GET.get('page', 1)
     state = request.GET.get('state')
     region = request.GET.get('region')
     values_list = [
@@ -54,7 +56,17 @@ def mapped_cities(request):
     
     percentage = round(len(cities)/total_cities*100, 2)
 
-    return render(request, 'mapped_cities.html', {'cities': cities, 'percentage': percentage, 'context': context})
+    # Pagination on interface
+    paginator = Paginator(cities, 50)
+
+    try:
+        cities_page = paginator.page(page)
+    except PageNotAnInteger:
+        cities_page = paginator.page(1)
+    except EmptyPage:
+        cities_page = paginator.page(paginator.num_pages)
+
+    return render(request, 'mapped_cities.html', {'cities': cities_page, 'percentage': percentage, 'context': context})
 
 
 def about(request):

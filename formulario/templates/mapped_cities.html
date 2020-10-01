@@ -124,4 +124,54 @@
             {% endfor %}
         </ul>
     </div>
+
+    <nav aria-label="Page navigation example">
+    {% if cities.has_other_pages %}
+      <ul class="pagination justify-content-center">
+        {% if cities.has_previous %}
+          {% if context|length > 2 and context != 'Brasil' %}
+            <li class="page-item"><a class="page-link" href="?region={{ context }}&page={{ cities.previous_page_number }}">Anterior</a></li>
+          {% endif %}
+          {% if context|length == 2 %}
+            <li class="page-item"><a class="page-link" href="?state={{ context }}&page={{ cities.previous_page_number }}">Anterior</a></li>
+          {% endif %}
+          {% if context == 'Brasil' %}
+            <li class="page-item"><a class="page-link" href="?page={{ cities.previous_page_number }}">Anterior</a></li>
+          {% endif %}
+        {% else %}
+          <li class="page-item disabled"><a class="page-link">Anterior</a></li>
+        {% endif %}
+
+        {% for i in cities.paginator.page_range %}
+          {% if cities.number == i %}
+            <li class="page-item active"><a class="page-link">{{ i }}</a></li>
+          {% else %}
+            {% if context|length > 2 and context != 'Brasil' %}
+              <li class="page-item"><a class="page-link" href="?region={{ context }}&page={{ i }}">{{ i }}</a></li>
+            {% endif %}
+            {% if context|length == 2 %}
+              <li class="page-item"><a class="page-link" href="?state={{ context }}&page={{ i }}">{{ i }}</a></li>
+            {% endif %}
+            {% if context == 'Brasil' %}
+              <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        {% if cities.has_next %}
+          {% if context|length > 2 and context != 'Brasil' %}
+            <li class="page-item"><a class="page-link" href="?region={{ context }}&page={{ cities.next_page_number }}">Próximo</a></li>
+          {% endif %}
+          {% if context|length == 2 %}
+            <li class="page-item"><a class="page-link" href="?state={{ context }}&page={{ cities.next_page_number }}">Próximo</a></li>
+          {% endif %}
+          {% if context == 'Brasil' %}
+            <li class="page-item"><a class="page-link" href="?page={{ cities.next_page_number }}">Próximo</a></li>
+          {% endif %}
+        {% else %}
+          <li class="page-item disabled"><a class="page-link">Próximo</a></li>
+        {% endif %}
+      </ul>
+    {% endif %}
+    </nav>
 {% endblock %}
