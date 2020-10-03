@@ -40,6 +40,9 @@ class Mapeamento(models.Model):
     validacao = models.BooleanField(default=False)
     navegacao = models.FloatField(blank=True, null=True)
     observacoes = models.TextField(blank=True, null=True)
+    tem_anomalia = models.BooleanField(default=False)
+    anomalia_obs = models.TextField(blank=True, null=True)
+
 
     def __str__(self):
         return '%s' % (self.municipio)
