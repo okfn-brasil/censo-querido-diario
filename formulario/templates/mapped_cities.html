@@ -99,12 +99,19 @@
           </div>
       </div>
 
-
     <div style="margin-top: 1rem">
         <div class="alert alert-success" role="alert">
           <h4 class="alert-heading">Temos <strong>{{percentage}}%</strong> das cidades mapeadas</h4>
           <hr>
           <p style="text-transform: uppercase;">{{context}}</p>
+          {% if context == 'Brasil' %}
+          <div>
+            <form action="{% url 'get_data' %}" method="POST">{% csrf_token %}
+              <button type="submit" class="btn btn-region">Baixar Dados</button>
+              <input type="checkbox" name="chk_cidades_sem_map" value="true" id="chk_cidades_sem_map"><label for="chk_cidades_sem_map"> Incluir cidades sem mapeamento </label>
+            </form>
+          </div>
+          {% endif %}
         </div>
 
         <ul class="list-group list-group-flush">
@@ -178,4 +185,5 @@
       </ul>
     {% endif %}
     </nav>
+
 {% endblock %}
