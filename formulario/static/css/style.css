@@ -41,7 +41,7 @@ body {
 .qd-titulo {
     text-align: center;
     font-family: "Baloo 2";
-    font-weight: 700;
+    font-weight: 600;
     padding: 10px 0;
     color: #e55330;
 }
@@ -91,6 +91,26 @@ label {
     text-align: center;
 }
 
+#id_plus_control, #id_minus_control {
+    font-size: 14px;
+}
+
+#id_plus, #id_minus {
+    padding: 0;
+    font-weight: 700;
+    border-radius: 50px;    
+    height: 25px;
+    width: 25px;
+    text-align: center;    
+}
+
+button:focus { 
+    outline:#e55330 !important; 
+}
+
+
+
+
 /* O que é o Querido Diário */
 .about-link{
     color: #e55330;
@@ -101,3 +121,4 @@ label {
     color:  #ff8600;
     font-weight: 600;
 }
+

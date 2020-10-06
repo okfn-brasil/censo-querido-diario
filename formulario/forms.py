@@ -13,8 +13,8 @@ class PostCityForm(forms.ModelForm):
 
     class Meta:
         model = Mapeamento
-        fields = ('municipio', 'is_online', 'fonte_1', 'fonte_2', 'fonte_3',
-                  'fonte_4', 'data_inicial', 'tipo_arquivo')
+        fields = ('municipio', 'is_online','data_inicial', 'tipo_arquivo', 'fonte_1', 'fonte_2', 'fonte_3',
+                  'fonte_4',)
         widgets = {'municipio': s2forms.Select2Widget}
         labels = {
             'municipio': 'Selecione o município',
@@ -22,6 +22,6 @@ class PostCityForm(forms.ModelForm):
             'fonte_2': 'Informe uma fonte de publicação de arquivos',
             'fonte_3': 'Informe uma fonte de publicação de arquivos',
             'fonte_4': 'Informe uma fonte de publicação de arquivos',
-            'is_online': 'Existe uma fonte de publicação disponível de forma online?',
+            'is_online': 'Existe uma fonte de publicação disponível online?',
             'tipo_arquivo': 'Qual o formato dos arquivos?',
         }
