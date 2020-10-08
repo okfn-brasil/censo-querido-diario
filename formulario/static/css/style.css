@@ -57,6 +57,11 @@ button:focus {
 .btn-region{
     background-color: #ff8600;
     color: #fff;
+    border-radius: 0;
+}
+
+.btn-arrow {
+    background-color: #ff8600b5;
 }
 
 /* Formulário */
