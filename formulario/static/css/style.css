@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Montserrat+Alternates:wght@400;600;700&display=swap');
 
+/* Geral */
 body {
     background-image: url('../images/background.png');    
     background-attachment: fixed;
@@ -35,9 +36,8 @@ body {
 
 .navbar-style:hover {
     color: #e55330;
-   }
+}
    
-
 .qd-titulo {
     text-align: center;
     font-family: "Baloo 2";
@@ -46,6 +46,20 @@ body {
     color: #e55330;
 }
 
+label {
+    padding-left: 10px;
+}
+
+button:focus { 
+    outline:#e55330 !important; 
+}
+
+.btn-region{
+    background-color: #ff8600;
+    color: #fff;
+}
+
+/* Formulário */
 .form-group {
     font-size: 1.2rem;
 }
@@ -74,17 +88,8 @@ body {
     padding: 7px;    
 }
 
-label {
-    padding-left: 10px;
-}
-
 #div_id_is_online {
     padding-top: 20px;
-}
-
-.btn-region{
-    background-color: #ff8600;
-    color: #fff;
 }
 
 .block-regions{
@@ -104,14 +109,7 @@ label {
     text-align: center;    
 }
 
-button:focus { 
-    outline:#e55330 !important; 
-}
-
-
-
-
-/* O que é o Querido Diário */
+/* Sobre - O que é o Querido Diário */
 .about-link{
     color: #e55330;
     font-weight: 600;
@@ -122,3 +120,28 @@ button:focus {
     font-weight: 600;
 }
 
+/* Responsividade */
+@media (max-width: 1200px) {
+    .qd-titulo{
+        font-size: 2.0rem;
+    }
+    .navbar-style {
+        font-size: 0.8rem;
+    }
+}
+
+@media all and (max-width: 991px) {  
+    
+    .container {
+        max-width: 950px;
+    }
+    .navbar {  
+      flex-wrap: wrap;  
+    }  
+      
+    .navbar > li {  
+      flex-basis: 50%;  
+    }
+  
+  }
+  

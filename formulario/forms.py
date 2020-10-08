@@ -8,7 +8,7 @@ from .models import Mapeamento
 class PostCityForm(forms.ModelForm):
     data_inicial = forms.DateField(label='Qual a data do arquivo mais antigo disponível online?',
                                    input_formats=settings.DATE_INPUT_FORMATS,
-                                   widget=forms.DateInput(attrs={'placeholder':'DD/MM/YYYY'}),
+                                   widget=forms.DateInput(attrs={'placeholder':'DD/MM/AAAA'}),
                                    required=False)
 
     class Meta:
