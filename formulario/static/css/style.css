@@ -48,6 +48,7 @@ body {
 
 label {
     padding-left: 10px;
+    margin-top: 5px;
 }
 
 button:focus { 
@@ -88,11 +89,7 @@ button:focus {
     border: #e55330 3px solid;
     border-radius: 50px;
     background-color:  #ff8600;
-    color: #fff;        
-}
-
-#div_id_is_online {
-    padding-top: 20px;
+    color: #fff;            
 }
 
 .block-regions{
@@ -112,6 +109,16 @@ button:focus {
     text-align: center;    
 }
 
+.text-muted{
+    padding-left: 10px;    
+    font-size: 75%;
+    line-height: 1.25rem;
+    color: #464646 !important;
+}
+
+#hint_id_municipio {
+    margin-top: 15px;
+}
 
 /* Sobre - O que é o Querido Diário */
 .about-link{
