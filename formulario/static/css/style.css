@@ -82,15 +82,13 @@ button:focus {
     background-color:  #ff8600;
     color: #fff;
     font-weight: 600;
-    padding: 20px;
 }
 
 #select2-id_municipio-container {
     border: #e55330 3px solid;
     border-radius: 50px;
     background-color:  #ff8600;
-    color: #fff;
-    padding: 7px;    
+    color: #fff;        
 }
 
 #div_id_is_online {
