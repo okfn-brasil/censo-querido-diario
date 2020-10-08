@@ -82,15 +82,45 @@ button:focus {
     border-radius: 50px;
     background-color:  #ff8600;
     color: #fff;
-    font-weight: 600;
+    font-weight: 600;      
+}
+
+#id_is_online,
+#id_tipo_arquivo{
+    box-shadow: none;        
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;  
+    background: #ff8600 url("../images/arrow-down.png") no-repeat 4px;
+    background-size: 15px 15px;
+    background-position: right center;
+    background-position-x: 690px;
+
 }
 
 #select2-id_municipio-container {
     border: #e55330 3px solid;
     border-radius: 50px;
     background-color:  #ff8600;
-    color: #fff;            
+    color: #fff;  
+    box-shadow: none;        
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;  
+    background: #ff8600 url("../images/arrow-down.png") no-repeat 4px;
+    background-size: 15px 15px;
+    background-position: right center;
+    background-position-x: 690px;             
 }
+
+.select2-selection__arrow{
+    display: none;
+}
+
+.select2-container--default, .select2-selection--single {
+    border: 0px;
+}
+
 
 .block-regions{
     text-align: center;
