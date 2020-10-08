@@ -127,10 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# Ignore
-.vscode/
-censo/bin/
-censo/include/
-censo/share/
-
