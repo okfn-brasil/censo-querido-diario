@@ -112,6 +112,7 @@ button:focus {
     text-align: center;    
 }
 
+
 /* Sobre - O que é o Querido Diário */
 .about-link{
     color: #e55330;
@@ -129,7 +130,7 @@ button:focus {
         font-size: 2.0rem;
     }
     .navbar-style {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
 
