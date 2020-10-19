@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.utils.encoding import smart_str
 from django.http import HttpResponse
 import csv
-import icu
+# import icu
 
 
 from .forms import PostCityForm
@@ -126,8 +126,9 @@ def download_csv_data(request):
             lista.append([ smart_str(municipio.municipio) ])
 
     # sorted by Municipio 
-    collator = icu.Collator.createInstance(icu.Locale('pt_BR.UTF-8'))
-    sorted_lista = sorted(lista, key=lambda row: collator.getSortKey(row[0]))
+    # collator = icu.Collator.createInstance(icu.Locale('pt_BR.UTF-8'))
+    # sorted_lista = sorted(lista, key=lambda row: collator.getSortKey(row[0]))
+    sorted_lista = sorted(lista)
 
     # write the headers
     sorted_lista.insert(0, [
