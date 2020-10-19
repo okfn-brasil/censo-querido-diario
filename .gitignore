@@ -134,3 +134,6 @@ censo/bin/
 censo/include/
 censo/share/
 
+# Data
+notebooks/*.csv
+
