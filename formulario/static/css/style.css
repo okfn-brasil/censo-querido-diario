@@ -7,6 +7,10 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
 }
 
+.general-container {
+    max-width: 100%;
+}
+
 .conteudo-bloco {    
     background-color: #fff;      
 }
@@ -17,6 +21,10 @@ body {
     padding: 15px 0;         
 }
 
+.img-fluid{
+    max-width: 85%;
+}
+
 .box-titulo {
     border-top: 3px dotted #ff8600;
     margin-top: 10px;
@@ -25,12 +33,16 @@ body {
 .navbar {
     background-color: #ff8600;
     border: #fff 5px solid;
-    border-radius: 50px;
+    border-radius: 50px;    
+}
+
+.nav-item{
+    padding: 0.2rem 1rem;
 }
 
 .navbar-style{
  color: #fff;
- font-size: 1rem;
+ font-size: 1.15rem;
  font-weight: 600;
 }
 

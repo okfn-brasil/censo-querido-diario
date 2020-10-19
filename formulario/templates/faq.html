@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+
+
+
+{% block content %}
+    <div class="container">    
+    <h3 id='perguntasfrequentes'class="mt-4 mb-3">Perguntas frequentes</h3>
+    
+    <p class="font-weight-bold" id="faq-1">1 - Estou digitando o nome de um município, mas não consigo visualizá-lo na lista do formulário. O que isso quer dizer?</p>
+    <p>Caso alguma cidade não apareça na lista, significa que seu mapeamento já foi realizado e passará por um processo de checagem. Você pode conferir a lista dos municípios mapeados e checados <a href="/andamento/" class="about-link">aqui</a>.</p>
+
+    <p class="font-weight-bold">2 - Devo buscar o diário oficial da Prefeitura ou da Câmara Municipal?</p>
+    <p>O Querido Diário trabalha com os diários oficiais que divulgam as ações do Poder Executivo. Portanto, na presente fase do projeto, coletaremos apenas as publicações das <strong>prefeituras</strong>.</p>
+
+    <p class="font-weight-bold">3 - Encontrei o diário oficial de um município disponível em mais alguns sites (exs: Câmara Municipal, plataformas que publicam os diários de outros municípios). Qual devo considerar?</p>
+    <p>A fonte oficial será sempre a disponível no site mantido pela prefeitura de cada município. Algumas possuem um site próprio para o diário oficial, enquanto outras incluem a publicação em seu site oficial. Se não encontrar publicações disponibilizadas pelas vias citadas anteriormente, priorize os <strong>órgãos públicos</strong> como fonte de publicação, e só então adicione os sites de empresas privadas que publicam diários de vários municípios clicando em "Adicionar fonte alternativa de publicação".</p>
+
+    <p class="font-weight-bold">4 - A única publicação disponível para um determinado município reúne todos os diários oficiais das cidades do seu respectivo estado. O que devo fazer?</p>
+    <p>Se você conferiu que não há outro site que publica o diário oficial individualmente para esta cidade, prossiga com o cadastro da única fonte encontrada. Neste caso, o mesmo site será a fonte de todas as outras cidades do estado, que devem ser cadastradas individualmente.</p>
+
+    <p class="font-weight-bold" id="faq-5">5 - Não encontrei a página que publica o diário oficial que desejo cadastrar. O que devo fazer?</p>
+    <p>Se você não encontrou a publicação em nenhuma página web, indique o campo "Sem confirmação". Agora, se você entrou em contato com órgãos públicos (via ligação, email etc.) e confirmou que o município não publica seus diários na internet, indoque a opção "Não".
+    </p>
+
+    <p class="font-weight-bold">6 - Não consigo encontrar a data do arquivo mais antigo disponível online. O que devo fazer?</p>
+    <p>Essa data corresponde ao início do processo de disponiblização de diários oficiais digitais pela respectiva Prefeitura. Caso não seja possível encontrar a data inicial de publicação, <strong>deixe o campo em branco</strong> e prossiga normalmente com o cadastro.</p>
+
+    <p class="font-weight-bold">7 - Qual link devo cadastrar na fonte de publicação dos arquivos?</p>
+    <p>Cadastre o link exato da página onde é possível encontrar todos os diários oficiais do respectivo município. Não informe a URL de uma edição específica ou de um documento (PDF, TXT etc.), nem um link "genérico", em que é necessário acessar outras páginas para visualizar os diários ou que seja possível acessar publicações de outros municípios.</p>
+</div>
+
+{% endblock %}

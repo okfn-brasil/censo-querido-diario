@@ -79,6 +79,9 @@ def mapped_cities(request):
 def about(request):
     return render(request, 'sobre.html')
 
+def faq(request):
+    return render(request, 'faq.html')
+
 
 def download_csv_data(request):
 
