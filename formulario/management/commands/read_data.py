@@ -1,3 +1,4 @@
+import csv
 from django.core.management.base import BaseCommand, CommandError
 from formulario.models import Municipio
 
@@ -14,21 +15,22 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         if options['file']:
             with open(options['file'], 'r') as f:
-                cities = f.readlines()
-                for city in cities[1:]:
-                    elements = city.split(',')
-                    if elements[5] == '':
-                        elements[5] = None
-                    obj = {
-                    'ibge': int(elements[0]),
-                    'ibge7': int(elements[1]),
-                    'uf': elements[2],
-                    'municipio': elements[3],
-                    'regiao': elements[4],
-                    'populacao_2010': elements[5],
-                    'capital': elements[6] == 'Capital',
+                cities = csv.DictReader(f)
+                cities_list = []
+
+                for city in cities:
+                    kwargs = {
+                        'ibge': int(city['IBGE']),
+                        'ibge7': int(city['IBGE7']),
+                        'uf': city['UF'],
+                        'municipio': city['Município'],
+                        'regiao': city['Região'],
+                        'populacao_2010': None if city['População 2010'] == '' else city['População 2010'],
+                        'capital': city['Capital'] == 'Capital',
                     }
-                    Municipio(**obj).save()
+                    cities_list.append(Municipio(**kwargs))
+
+                Municipio.objects.bulk_create(cities_list)
             self.stdout.write(self.style.SUCCESS('Successfully read data'))
         else:
             raise CommandError('Enter the file path: python manage.py read_data --file data.csv')
