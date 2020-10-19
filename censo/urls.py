@@ -25,4 +25,6 @@ urlpatterns = [
     path('', views.post_city, name='post_city'),
     path('andamento/', views.mapped_cities, name='mapped_cities'),
     path('sobre/', views.about, name='about'),
+    path('get-data/', views.download_csv_data, name='get_data'),
+
 ]
