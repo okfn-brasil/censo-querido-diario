@@ -103,11 +103,11 @@ button:focus {
     background-image: none;
     -webkit-appearance: none;
     -moz-appearance: none;  
-    background: #ff8600 url("../images/arrow-down.png") no-repeat 4px;
-    background-size: 15px 15px;
-    background-position: right center;
-    background-position-x: 690px;
-
+    background: #ff8600 url("../images/arrow-down.png");
+    background-size: 15px 15px; 
+    background-position: 98% center;
+	background-repeat: no-repeat;
+	outline: none;
 }
 
 #select2-id_municipio-container {
@@ -119,20 +119,20 @@ button:focus {
     background-image: none;
     -webkit-appearance: none;
     -moz-appearance: none;  
-    background: #ff8600 url("../images/arrow-down.png") no-repeat 4px;
-    background-size: 15px 15px;
-    background-position: right center;
-    background-position-x: 690px;             
+    background: #ff8600 url("../images/arrow-down.png");
+    background-size: 15px 15px; 
+    background-position: 98% center;
+	background-repeat: no-repeat;
+	outline: none;             
 }
 
 .select2-selection__arrow{
     display: none;
 }
 
-.select2-container--default, .select2-selection--single {
-    border: 0px;
+.select2-container--default .select2-selection--single {
+    border: 0 !important;
 }
-
 
 .block-regions{
     text-align: center;

@@ -9,7 +9,10 @@ class PostCityForm(forms.ModelForm):
     data_inicial = forms.DateField(label='Qual a data do arquivo mais antigo disponível online?',
                                     help_text='O município publica diários oficiais na internet desde quando? Informe a data do primeiro diário oficial cujo arquivo é possível visualizar na página que irá cadastrar neste formulário.',
                                    input_formats=settings.DATE_INPUT_FORMATS,
-                                   widget=forms.DateInput(attrs={'placeholder':'DD/MM/AAAA'}),
+                                   widget=forms.DateInput(attrs={
+                                   'placeholder':'DD/MM/AAAA',
+                                    'onkeyup':"this.value=this.value.replace(/^(\d\d)(\d)$/g,'$1/$2').replace(/^(\d\d\/\d\d)(\d+)$/g,'$1/$2').replace(/[^\d\/]/g,'')"
+                                   }),
                                    required=False)
 
     class Meta:
