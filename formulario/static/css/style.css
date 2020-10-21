@@ -181,11 +181,17 @@ button:focus {
     padding-top: 25px;
     margin:15px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .btn-success{
-    background-color: #2e2e3d;
+    background-color: #966be8;
     border-color: #fff;
+}
+
+.btn-success:hover{
+    background-color: #fff;
+    color:#966be8;
 }
 
 /* Box Erro */
