@@ -176,8 +176,11 @@ button:focus {
 
 /* Box Sucesso */
 .alert-success{
-    background-color: #3d7dad;
+    background-color: #5e408f;
     color: #fff;
+    padding-top: 25px;
+    margin:15px;
+    margin-top: 30px;
 }
 
 .btn-success{
@@ -188,6 +191,73 @@ button:focus {
 /* Box Erro */
 .alert-fail{
     background-color: #8f3b2e;
+    color: #fff;
+}
+
+
+/* Mapeamento */
+.alert-success hr {
+    max-width: 60%;
+    border-top-color: #fff;
+}
+
+.box-download{
+    max-width: 60%;
+    margin: auto;    
+}
+
+.form-download{
+    text-align: center;
+    background-color: #4f2691;
+    padding-top: 15px;
+    padding-bottom: 15px;       
+}
+
+.btn-download{
+    background-color: #966be8;
+    margin-right: 15px;
+}
+
+.btn-download:hover{
+    background-color: #fff;
+    color:#966be8;
+    margin-right: 15px;
+} 
+
+/* Lista de cidades */
+ul {
+    margin-bottom: 0;
+}
+.list-group-item{
+    max-width: 60%;
+    margin: auto;
+    padding: 0.5rem;
+    border: none;
+    color: #4f2691;
+}
+
+.list-group-item a{
+    color: #4f2691;
+}
+
+.list-group-item a:hover{
+    color: #966be8;
+}
+
+.pagination {
+    padding-top: 20px;
+}
+
+.page-item .page-link {
+    color: #4f2691;
+}
+
+.page-item.active .page-link {
+    background-color: #4f2691;
+    border-color: #4f2691;    
+}
+
+.page-item.active .page-link:hover{
     color: #fff;
 }
 
