@@ -22,7 +22,7 @@ body {
 }
 
 .img-fluid{
-    max-width: 85%;
+    max-width: 70%;
 }
 
 .box-titulo {
@@ -134,6 +134,7 @@ button:focus {
     border: 0 !important;
 }
 
+
 .block-regions{
     text-align: center;
 }
@@ -172,6 +173,24 @@ button:focus {
     color:  #ff8600;
     font-weight: 600;
 }
+
+/* Box Sucesso */
+.alert-success{
+    background-color: #3d7dad;
+    color: #fff;
+}
+
+.btn-success{
+    background-color: #2e2e3d;
+    border-color: #fff;
+}
+
+/* Box Erro */
+.alert-fail{
+    background-color: #8f3b2e;
+    color: #fff;
+}
+
 
 /* Responsividade */
 @media (max-width: 1200px) {
