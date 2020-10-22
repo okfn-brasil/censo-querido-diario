@@ -301,3 +301,86 @@ ul {
 
 
 /* Responsividade */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px){
+    .qd-titulo{
+        font-size: 1.2rem;
+    }
+    .navbar {
+        padding: 0;
+        border-radius: 25px;
+        margin-bottom: 0;
+    }
+    .nav-item{
+        padding: 0rem;
+    }
+    .navbar-expand .navbar-nav{
+        display: block;
+    }
+    .navbar-style{
+        font-size: 0.8rem;
+    }
+    .btn{
+        font-size: 0.8rem;
+        padding: 0.25rem;
+    }
+    .btn-group{
+        margin-top:10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .qd-titulo{
+        font-size: 1.5rem;
+    }
+    .navbar-style{
+        font-size: 0.8rem;
+    }
+    .nav-item{
+        padding: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {  
+    .qd-titulo{
+        font-size: 2.0rem;
+    }
+    .navbar {  
+      flex-wrap: wrap;        
+    }        
+    .navbar > li {  
+      flex-basis: 50%;  
+    }
+    .navbar-style{
+        font-size: 0.9rem;
+    }
+  }
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {    
+    .navbar-style {
+        font-size: 1.1rem;
+    }
+    .nav-item{
+        padding: 0.2rem 0.3rem;
+    }
+} 
+
+@media only screen and (min-width: 1310px) {
+    .qd-titulo{
+        font-size: 2.5rem;
+    }
+    .nav-item{
+        padding: 0.2rem 1rem;
+    }
+}
