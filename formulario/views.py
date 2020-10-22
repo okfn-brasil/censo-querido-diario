@@ -44,7 +44,8 @@ def mapped_cities(request):
         'mapeamento__fonte_1',
         'mapeamento__fonte_2',
         'mapeamento__fonte_3',
-        'mapeamento__fonte_4'
+        'mapeamento__fonte_4',
+        'mapeamento__tipo_arquivo'
     ]
     if state:
         state = state.upper()
@@ -63,6 +64,10 @@ def mapped_cities(request):
 
     percentage = round(len(cities)/total_cities*100, 2)
 
+    for city in cities:
+        if city['mapeamento__tipo_arquivo']:
+            city['mapeamento__tipo_arquivo'] = Mapeamento.TIPOS_ARQUIVOS[city['mapeamento__tipo_arquivo']][1]
+
     # Pagination on interface
     paginator = Paginator(cities, 50)
 
@@ -73,7 +78,7 @@ def mapped_cities(request):
     except EmptyPage:
         cities_page = paginator.page(paginator.num_pages)
 
-    return render(request, 'mapped_cities.html', {'cities': cities_page, 'percentage': percentage, 'context': context})
+    return render(request, 'mapped_cities.html', {'cities': cities_page, 'percentage': percentage, 'context': context, 'total_cities': total_cities })
 
 
 def about(request):

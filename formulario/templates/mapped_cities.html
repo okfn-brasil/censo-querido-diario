@@ -118,7 +118,7 @@
         <ul class="list-group list-group-flush">
             {% for city in cities %}
                 {% if city.mapeamento__fonte_1 %}
-                    <li class="list-group-item"><a href="{{city.mapeamento__fonte_1}}" target="_blank">{{city.municipio}} ({{city.uf}})</a></li>
+                    <li class="list-group-item"><a href="{{city.mapeamento__fonte_1}}" target="_blank">{{city.municipio}} ({{city.uf}}) <div class="tipo-aquivo">{{city.mapeamento__tipo_arquivo}}</div></a></li>
                     {% if city.mapeamento__fonte_2 %}
                         <ul>
                             <li class="list-group-item"><a href="{{city.mapeamento__fonte_2}}" target="_blank">{{city.municipio}} ({{city.uf}})</a> (Fonte de publicação alternativa)</li>

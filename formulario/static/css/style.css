@@ -36,6 +36,11 @@ body {
     border-radius: 50px;    
 }
 
+.navbar-nav{
+    align-items: center;
+    text-align: center;
+}
+
 .nav-item{
     padding: 0.2rem 1rem;
 }
@@ -233,6 +238,11 @@ option{
     padding-bottom: 15px;       
 }
 
+.btn-group{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
 .btn-download{
     background-color: #966be8;
     margin-right: 15px;
@@ -243,6 +253,14 @@ option{
     color:#966be8;
     margin-right: 15px;
 } 
+
+.list-group-item {
+    font-size: 1.15rem;
+}
+
+.list-group-item a div {
+    font-size: 0.8rem;
+}
 
 /* Lista de cidades */
 ul {
@@ -283,27 +301,3 @@ ul {
 
 
 /* Responsividade */
-@media (max-width: 1200px) {
-    .qd-titulo{
-        font-size: 2.0rem;
-    }
-    .navbar-style {
-        font-size: 0.9rem;
-    }
-}
-
-@media all and (max-width: 991px) {  
-    
-    .container {
-        max-width: 950px;
-    }
-    .navbar {  
-      flex-wrap: wrap;  
-    }  
-      
-    .navbar > li {  
-      flex-basis: 50%;  
-    }
-  
-  }
-  
