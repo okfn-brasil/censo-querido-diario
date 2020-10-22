@@ -102,35 +102,39 @@
     <div style="margin-top: 1rem">
         <div class="alert alert-success" role="alert">
           <h4 class="alert-heading">Temos <strong>{{percentage}}%</strong> das cidades mapeadas</h4>
+          <p>Isso equivale a <strong>{{total_cities}}</strong> municípios.</p>
           <hr>
           <p style="text-transform: uppercase;">{{context}}</p>
           {% if context == 'Brasil' %}
-          <div>
-            <form action="{% url 'get_data' %}" method="POST">{% csrf_token %}
-              <button type="submit" class="btn btn-region">Baixar Dados</button>
-              <input type="checkbox" name="chk_cidades_sem_map" value="true" id="chk_cidades_sem_map"><label for="chk_cidades_sem_map"> Incluir cidades sem mapeamento </label>
+          <div class='box-download'>
+            <form action="{% url 'get_data' %}" method="POST" class="form-download">{% csrf_token %}
+              <button type="submit" class="btn btn-region btn-download">Baixar dados</button>
+              <div class="include-mapped">
+                <input type="checkbox" name="chk_cidades_sem_map" value="true" id="chk_cidades_sem_map">
+                <label for="chk_cidades_sem_map"> Incluir cidades sem mapeamento </label>
+              </div>
             </form>
           </div>
           {% endif %}
         </div>
-
+        <p >Clique no município para acessar seu diário oficial:</p>
         <ul class="list-group list-group-flush">
             {% for city in cities %}
                 {% if city.mapeamento__fonte_1 %}
-                    <li class="list-group-item"><a href="{{city.mapeamento__fonte_1}}" target="_blank">{{city.municipio}} {{city.uf}}</a></li>
+                    <li class="list-group-item"><a href="{{city.mapeamento__fonte_1}}" target="_blank">{{city.municipio}} ({{city.uf}}) <div class="tipo-aquivo">{{city.mapeamento__tipo_arquivo}}</div></a></li>
                     {% if city.mapeamento__fonte_2 %}
                         <ul>
-                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_2}}" target="_blank">{{city.municipio}} {{city.uf}}</a> - <strong>Fonte de publicação alternativa</strong></li>
+                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_2}}" target="_blank">{{city.municipio}} ({{city.uf}})</a> (Fonte de publicação alternativa)</li>
                         {% endif %}
                         {% if city.mapeamento__fonte_3 %}
-                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_3}}" target="_blank">{{city.municipio}} {{city.uf}}</a> - <strong>Fonte de publicação alternativa</strong></li>
+                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_3}}" target="_blank">{{city.municipio}} ({{city.uf}})</a> (Fonte de publicação alternativa)</li>
                         {% endif %}
                         {% if city.mapeamento__fonte_4 %}
-                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_4}}" target="_blank">{{city.municipio}} {{city.uf}}</a> - <strong>Fonte de publicação alternativa</strong></li>
+                            <li class="list-group-item"><a href="{{city.mapeamento__fonte_4}}" target="_blank">{{city.municipio}} ({{city.uf}})</a> (Fonte de publicação alternativa)</li>
                         {% endif %}
                     </ul>
                 {% else %}
-                    <li class="list-group-item">{{city.municipio}} {{city.uf}} - <strong>Município sem diário oficial online</strong></li>
+                    <li class="list-group-item">{{city.municipio}} ({{city.uf}}) - <strong>Município sem diário oficial online</strong></li>
                 {% endif %}
             {% endfor %}
         </ul>

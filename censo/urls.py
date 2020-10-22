@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.post_city, name='post_city'),
     path('andamento/', views.mapped_cities, name='mapped_cities'),
+    path('faq/', views.faq, name='faq'),
     path('sobre/', views.about, name='about'),
     path('get-data/', views.download_csv_data, name='get_data'),
 

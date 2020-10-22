@@ -7,6 +7,10 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
 }
 
+.general-container {
+    max-width: 100%;
+}
+
 .conteudo-bloco {    
     background-color: #fff;      
 }
@@ -17,6 +21,10 @@ body {
     padding: 15px 0;         
 }
 
+.img-fluid{
+    max-width: 70%;
+}
+
 .box-titulo {
     border-top: 3px dotted #ff8600;
     margin-top: 10px;
@@ -25,12 +33,21 @@ body {
 .navbar {
     background-color: #ff8600;
     border: #fff 5px solid;
-    border-radius: 50px;
+    border-radius: 50px;    
+}
+
+.navbar-nav{
+    align-items: center;
+    text-align: center;
+}
+
+.nav-item{
+    padding: 0.2rem 1rem;
 }
 
 .navbar-style{
  color: #fff;
- font-size: 1rem;
+ font-size: 1.15rem;
  font-weight: 600;
 }
 
@@ -44,6 +61,21 @@ body {
     font-weight: 600;
     padding: 10px 0;
     color: #e55330;
+}
+
+.banner-catarse {
+    text-align: center;
+    padding: 25px;
+}
+
+.banner-catarse img{
+    max-width: 40%;
+}
+
+
+/* Formulário */
+.form-group {
+    font-size: 1.2rem;
 }
 
 label {
@@ -63,11 +95,6 @@ button:focus {
 
 .btn-arrow {
     background-color: #ff8600b5;
-}
-
-/* Formulário */
-.form-group {
-    font-size: 1.2rem;
 }
 
 #id_municipio,
@@ -91,11 +118,15 @@ button:focus {
     background-image: none;
     -webkit-appearance: none;
     -moz-appearance: none;  
-    background: #ff8600 url("../images/arrow-down.png") no-repeat 4px;
-    background-size: 15px 15px;
-    background-position: right center;
-    background-position-x: 690px;
+    background: #ff8600 url("../images/arrow-down.png");
+    background-size: 15px 15px; 
+    background-position: 98% center;
+	background-repeat: no-repeat;
+	outline: none;
+}
 
+option{
+    background-color: #fff;
 }
 
 #select2-id_municipio-container {
@@ -107,18 +138,19 @@ button:focus {
     background-image: none;
     -webkit-appearance: none;
     -moz-appearance: none;  
-    background: #ff8600 url("../images/arrow-down.png") no-repeat 4px;
-    background-size: 15px 15px;
-    background-position: right center;
-    background-position-x: 690px;             
+    background: #ff8600 url("../images/arrow-down.png");
+    background-size: 15px 15px; 
+    background-position: 98% center;
+	background-repeat: no-repeat;
+	outline: none;             
 }
 
 .select2-selection__arrow{
     display: none;
 }
 
-.select2-container--default, .select2-selection--single {
-    border: 0px;
+.select2-container--default .select2-selection--single {
+    border: 0 !important;
 }
 
 
@@ -150,6 +182,10 @@ button:focus {
     margin-top: 15px;
 }
 
+.btn-enviar {
+    border-radius: 25px;
+}
+
 /* Sobre - O que é o Querido Diário */
 .about-link{
     color: #e55330;
@@ -161,28 +197,288 @@ button:focus {
     font-weight: 600;
 }
 
+/* Box Sucesso */
+.alert-success{
+    background-color: #5e408f;
+    color: #fff;
+    padding-top: 25px;
+    margin:15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-success{
+    background-color: #966be8;
+    border-color: #fff;
+}
+
+.btn-success:hover{
+    background-color: #fff;
+    color:#966be8;
+}
+
+/* Box Erro */
+.alert-fail{
+    background-color: #8f3b2e;
+    color: #fff;
+}
+
+
+/* Mapeamento */
+.alert-success hr {
+    max-width: 60%;
+    border-top-color: #fff;
+}
+
+.box-download{
+    max-width: 60%;
+    margin: auto;    
+}
+
+.form-download{
+    text-align: center;
+    background-color: #4f2691;
+    padding-top: 15px;
+    padding-bottom: 15px;       
+}
+
+.btn-group{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.btn-download{
+    background-color: #966be8;
+    margin-right: 15px;
+}
+
+.btn-download:hover{
+    background-color: #fff;
+    color:#966be8;
+    margin-right: 15px;
+} 
+
+.include-mapped {          
+    display: flex;
+    margin: 0 5px;  
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group-item {
+    font-size: 1.15rem;
+}
+
+.list-group-item a div {
+    font-size: 0.8rem;
+}
+
+/* Lista de cidades */
+ul {
+    margin-bottom: 0;
+}
+.list-group-item{
+    max-width: 60%;
+    margin: auto;
+    padding: 0.5rem;
+    border: none;
+    color: #4f2691;
+}
+
+.list-group-item a{
+    color: #4f2691;
+}
+
+.list-group-item a:hover{
+    color: #966be8;
+}
+
+.pagination {
+    padding-top: 20px;
+}
+
+.page-item .page-link {
+    color: #4f2691;
+}
+
+.page-item.active .page-link {
+    background-color: #4f2691;
+    border-color: #4f2691;    
+}
+
+.page-item.active .page-link:hover{
+    color: #fff;
+}
+
+
 /* Responsividade */
-@media (max-width: 1200px) {
-    .qd-titulo{
-        font-size: 2.0rem;
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0;
     }
-    .navbar-style {
-        font-size: 0.9rem;
+    .pagination {
+        font-size: 0.8rem;
+    }
+    .page-link{
+        padding: 5px;
     }
 }
 
-@media all and (max-width: 991px) {  
-    
-    .container {
-        max-width: 950px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px){
+    * {
+        box-sizing: content-box;
+    }
+    .qd-titulo{
+        font-size: 1.2rem;
+    }
+    .navbar {
+        padding: 0;
+        border-radius: 25px;
+        margin-bottom: 0;
+    }
+    .nav-item{
+        padding: 0rem;
+    }
+    .navbar-expand .navbar-nav{
+        display: block;
+    }
+    .navbar-style{
+        font-size: 0.8rem;
+    }
+    .duvidas-text {
+        font-size: 0.9rem;        
+        max-width: 90%;
+        margin: auto;
+    }
+    .btn{
+        font-size: 0.8rem;
+        padding: 0.25rem;
+    }
+    .btn-enviar {
+        font-size: 1.2rem;       
+        padding: 10px;
+    }
+    .btn-group{
+        margin-top:10px;
+    }
+    .alert-heading {
+        font-size: 1rem;
+    }
+    .alert-success {
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+    .form-download{
+        padding: 10px;
+    }
+    .box-download {
+        max-width: 100%;        
+    }
+    .btn-download {
+        margin-top: 5px;
+    }
+    label {
+        padding-left: 5px;
+        margin-bottom: 0;
+    }
+    .banner-catarse img {
+        max-width: 100%;
+    }
+    .form-control {
+        padding: 0 5px;
+    }
+    #id_municipio,
+    #id_is_online,
+    #id_fonte_1,
+    #id_fonte_2,
+    #id_fonte_3,
+    #id_fonte_4,
+    #id_data_inicial,
+    #id_tipo_arquivo,
+    #id_is_online,
+    #id_tipo_arquivo,
+    #select2-id_municipio-container,
+    .select2-container--default .select2-selection--single  {
+        width: 90%
+    }
+    #id_buttons_control{              
+        margin: auto;
+        justify-content: center;      
+        margin-bottom: 10px; 
+    }
+    #id_buttons_control div {
+        padding: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .qd-titulo{
+        font-size: 1.5rem;
+    }
+    .navbar-style{
+        font-size: 0.8rem;
+    }
+    .nav-item{
+        padding: 0;
+    }
+    .box-download {
+        max-width: 80%;
+    }
+    .include-mapped{
+        padding-top: 5px;
+        align-items: center;
+    }
+    .banner-catarse img {
+        max-width: 65%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {  
+    .qd-titulo{
+        font-size: 2.0rem;
     }
     .navbar {  
-      flex-wrap: wrap;  
-    }  
-      
+      flex-wrap: wrap;        
+    }        
     .navbar > li {  
       flex-basis: 50%;  
     }
-  
+    .navbar-style{
+        font-size: 0.9rem;
+    }
+    .box-download {
+        max-width: 70%;
+    }
+    .banner-catarse img {
+        width: 50%;
+    }
   }
-  
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {    
+    .navbar-style {
+        font-size: 1.1rem;
+    }
+    .nav-item{
+        padding: 0.2rem 0.3rem;
+    }
+} 
+
+@media only screen and (min-width: 1310px) {
+    .qd-titulo{
+        font-size: 2.5rem;
+    }
+    .nav-item{
+        padding: 0.2rem 1rem;
+    }
+    .include-mapped {
+        display: inline;
+    }
+}
