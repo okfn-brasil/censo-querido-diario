@@ -182,6 +182,10 @@ option{
     margin-top: 15px;
 }
 
+.btn-enviar {
+    border-radius: 25px;
+}
+
 /* Sobre - O que é o Querido Diário */
 .about-link{
     color: #e55330;
@@ -316,6 +320,12 @@ ul {
     .container {
         padding: 0;
     }
+    .pagination {
+        font-size: 0.8rem;
+    }
+    .page-link{
+        padding: 5px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -340,9 +350,18 @@ ul {
     .navbar-style{
         font-size: 0.8rem;
     }
+    .duvidas-text {
+        font-size: 0.9rem;        
+        max-width: 90%;
+        margin: auto;
+    }
     .btn{
         font-size: 0.8rem;
         padding: 0.25rem;
+    }
+    .btn-enviar {
+        font-size: 1.2rem;       
+        padding: 10px;
     }
     .btn-group{
         margin-top:10px;
@@ -369,6 +388,31 @@ ul {
     }
     .banner-catarse img {
         max-width: 100%;
+    }
+    .form-control {
+        padding: 0 5px;
+    }
+    #id_municipio,
+    #id_is_online,
+    #id_fonte_1,
+    #id_fonte_2,
+    #id_fonte_3,
+    #id_fonte_4,
+    #id_data_inicial,
+    #id_tipo_arquivo,
+    #id_is_online,
+    #id_tipo_arquivo,
+    #select2-id_municipio-container,
+    .select2-container--default .select2-selection--single  {
+        width: 90%
+    }
+    #id_buttons_control{              
+        margin: auto;
+        justify-content: center;      
+        margin-bottom: 10px; 
+    }
+    #id_buttons_control div {
+        padding: 10px;
     }
 }
 
