@@ -109,7 +109,10 @@
           <div class='box-download'>
             <form action="{% url 'get_data' %}" method="POST" class="form-download">{% csrf_token %}
               <button type="submit" class="btn btn-region btn-download">Baixar dados</button>
-              <input type="checkbox" name="chk_cidades_sem_map" value="true" id="chk_cidades_sem_map"><label for="chk_cidades_sem_map"> Incluir cidades sem mapeamento </label>
+              <div class="include-mapped">
+                <input type="checkbox" name="chk_cidades_sem_map" value="true" id="chk_cidades_sem_map">
+                <label for="chk_cidades_sem_map"> Incluir cidades sem mapeamento </label>
+              </div>
             </form>
           </div>
           {% endif %}
