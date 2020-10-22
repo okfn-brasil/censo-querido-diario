@@ -104,7 +104,7 @@ def download_csv_data(request):
     lista = []
 
     # get data from database
-    mapeados = Mapeamento.objects.all().order_by('municipio')
+    mapeados = Mapeamento.objects.filter(validacao=True).order_by('municipio').distinct()
 
     for municipio in mapeados:
         lista.append([
@@ -129,7 +129,7 @@ def download_csv_data(request):
 
     # if chk is true, gets all municipios from Municipio table, excluding those that are in Mapeamento table
     if chk_cidades_sem_map:
-        nao_mapeados = Municipio.objects.exclude(id__in=mapeados).order_by('municipio')
+        nao_mapeados = Municipio.objects.exclude(mapeamento__id__in=mapeados).order_by('municipio')
         for municipio in nao_mapeados:
             lista.append([ smart_str(municipio.municipio) ])
 
