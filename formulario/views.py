@@ -62,7 +62,8 @@ def mapped_cities(request):
         total_cities = Municipio.objects.count()
         context = 'Brasil'
 
-    percentage = round(len(cities)/total_cities*100, 2)
+    mapped_cities_count = len(cities)
+    percentage = round(mapped_cities_count/total_cities*100, 2)
 
     for city in cities:
         if city['mapeamento__tipo_arquivo']:
@@ -78,8 +79,7 @@ def mapped_cities(request):
     except EmptyPage:
         cities_page = paginator.page(paginator.num_pages)
 
-    return render(request, 'mapped_cities.html', {'cities': cities_page, 'percentage': percentage, 'context': context, 'total_cities': total_cities })
-
+    return render(request, 'mapped_cities.html', {'cities': cities_page, 'percentage': percentage, 'context': context, 'mapped_cities_count': mapped_cities_count })
 
 def about(request):
     return render(request, 'sobre.html')

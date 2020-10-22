@@ -125,10 +125,6 @@ button:focus {
 	outline: none;
 }
 
-option{
-    background-color: #fff;
-}
-
 #select2-id_municipio-container {
     border: #e55330 3px solid;
     border-radius: 50px;
