@@ -67,7 +67,7 @@ def mapped_cities(request):
 
     for city in cities:
         if city['mapeamento__tipo_arquivo']:
-            city['mapeamento__tipo_arquivo'] = Mapeamento.TIPOS_ARQUIVOS[city['mapeamento__tipo_arquivo']][1]
+            city['mapeamento__tipo_arquivo'] = Mapeamento.TIPOS_ARQUIVOS[city['mapeamento__tipo_arquivo']-1][1]
 
     # Pagination on interface
     paginator = Paginator(cities, 50)
