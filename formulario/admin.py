@@ -26,7 +26,7 @@ class MapeamentoValidado(Mapeamento):
 class MapeamentoValidadoAdmin(MapeamentoAdmin):
     def get_queryset(self, request):
         qs = super(MapeamentoAdmin, self).get_queryset(request)
-        return qs.all()
+        return qs.filter(validacao=True)
 
 
 admin.site.register(Municipio, MunicipioAdmin)
