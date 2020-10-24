@@ -19,5 +19,16 @@ class MapeamentoAdmin(admin.ModelAdmin):
         qs = super(MapeamentoAdmin, self).get_queryset(request)
         return qs.filter(validacao=False)
 
-admin.site.register(Mapeamento, MapeamentoAdmin)
+class MapeamentoValidado(Mapeamento):
+    class Meta:
+        proxy = True
+
+class MapeamentoValidadoAdmin(MapeamentoAdmin):
+    def get_queryset(self, request):
+        qs = super(MapeamentoAdmin, self).get_queryset(request)
+        return qs.filter(validacao=True)
+
+
 admin.site.register(Municipio, MunicipioAdmin)
+admin.site.register(Mapeamento, MapeamentoAdmin)
+admin.site.register(MapeamentoValidado, MapeamentoValidadoAdmin)
