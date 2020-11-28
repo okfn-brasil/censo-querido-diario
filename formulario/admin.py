@@ -19,11 +19,11 @@ class MapeamentoAdmin(admin.ModelAdmin):
         qs = super(MapeamentoAdmin, self).get_queryset(request)
         return qs.filter(validacao=False)
 
-class MapeamentoCemMilhabitante(Mapeamento):
+class MapeamentoCemMilHabitante(Mapeamento):
     class Meta:
         proxy = True
 
-class MapeamentoCemMilhabitanteAdmin(MapeamentoAdmin):
+class MapeamentoCemMilHabitanteAdmin(MapeamentoAdmin):
     def get_queryset(self, request):
         qs = super(MapeamentoAdmin, self).get_queryset(request)
         return qs.filter(municipio__populacao_2020__gt=100000, validacao=False)
@@ -58,7 +58,7 @@ class MapeamentoValidadoCapitaiAdmin(MapeamentoAdmin):
 
 admin.site.register(Municipio, MunicipioAdmin)
 admin.site.register(Mapeamento, MapeamentoAdmin)
-admin.site.register(MapeamentoCemMilhabitante, MapeamentoCemMilhabitanteAdmin)
+admin.site.register(MapeamentoCemMilHabitante, MapeamentoCemMilHabitanteAdmin)
 admin.site.register(MapeamentoValidado, MapeamentoValidadoAdmin)
 admin.site.register(MapeamentoValidadoCemMilHabitante, MapeamentoValidadoCemMilHabitanteAdmin)
 admin.site.register(MapeamentoValidadoCapitai, MapeamentoValidadoCapitaiAdmin)
