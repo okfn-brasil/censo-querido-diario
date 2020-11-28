@@ -40,8 +40,8 @@ df['dominio_base'] = df['fonte_1'].apply(lambda url: urlparse(url).netloc)
 # In[4]:
 
 
-dominios_por_populacao = df.groupby(["dominio_base"])['populacao_2010'].sum()
-dominios_por_populacao.reset_index().sort_values(['populacao_2010'], ascending=False).set_index(['dominio_base'])
+dominios_por_populacao = df.groupby(["dominio_base"])['populacao_2020'].sum()
+dominios_por_populacao.reset_index().sort_values(['populacao_2020'], ascending=False).set_index(['dominio_base'])
 
 
 # ## População por domínios por região
@@ -49,8 +49,8 @@ dominios_por_populacao.reset_index().sort_values(['populacao_2010'], ascending=F
 # In[5]:
 
 
-dominios_por_populacao = df.groupby(["dominio_base", "regiao"])['populacao_2010'].sum()
-dominios_por_populacao.reset_index().sort_values(['populacao_2010'], ascending=False).set_index(['regiao'])
+dominios_por_populacao = df.groupby(["dominio_base", "regiao"])['populacao_2020'].sum()
+dominios_por_populacao.reset_index().sort_values(['populacao_2020'], ascending=False).set_index(['regiao'])
 
 
 # ## População por domínios por estado
@@ -58,8 +58,8 @@ dominios_por_populacao.reset_index().sort_values(['populacao_2010'], ascending=F
 # In[6]:
 
 
-dominios_por_populacao = df.groupby(["dominio_base", "UF"])['populacao_2010'].sum()
-dominios_por_populacao.reset_index().sort_values(['populacao_2010'], ascending=False).set_index(['UF'])
+dominios_por_populacao = df.groupby(["dominio_base", "UF"])['populacao_2020'].sum()
+dominios_por_populacao.reset_index().sort_values(['populacao_2020'], ascending=False).set_index(['UF'])
 
 
 # In[7]:

@@ -6,7 +6,7 @@ class Municipio(models.Model):
     uf = models.CharField(max_length=2)
     municipio = models.CharField(max_length=128)
     regiao = models.CharField(max_length=15)
-    populacao_2010 = models.IntegerField(null=True)
+    populacao_2020 = models.IntegerField(null=True)
     capital = models.BooleanField(default=False)
 
     def __str__(self):

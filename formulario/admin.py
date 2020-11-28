@@ -4,8 +4,8 @@ from formulario.models import Municipio, Mapeamento
 
 
 class MunicipioAdmin(admin.ModelAdmin):
-    fields = ('ibge', 'ibge7', 'municipio', 'uf', 'regiao', 'populacao_2010', 'capital')
-    readonly_fields = ('ibge', 'ibge7', 'municipio', 'uf', 'regiao', 'populacao_2010', 'capital')
+    fields = ('ibge', 'ibge7', 'municipio', 'uf', 'regiao', 'populacao_2020', 'capital')
+    readonly_fields = ('ibge', 'ibge7', 'municipio', 'uf', 'regiao', 'populacao_2020', 'capital')
 
     def has_delete_permission(self, request, obj=None):
         return False

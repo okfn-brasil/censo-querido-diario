@@ -14338,7 +14338,7 @@ potenciais fontes para os <em>spiders</em> do Querido Diário.</p>
       <th>IBGE7</th>
       <th>UF</th>
       <th>regiao</th>
-      <th>populacao_2010</th>
+      <th>populacao_2020</th>
       <th>eh_capital</th>
       <th>fonte_1</th>
       <th>fonte_2</th>
@@ -14490,8 +14490,8 @@ potenciais fontes para os <em>spiders</em> do Querido Diário.</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dominios_por_populacao</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;dominio_base&quot;</span><span class="p">])[</span><span class="s1">&#39;populacao_2010&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">dominios_por_populacao</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;populacao_2010&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">&#39;dominio_base&#39;</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dominios_por_populacao</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;dominio_base&quot;</span><span class="p">])[</span><span class="s1">&#39;populacao_2020&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">dominios_por_populacao</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;populacao_2020&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">&#39;dominio_base&#39;</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -14530,7 +14530,7 @@ potenciais fontes para os <em>spiders</em> do Querido Diário.</p>
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>populacao_2010</th>
+      <th>populacao_2020</th>
     </tr>
     <tr>
       <th>dominio_base</th>
@@ -15348,8 +15348,8 @@ potenciais fontes para os <em>spiders</em> do Querido Diário.</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dominios_por_populacao</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;dominio_base&quot;</span><span class="p">,</span> <span class="s2">&quot;regiao&quot;</span><span class="p">])[</span><span class="s1">&#39;populacao_2010&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">dominios_por_populacao</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;populacao_2010&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">&#39;regiao&#39;</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dominios_por_populacao</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;dominio_base&quot;</span><span class="p">,</span> <span class="s2">&quot;regiao&quot;</span><span class="p">])[</span><span class="s1">&#39;populacao_2020&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">dominios_por_populacao</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;populacao_2020&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">&#39;regiao&#39;</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -15389,7 +15389,7 @@ potenciais fontes para os <em>spiders</em> do Querido Diário.</p>
     <tr style="text-align: right;">
       <th></th>
       <th>dominio_base</th>
-      <th>populacao_2010</th>
+      <th>populacao_2020</th>
     </tr>
     <tr>
       <th>regiao</th>
@@ -16455,8 +16455,8 @@ potenciais fontes para os <em>spiders</em> do Querido Diário.</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dominios_por_populacao</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;dominio_base&quot;</span><span class="p">,</span> <span class="s2">&quot;UF&quot;</span><span class="p">])[</span><span class="s1">&#39;populacao_2010&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">dominios_por_populacao</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;populacao_2010&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">&#39;UF&#39;</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dominios_por_populacao</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;dominio_base&quot;</span><span class="p">,</span> <span class="s2">&quot;UF&quot;</span><span class="p">])[</span><span class="s1">&#39;populacao_2020&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">dominios_por_populacao</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;populacao_2020&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">&#39;UF&#39;</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -16496,7 +16496,7 @@ potenciais fontes para os <em>spiders</em> do Querido Diário.</p>
     <tr style="text-align: right;">
       <th></th>
       <th>dominio_base</th>
-      <th>populacao_2010</th>
+      <th>populacao_2020</th>
     </tr>
     <tr>
       <th>UF</th>
