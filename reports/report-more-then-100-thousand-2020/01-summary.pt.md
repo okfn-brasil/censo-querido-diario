@@ -1,10 +1,9 @@
-# Sumário executivo
-
-[![hackmd-github-sync-badge](https://hackmd.io/5xzQgSP0TNGfQ-JYRFyKrQ/badge)](https://hackmd.io/5xzQgSP0TNGfQ-JYRFyKrQ)
-
+# Política de correção
 
 ---
 
-**Próximo:** <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-overview-pt" target="_self">Panorama das publicações oficiais no Brasil</a> **→**
+**← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-analysis-pt" target="_self">Análise</a>
 
-###### tags: `Reports` `2020` `Census` `Above 100k` `Summary` `pt`
+**Próximo:** <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-availability-pt" target="_self">Disponibilidade por perfil de município e grandes regiões</a> **→**
+
+###### tags: `Reports` `2020` `Census` `Above 100k` `Method` `pt`
