@@ -1,5 +1,8 @@
 # O Censo Querido Diário
 
+[![hackmd-github-sync-badge](https://hackmd.io/JK1Z_doERLeW7hoy-VmoQQ/badge)](https://hackmd.io/JK1Z_doERLeW7hoy-VmoQQ)
+
+
 ---
 
 **← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-about-project-pt" target="_self">O projeto Querido Diário</a>
