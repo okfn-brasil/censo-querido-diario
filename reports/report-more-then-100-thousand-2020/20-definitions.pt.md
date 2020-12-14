@@ -1,5 +1,8 @@
 # Definições
 
+[![hackmd-github-sync-badge](https://hackmd.io/YkMCXMrtQ0GpZM0hNvRRlg/badge)](https://hackmd.io/YkMCXMrtQ0GpZM0hNvRRlg)
+
+
 ---
 
 **← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-about-census-pt" target="_self">O Censo Querido Diário</a>
