@@ -1,12 +1,9 @@
-# Política de correção
-
-[![hackmd-github-sync-badge](https://hackmd.io/7SQCjKHiQGCPw3qJxWDROg/badge)](https://hackmd.io/7SQCjKHiQGCPw3qJxWDROg)
-
+# Tempo no ar dos portais
 
 ---
 
-**← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-analysis-pt" target="_self">Análise</a>
+**← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-archive-pt" target="_self">Acervo histórico disponível nos portais</a>
 
-**Próximo:** <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-availability-pt" target="_self">Disponibilidade por perfil de município e grandes regiões</a> **→**
+**Próximo:** <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-seo-pt" target="_self">Avaliação da facilidade de se chegar ao portal</a> **→**
 
-###### tags: `Reports` `2020` `Census` `Above 100k` `Method` `pt`
+###### tags: `Reports` `2020` `Census` `Above 100k` `Results` `pt`
