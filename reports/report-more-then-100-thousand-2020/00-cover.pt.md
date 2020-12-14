@@ -1,52 +1,52 @@
-Censo Querido Diário - Municípios acima de 100 mil habitantes
+Censo Querido Diário 2020
 ===
 
-- [Sumário executivo](https://hackmd.io/5xzQgSP0TNGfQ-JYRFyKrQ)
+- [Sumário executivo](https://hackmd.io/@querido-diario/report-census-qd-2020-summary-pt)
 
 Introdução
 ---
 
-- [Panorama das publicações oficiais no Brasil](https://hackmd.io/LAGDJ2XTTaeWDEe3Y9TmeA)
-- [O projeto Querido Diário](https://hackmd.io/wKw5aOO8QO2oZeT_xfDPyQ)
-- [O Censo Querido Diário](https://hackmd.io/JK1Z_doERLeW7hoy-VmoQQ)
+- [Panorama das publicações oficiais no Brasil](https://hackmd.io/@querido-diario/report-census-qd-2020-overview-pt)
+- [O projeto Querido Diário](https://hackmd.io/@querido-diario/report-census-qd-2020-about-project-pt)
+- [O Censo Querido Diário](https://hackmd.io/@querido-diario/report-census-qd-2020-about-census-pt)
 
 Métodos
 ---
 
-- [Definições](https://hackmd.io/YkMCXMrtQ0GpZM0hNvRRlg)
-- [Recortes administrativo, populacional e temporal](https://hackmd.io/igO2HrMCR1y2iy9aN4UzGg)
-- [Divulgação e engajamento](https://hackmd.io/kQADiEp4SXOAUb3eInti8A)
-- [Coleta](https://hackmd.io/mxYlZvgaSraDdHicpFeO1A)
-- [Validação](https://hackmd.io/q1vkkVyfQ7iXFNzYdM5S6A)
-- [Análise](https://hackmd.io/FIJ5vABlQwWV1sxoQgc15A)
-- [Política de correção](https://hackmd.io/7SQCjKHiQGCPw3qJxWDROg)
+- [Definições](https://hackmd.io/@querido-diario/report-census-qd-2020-definitions-pt)
+- [Recortes administrativo, populacional e temporal](https://hackmd.io/@querido-diario/report-census-qd-2020-sample-pt)
+- [Divulgação e engajamento](https://hackmd.io/@querido-diario/report-census-qd-2020-communication-pt)
+- [Coleta](https://hackmd.io/@querido-diario/report-census-qd-2020-collection-pt)
+- [Validação](https://hackmd.io/@querido-diario/report-census-qd-2020-validation-pt)
+- [Análise](https://hackmd.io/@querido-diario/report-census-qd-2020-analysis-pt)
+- [Política de correção](https://hackmd.io/@querido-diario/report-census-qd-2020-rectification-pt)
 
 Resultados: disponibilidade
 ---
 
-- [Disponibilidade por perfil de município e grandes regiões](https://hackmd.io/8-CRyIg4ThynbGabCsLC0g)
-- [Acervo histórico disponível nos portais](https://hackmd.io/h0LDTlPyQti5N9xo-2uqrQ)_
-- [Tempo no ar dos portais](https://hackmd.io/pfu3avCoSxqnCp2-Xjuj0w)
+- [Disponibilidade por perfil de município e grandes regiões](https://hackmd.io/@querido-diario/report-census-qd-2020-availability-pt)
+- [Acervo histórico disponível nos portais](https://hackmd.io/@querido-diario/report-census-qd-2020-archive-pt)
+- [Tempo no ar dos portais](https://hackmd.io/@querido-diario/report-census-qd-2020-sla-pt)
 
 Resultados: usabilidade e acessibilidade
 ---
 
-- [Avaliação da facilidade de se chegar ao portal](https://hackmd.io/qIuC8Jy_Q8-68m_9fDIrmw)
-- [Avaliação da acessibilidade dos portais e dos diários](https://hackmd.io/RUhSz3bmQ8C_wpiRJfJzZw)
-- [Avaliação da interface dos portais](https://hackmd.io/xzFoQlVvSMioOM2O0x4Ucg)
+- [Avaliação da facilidade de se chegar ao portal](https://hackmd.io/@querido-diario/report-census-qd-2020-seo-pt)
+- [Avaliação da acessibilidade dos portais e dos diários](https://hackmd.io/@querido-diario/report-census-qd-2020-a11y-pt)
+- [Avaliação da interface dos portais](https://hackmd.io/@querido-diario/report-census-qd-2020-ux-pt)
 
 Resultados: padrões de publicação
 ---
 
-- [Formatos utilizados para publicação dos diários](https://hackmd.io/xcImK8TCQMaxcL09iwtqmw)
-- [Publicação em arquivo único versus publicação por atos](https://hackmd.io/tha_fl7NSlGM2sKsiLejGw)
-- [Mídias embutidas](https://hackmd.io/A8tNPFctTz2uWmT665CuxQ)
+- [Formatos utilizados para publicação dos diários](https://hackmd.io/@querido-diario/report-census-qd-2020-format-pt)
+- [Publicação em arquivo único versus publicação por atos](https://hackmd.io/@querido-diario/report-census-qd-2020-aggregation-pt)
+- [Mídias embutidas](https://hackmd.io/@querido-diario/report-census-qd-2020-embeds-pt)
 
 Resultados: aspectos institucionais
 ---
 
-- [Quem realiza os serviços de publicação oficial](https://hackmd.io/YMMRerdbThitI34CyVuMkQ)
-- [Municípios com mais de uma publicação](https://hackmd.io/Imm8Vj9jQTuxDjehN80OFA)
+- [Quem realiza os serviços de publicação oficial](https://hackmd.io/@querido-diario/report-census-qd-2020-publishers-pt)
+- [Municípios com mais de uma publicação](https://hackmd.io/@querido-diario/report-census-qd-2020-multiple-pt)
 
 
 Principais achados e recomendações
@@ -54,16 +54,16 @@ Principais achados e recomendações
 
 Quem é quem
 ---
-- [Sobre a Open Knowledge Brasil](https://hackmd.io/VnUzB7Z9Tey0ryQcz10e1g)
-- [Sobre a rede de pessoas Embaixadoras de Tecnologia Cívica](https://hackmd.io/OlI4fSIURGuQ8ldItdyzqw)
-- [Quem contribuiu](https://hackmd.io/de0LMWimRFOnWN25hPk45A)
+- [Sobre a Open Knowledge Brasil](https://hackmd.io/@querido-diario/report-census-qd-2020-about-okbr-pt)
+- [Sobre a rede de Embaixadoras de Tecnologia Cívica](https://hackmd.io/@querido-diario/report-census-qd-2020-ambassadors-pt)
+- [Quem contribuiu](https://hackmd.io/@querido-diario/report-census-qd-2020-contributors-pt)
 
 Contato e como contribuir
 ---
 
-- [Como relatar um erro ou propor uma melhoria](https://hackmd.io/3JeKDCWYRP20GiSe2w-FVA)
-- [Como utilizar os dados do Censo](https://hackmd.io/ApUho3jiSCKFOhyKlniSHw)
-- [Como contribuir com o Querido Diário](https://hackmd.io/3ikezcXQTCSc5ygefyP1uA)
+- [Como relatar um erro ou propor uma melhoria](https://hackmd.io/@querido-diario/report-census-qd-2020-errors-pt)
+- [Como utilizar os dados do Censo](https://hackmd.io/@querido-diario/report-census-qd-2020-data-pt)
+- [Como contribuir com o Querido Diário](https://hackmd.io/@querido-diario/report-census-qd-2020-contributing-pt)
 
 
-###### tags: `Relatórios` `Censo` `Acima 100k` `Capa` `pt`
+###### tags: `Reports` `2020` `Census` `Above 100k` `pt`
