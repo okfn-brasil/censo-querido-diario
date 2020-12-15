@@ -1,5 +1,8 @@
 # Política de correção
 
+[![hackmd-github-sync-badge](https://hackmd.io/7SQCjKHiQGCPw3qJxWDROg/badge)](https://hackmd.io/7SQCjKHiQGCPw3qJxWDROg)
+
+
 ---
 
 **← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-analysis-pt" target="_self">Análise</a>
