@@ -1,5 +1,8 @@
 # Publicação em arquivo único versus publicação por atos
 
+[![hackmd-github-sync-badge](https://hackmd.io/tha_fl7NSlGM2sKsiLejGw/badge)](https://hackmd.io/tha_fl7NSlGM2sKsiLejGw)
+
+
 ---
 
 **← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-format-pt" target="_self">Formatos utilizados para publicação</a>
