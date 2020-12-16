@@ -5,7 +5,7 @@
 
 ---
 
-**← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-multiple-pt" target="_self">Publicação em arquivo único versus publicação por atos</a>
+**← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-aggregation-pt" target="_self">Publicação em arquivo único versus publicação por atos</a>
 
 **Próximo:** <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-publishers-pt" target="_self">Quem realiza os serviços de publicação oficial</a> **→**
 
