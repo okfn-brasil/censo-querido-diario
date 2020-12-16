@@ -1,5 +1,8 @@
 # Sobre a rede de Embaixadoras de Tecnologia Cívica
 
+[![hackmd-github-sync-badge](https://hackmd.io/OlI4fSIURGuQ8ldItdyzqw/badge)](https://hackmd.io/OlI4fSIURGuQ8ldItdyzqw)
+
+
 ---
 
 **← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-about-okbr-pt" target="_self">Sobre a Open Knowledge Brasil</a>
