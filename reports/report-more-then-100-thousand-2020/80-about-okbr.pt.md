@@ -1,5 +1,8 @@
 # Sobre a Open Knowledge Brasil
 
+[![hackmd-github-sync-badge](https://hackmd.io/VnUzB7Z9Tey0ryQcz10e1g/badge)](https://hackmd.io/VnUzB7Z9Tey0ryQcz10e1g)
+
+
 ---
 
 **← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-multiple-pt" target="_self">Municípios com mais de uma publicação</a>
