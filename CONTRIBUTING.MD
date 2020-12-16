@@ -19,7 +19,7 @@ Municípios com mais de 50 mil habitantes | Em progresso
 Municípios com mais de 20 mil habitantes | Em progresso
 Todos os 5.570 municípios brasileiros | Em progresso
 
-Acesse o [FAQ de contribuição](https://censo.ok.org.br/faq/) e nos ajude a continuar coletando as fontes de publicação de documentos públicos. :)
+Acesse o [FAQ da coleta](https://censo.ok.org.br/faq/) e nos ajude a continuar coletando as fontes de publicação de documentos públicos. :)
 
 ## Para ajudar na análise e na produção dos relatórios
 
@@ -27,13 +27,13 @@ Entre no nosso discord, link acima, e encontre o canal de análise do censo. Lá
 
 ### Ferramentas que utilizamos ou são referências para a produção das análises
 
-- [Ferramenta de escrita e colaboração em markdown - hackmd](https://hackmd.io/)
+- [Ferramenta de escrita e colaboração em markdown - HackMD](https://hackmd.io/@querido-diario)
 - [Ferramenta de visualização - Flourish](https://app.flourish.studio/)
 - Métricas automatizadas de performance e usabilidade:
   - [Lighthouse](https://github.com/GoogleChrome/lighthouse) 
   - [WebPageTest](https://github.com/WPO-Foundation/webpagetest-docs/)
 - Métricas automatizadas de acessibilidade:
-  - [W3](https://www.w3.org/WAI/test-evaluate/#tools)
+  - [Ferramentas recomendadas pela Web Accessibilility Initiative](https://www.w3.org/WAI/test-evaluate/#tools)
   - [Validators, brunopulis](https://github.com/brunopulis/awesome-a11y/blob/master/topics/validators.md)
 - [Métricas de complexidade visual e fluência de uso - Interfacemetrics](https://interfacemetrics.aalto.fi/)
 - Análise de proprietários de domínios
