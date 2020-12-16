@@ -1,5 +1,8 @@
 # Quem contribuiu
 
+[![hackmd-github-sync-badge](https://hackmd.io/de0LMWimRFOnWN25hPk45A/badge)](https://hackmd.io/de0LMWimRFOnWN25hPk45A)
+
+
 ---
 
 **← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-ambassadors-pt" target="_self">Sobre a rede de Embaixadoras de Tecnologia Cívica</a>
