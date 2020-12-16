@@ -1,5 +1,8 @@
 # Quem realiza os serviços de publicação oficial
 
+[![hackmd-github-sync-badge](https://hackmd.io/YMMRerdbThitI34CyVuMkQ/badge)](https://hackmd.io/YMMRerdbThitI34CyVuMkQ)
+
+
 ---
 
 **← Anterior**: <a href="https://hackmd.io/@querido-diario/report-census-qd-2020-embeds-pt" target="_self">Mídias embutidas</a>
