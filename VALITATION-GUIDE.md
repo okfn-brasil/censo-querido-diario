@@ -1,5 +1,8 @@
 # Guia de validação
 
+[![hackmd-github-sync-badge](https://hackmd.io/iR4PVbOwScWsuherb-5PxA/badge)](https://hackmd.io/iR4PVbOwScWsuherb-5PxA)
+
+
 Então você já pegou o jeito de [como encontrar um diário oficial](https://censo.ok.org.br/faq/), e está em busca de outras formas de promover a transparência das informações públicas nos municípios?
 
 Ótimo. Você está no lugar certo.
