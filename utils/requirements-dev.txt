@@ -1,0 +1,9 @@
+kaggle
+pandas
+python-dotenv
+requests
+mypy
+pytest
+flake8
+isort
+black
