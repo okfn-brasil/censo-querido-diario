@@ -29,8 +29,9 @@ from typing import List
 
 import numpy as np
 import pandas as pd
+from yarl import URL
 
-from ..models import HttpUrl, IbgeCode, Portal, PortalList
+from ..models import IbgeCode, Portal, PortalList
 
 
 def get_portals_from_census() -> PortalList:
@@ -54,9 +55,9 @@ def get_portals_from_census() -> PortalList:
         .reset_index()
         .dropna()
         .apply(
-            lambda mun: Portal(
-                ibge_code=IbgeCode(mun.IBGE7), url=HttpUrl(mun.fonte)
             # FIXME: avoid "None" strings in url column
+            lambda mun: Portal(
+                ibge_code=IbgeCode(mun["IBGE7"]), url=URL(mun["fonte"])
             ) if mun.fonte != "None" else np.nan,
             axis=1,
         )

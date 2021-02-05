@@ -1,3 +1,4 @@
+aiohttp
 kaggle
 pandas
 python-dotenv

@@ -18,4 +18,4 @@ def test_get_portals_from_census() -> None:
     for portal in portals:
         assert isinstance(portal, Portal)
         # assert len(portal.ibge_code) == 7
-        assert len(portal.url.domain) > 5
+        assert len(portal.url.host) > 5
