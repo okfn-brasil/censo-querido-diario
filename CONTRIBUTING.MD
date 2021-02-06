@@ -21,9 +21,19 @@ Todos os 5.570 municípios brasileiros | Em progresso
 
 Acesse o [FAQ da coleta](https://censo.ok.org.br/faq/) e nos ajude a continuar coletando as fontes de publicação de documentos públicos. :)
 
+## Para ajudar na revisão e validação dos resultados
+
+Fizemos um guia exclusivo para ensinar o processo de revisão dos mapeamentos. Lá ensinamos o passo-a-passo de como qualquer pessoa com alguma familiaridade com os sites dos diários pode ajudar a conferir a qualidade dos registros que vão para a base de dados do censo. Veja o guia aqui -> https://hackmd.io/@querido-diario/GUIA-VALIDACAO
+
 ## Para ajudar na análise e na produção dos relatórios
 
-Entre no nosso discord, link acima, e encontre o canal de análise do censo. Lá estaremos discutindo sobre os dados que estamos coletando a partir das coletas.
+Estamos produzindo um [relatório](https://hackmd.io/@querido-diario/report-census-qd-2020-pt) com os resultados do Censo. Para isso, criamos algumas [issues com sugestões](https://github.com/okfn-brasil/censo-querido-diario/issues?q=is%3Aopen+is%3Aissue+label%3Aanalysis) para análise e aceitamos outras sugestões de análises realizadas com os [dados do Censo](https://censo.ok.org.br/andamento/). 
+
+A ideia é que as visualizações e análises geradas pelas pessoas contribuidoras façam parte do relatório colaborativo. Por isso, sugerimos realizar todos os passos em um *notebook* público, compartilhando os resultados na [seção de issues](https://github.com/okfn-brasil/censo-querido-diario/issues) do repositório. Você também pode [fazer um fork](https://github.com/okfn-brasil/censo-querido-diario/fork) do repositório, adicionar os notebooks com as análises no diretório `notebooks` e [abrir um *pull request*](https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) para incorporar sua sugestão ao repositório do Censo.
+
+Para quem gosta de escrever, o próprio relatório também está sendo construído a várias mãos. Basta criar uma conta no [HackMD](https://hackmd.io/login) (ferramenta de edição colaborativa de textos que usamos no Censo) e acessar qualquer página do [relatório](https://hackmd.io/@querido-diario/report-census-qd-2020-pt) para ter a opção de editar ou inserir novos trechos.
+
+Se tiver alguma dúvida, faça um comentário na issue relacionada à análise em questão. Ou então nos procure no canal `#censo-querido-diario` do [Discord](https://discord.gg/arxXZXEbGe).
 
 ### Ferramentas que utilizamos ou são referências para a produção das análises
 
