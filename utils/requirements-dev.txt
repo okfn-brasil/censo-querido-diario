@@ -1,6 +1,7 @@
 aiohttp
 kaggle
 pandas
+pandas-stubs
 python-dotenv
 requests
 mypy
