@@ -10,7 +10,7 @@ Temos um longo caminho pela frente. Afinal, precisamos libertar informações de
 * [Pip](http://www.pip-installer.org/en/latest/)
 * [Virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/)
 
-## Configuração de Ambiente
+## Configuração de ambiente para rodar local
 
 ### **Instalando todas as dependências**
 
@@ -31,3 +31,19 @@ $ python manage.py runserver
 ```
 Após subir o Django, verifique na porta 8000:
 *http://localhost:8000/*
+
+## Configuração de ambiente para rodar via Docker
+
+Basta ter o [Docker instalado](https://docs.docker.com/get-docker/) e rodar o seguinte comando:
+
+```shell
+$ docker-compose up --build -d
+```
+
+Acesse via:
+*http://localhost:8000/*
+
+Se precisar olhe o log através do seguinte comando:
+```shell
+$ docker logs censo [-f]
+```
