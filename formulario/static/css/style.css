@@ -245,14 +245,17 @@ button:focus {
 
 .btn-download{
     background-color: #966be8;
-    margin-right: 15px;
+    margin-top: 10px;   
 }
 
 .btn-download:hover{
     background-color: #fff;
-    color:#966be8;
-    margin-right: 15px;
+    color:#966be8;    
 } 
+
+.btn-download:disabled {
+    opacity: 0.45; 
+}
 
 .include-mapped {          
     display: flex;
