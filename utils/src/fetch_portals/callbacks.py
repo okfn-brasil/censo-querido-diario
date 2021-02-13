@@ -21,7 +21,7 @@ from typing import Any, Iterable, Literal, Optional, Union
 
 import pandas as pd
 
-from ..models import ExistingBehavior, PathLike, PortalCapture
+from .models import ExistingBehavior, PathLike, PortalCapture
 
 
 def _autogen_version_notes(

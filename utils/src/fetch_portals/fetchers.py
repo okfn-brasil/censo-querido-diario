@@ -29,7 +29,7 @@ import logging
 # from itertools import chain
 from typing import List
 
-from ..models import FetchMode, PortalList
+from .models import FetchMode, PortalList
 
 
 async def _gather_responses(

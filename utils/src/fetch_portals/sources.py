@@ -31,7 +31,7 @@ import numpy as np
 import pandas as pd
 from yarl import URL
 
-from ..models import IbgeCode, Portal, PortalList
+from .models import IbgeCode, Portal, PortalList
 
 
 def get_portals_from_census() -> PortalList:

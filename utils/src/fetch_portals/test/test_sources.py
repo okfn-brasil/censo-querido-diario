@@ -5,7 +5,7 @@
 # https://opensource.org/licenses/MIT.
 
 
-from ...models import Portal, PortalList
+from ..models import Portal, PortalList
 from ..sources import get_portals_from_census
 
 

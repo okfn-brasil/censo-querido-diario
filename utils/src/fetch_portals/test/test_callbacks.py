@@ -14,8 +14,8 @@ from datetime import datetime, timedelta, timezone
 
 import pytest
 
-from ...models import PortalCapture
 from ..callbacks import _autogen_version_notes, to_kaggle
+from ..models import PortalCapture
 
 
 @pytest.fixture

@@ -10,8 +10,8 @@ from typing import List, Set
 import pytest
 from httpx import URL
 
-from ...models import Portal, PortalCapture, PortalList
 from ..fetchers import fetch_portals
+from ..models import Portal, PortalCapture, PortalList
 
 
 @pytest.fixture
