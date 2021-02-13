@@ -33,10 +33,17 @@ from typing import List, Optional
 
 from dotenv import load_dotenv
 
-from ..models import (AcceptedCallback, AcceptedSource, ExistingBehavior,
-                      FetchMode, LogLevel, PathLike, PortalCapture)
 from .callbacks import to_kaggle
 from .fetchers import fetch_portals
+from .models import (
+    AcceptedCallback,
+    AcceptedSource,
+    ExistingBehavior,
+    FetchMode,
+    LogLevel,
+    PathLike,
+    PortalCapture,
+)
 from .sources import get_portals_from_census
 
 # get configurations from environment variables, or use defaults
