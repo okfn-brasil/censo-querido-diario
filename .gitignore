@@ -136,4 +136,4 @@ censo/share/
 
 # Data
 notebooks/*.csv
-
+*.zip
