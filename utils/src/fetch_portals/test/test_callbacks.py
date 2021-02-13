@@ -10,16 +10,9 @@ This module contains test cases for checking whether the callback functions
 defined in the `callbacks.py`_ file are working as expected.
 """
 
-
-import json
-import os
 from datetime import datetime, timedelta, timezone
-from pathlib import Path
-from tempfile import TemporaryDirectory
-from typing import Generator
 
 import pytest
-from dotenv import load_dotenv
 
 from ...models import PortalCapture
 from ..callbacks import _autogen_version_notes, to_kaggle
@@ -68,63 +61,6 @@ def mock_captures():
     ]
 
     return captures
-
-
-@pytest.fixture(scope="module")
-def kaggle_api() -> "KaggleApi":  # type: ignore  # noqa: F821
-    """Initialize and authenticate connection to Kaggle API."""
-    # get set kaggle credentials as environment variables
-    script_path = Path(os.path.abspath(__file__))
-    load_dotenv(os.path.join(script_path.parents[3], ".env"))
-
-    # initialize api
-    from kaggle.api.kaggle_api_extended import KaggleApi  # type: ignore
-
-    api = KaggleApi()
-    api.authenticate()
-
-    return api
-
-
-@pytest.fixture(scope="module")
-def mock_kaggle_dataset(kaggle_api) -> Generator[str, None, None]:
-    """Creates a Kaggle dataset for testing purposes.
-
-    Note:
-        There is currently no method for programatically removing a Kaggle
-        dataset. Therefore, the user must manually delete the created dataset,
-        located at ``https://kaggle.com/myuser/example`` (where ``myuser`` is
-        the name of the Kaggle user provided through the ``KAGGLE_USER``
-        environment variable).
-
-    Yields:
-        ID of the created dataset, in the format ``myuser/example``.
-    """
-    kaggle_user = os.environ["KAGGLE_USERNAME"]
-    mock_data = """
-        "fruit_name","fruit_color","fruit_number"
-        apple,red,6
-        banana,yellow,12
-        plum,purple,5
-        """
-    try:
-        tmpdir = TemporaryDirectory()
-        metadata = {
-            "title": "Example Dataset",
-            "id": kaggle_user + "/example",
-            "licenses": [{"name": "CC0-1.0"}],
-        }
-        with open(
-            os.path.join(tmpdir.name, "datapackage.json"), "w"
-        ) as meta_file:
-            meta_json = json.dumps(metadata)
-            meta_file.write(meta_json)
-        with open(os.path.join(tmpdir.name, "example_fruits.csv"), "w") as f:
-            f.write(mock_data)
-        kaggle_api.dataset_create_new(tmpdir.name)
-        yield metadata["id"]  # type: ignore
-    finally:
-        tmpdir.cleanup()
 
 
 def test_autogen_version_notes():

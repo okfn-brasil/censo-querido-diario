@@ -16,58 +16,56 @@ from ..fetchers import fetch_portals
 
 @pytest.fixture
 def example_portals() -> PortalList:
-    """Create a `PortalList`_ instance with a few official gazette portals.
-    """
+    """Create a `PortalList`_ instance with a few official gazette portals."""
 
     # Altinho (PE)
     portal1: Portal = Portal(
         ibge_code=2600807,
         url=URL(
-            "http://netuse.inf.br/altinho_pm/portaltransparencia/index.php?" +
-            "link=6"
-        )
+            "http://netuse.inf.br/altinho_pm/portaltransparencia/index.php?"
+            + "link=6"
+        ),
     )
     portal2: Portal = Portal(
-        ibge_code=2600807,
-        url=URL("http://www.diariomunicipal.com.br/amupe/")
+        ibge_code=2600807, url=URL("http://www.diariomunicipal.com.br/amupe/")
     )
 
     # Alto Bela Vista (SC)
     portal3: Portal = Portal(
         ibge_code=4200754,
         url=URL(
-            "https://diariomunicipal.sc.gov.br/site/" +
-            "?r=site/index&q=cod_entidade%3A13"
-        )
+            "https://diariomunicipal.sc.gov.br/site/"
+            + "?r=site/index&q=cod_entidade%3A13"
+        ),
     )
 
     # Anchieta (SC)
     portal4: Portal = Portal(
         ibge_code=4200804,
         url=URL(
-            "https://diariomunicipal.sc.gov.br/site/" +
-            "?r=site/index&q=cod_entidade%3A14"
-        )
+            "https://diariomunicipal.sc.gov.br/site/"
+            + "?r=site/index&q=cod_entidade%3A14"
+        ),
     )
 
     # Angelim (PE)
     portal5: Portal = Portal(
         ibge_code=2601003,
-        url=URL("http://www.diariomunicipal.com.br/amupe/pesquisar")
+        url=URL("http://www.diariomunicipal.com.br/amupe/pesquisar"),
     )
     portal6 = Portal(
         ibge_code=2601003,
         url=URL(
-            "http://174.142.65.52:16444/transparencia/angelim/prefeitura/" +
-            "legislacaomunicipal.faces"
-        )
+            "http://174.142.65.52:16444/transparencia/angelim/prefeitura/"
+            + "legislacaomunicipal.faces"
+        ),
     )
     portal7 = Portal(
         ibge_code=2601003,
         url=URL(
-            "http://174.142.65.52:16444/transparencia/angelim/prefeitura/" +
-            "outrosatos.faces"
-        )
+            "http://174.142.65.52:16444/transparencia/angelim/prefeitura/"
+            + "outrosatos.faces"
+        ),
     )
 
     return PortalList(
@@ -85,8 +83,7 @@ def test_split_by_domain(example_portals) -> None:
 
 
 def test_head_subsets(example_portals) -> None:
-    """Tests pinging subsets of a `PortalList`_ with unique domains.
-    """
+    """Tests pinging subsets of a `PortalList`_ with unique domains."""
     subsets: PortalList = example_portals.by_domain()
     for subset in subsets:
         subset = PortalList(subset)
@@ -99,8 +96,7 @@ def test_head_subsets(example_portals) -> None:
 
 
 def test_get_subsets(example_portals) -> None:
-    """Tests capturing subsets of a `PortalList`_ with unique domains.
-    """
+    """Tests capturing subsets of a `PortalList`_ with unique domains."""
     subsets: PortalList = example_portals.by_domain()
     for subset in subsets:
         subset = PortalList(subset)
@@ -114,9 +110,7 @@ def test_get_subsets(example_portals) -> None:
 
 def test_orchestrate_pinging(example_portals) -> None:
     """Tests asynchronously pinging multiple portals."""
-    captures: List[PortalCapture] = fetch_portals(
-        example_portals, mode="ping"
-    )
+    captures: List[PortalCapture] = fetch_portals(example_portals, mode="ping")
     assert len(captures) == len(example_portals)
     for capture in captures:
         assert isinstance(capture, PortalCapture)

@@ -60,11 +60,13 @@ async def _gather_responses(
     task_list: List = list()
 
     for subset in portals.by_domain():
-        task: asyncio.Task = asyncio.create_task(subset.fetch_all(
-            method=http_method,
-            max_retries=max_retries,
-            timeout=timeout,
-        ))
+        task: asyncio.Task = asyncio.create_task(
+            subset.fetch_all(
+                method=http_method,
+                max_retries=max_retries,
+                timeout=timeout,
+            )
+        )
         task_list.append(task)
 
     return await asyncio.gather(*task_list)
@@ -88,7 +90,8 @@ def fetch_portals(
     results = list()
 
     task_list = asyncio.run(
-        _gather_responses(portals, mode, max_retries, timeout))
+        _gather_responses(portals, mode, max_retries, timeout)
+    )
 
     for task_results in task_list:
         for result in task_results:

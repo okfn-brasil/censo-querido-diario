@@ -21,7 +21,7 @@ from typing import Any, Iterable, Literal, Optional, Union
 
 import pandas as pd
 
-from ..models import PathLike, PortalCapture
+from ..models import ExistingBehavior, PathLike, PortalCapture
 
 
 def _autogen_version_notes(
@@ -53,7 +53,7 @@ def to_kaggle(
     data: Union[Iterable[Union[dict, PortalCapture]], pd.DataFrame],
     dataset: str,
     dest_file: str,
-    existing_behavior: Literal["replace", "append", "skip"] = "replace",
+    existing_behavior: ExistingBehavior = "replace",
     version_notes: Optional[str] = None,
     local_dir: Optional[PathLike] = None,
     delete_old_versions: bool = False,
@@ -171,13 +171,14 @@ def to_kaggle(
         operation = "create"
         data.to_csv(Path(data_dir, dest_file))
 
-    # update metadata file
-    try:
-        api.dataset_metadata_update(dataset, data_dir)
-    except KeyError:
-        # BUG: KaggleApi's dataset_metadata_update() method references an
-        # inexistent key for checking for errors. Just ignore it.
-        pass
+    # # update metadata file
+    # BUG
+    # try:
+    #     api.dataset_metadata_update(dataset, data_dir)
+    # except KeyError:
+    #     # BUG: KaggleApi's dataset_metadata_update() method references an
+    #     # inexistent key for checking for errors. Just ignore it.
+    #     pass
 
     # create a version notes message, if user hasn't provided one
     if not version_notes:

@@ -24,10 +24,13 @@ import aiohttp
 from aiohttp import ClientConnectorCertificateError, ClientError, ClientTimeout
 from yarl import URL
 
+AcceptedCallback = Literal["kaggle"]
+AcceptedSource = Literal["census"]
+ExistingBehavior = Literal["append", "replace", "skip"]
 FetchMode = Literal["ping", "source"]
 IbgeCode = NewType("IbgeCode", int)  # TODO: make it a UserString
 LogLevel = Literal["error", "warn", "info", "debug"]
-PathLike = Union[str, bytes, os.PathLike]
+PathLike = Union[str, bytes, "os.PathLike[Any]"]
 
 
 class GovernmentBranch(Enum):
@@ -49,7 +52,8 @@ class GovernmentLevel(Enum):
 
 @dataclass
 class Portal:
-    """Representation of a portal that publishes local-level official gazettes."""
+    """Representation of a portal that publishes local-level official gazettes.
+    """
 
     ibge_code: IbgeCode
     url: URL
@@ -71,8 +75,25 @@ class PortalCapture:
     ssl_valid: bool
     status: int
     message: str
-    level: str = GovernmentLevel.MUNICIPALITY.name
-    branch: str = GovernmentBranch.EXECUTIVE.name
+    level: GovernmentLevel = GovernmentLevel.MUNICIPALITY
+    branch: GovernmentBranch = GovernmentBranch.EXECUTIVE
+
+    def to_dict(self):
+        """Converts a PortalCapture into a dictionary."""
+        return {
+            "ibge_code": str(self.ibge_code),
+            "request_time": self.request_time.isoformat(),
+            "waiting_time": self.waiting_time.total_seconds(),
+            "attempts": self.attempts,
+            "initial_url": str(self.initial_url),
+            "final_url": str(self.final_url or ""),
+            "method": self.method,
+            "ssl_valid": int(self.ssl_valid),
+            "status": self.status,
+            "message": self.message,
+            "level": self.level,
+            "branch": self.branch,
+        }
 
 
 class PortalList(UserList):
@@ -146,7 +167,7 @@ class PortalList(UserList):
                         request_time: datetime = datetime.now(timezone.utc)
 
                         async with client.request(
-                            method, url=str(url), verify_ssl=ssl_valid
+                            method, url=str(url), ssl=ssl_valid
                         ) as response:
                             time_elapsed: timedelta = (
                                 datetime.now(timezone.utc) - request_time
@@ -154,6 +175,7 @@ class PortalList(UserList):
                             final_url: Optional[URL] = response.url
                             response_status: int = response.status
                             if method == "GET":
+                                # TODO: get charsets defined in <meta> tags
                                 message: Any = str(await response.text())
                             else:
                                 message = response.reason
@@ -168,11 +190,15 @@ class PortalList(UserList):
                             continue
 
                     # some other error; try again
-                    except (ClientError, TimeoutError) as err:
+                    except (
+                        ClientError,
+                        TimeoutError,
+                        UnicodeDecodeError,
+                    ) as err:
                         time_elapsed = (
                             datetime.now(timezone.utc) - request_time
                         )
-                        message = err.__str__
+                        message = repr(err)
                         final_url = None
                         response_status = 999
                         if attempt < max_retries:
@@ -180,7 +206,7 @@ class PortalList(UserList):
                             continue
 
                     # record answer if it is OK or exceeded max tries
-                    logging.info(response_status)
+                    logging.info(str(response_status))
                     responses.append(
                         {
                             "initial_url": url,
@@ -200,7 +226,6 @@ class PortalList(UserList):
         captures: List[PortalCapture] = list()
         for portal, capture in itertools.product(self.data, responses):
             if portal.url == capture["initial_url"]:
-                print(portal.url)
                 captures.append(
                     PortalCapture(
                         ibge_code=portal.ibge_code,
@@ -209,5 +234,4 @@ class PortalList(UserList):
                         **capture,
                     )
                 )
-        print(len(captures))
         return captures
