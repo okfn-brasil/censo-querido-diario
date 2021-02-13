@@ -58,7 +58,9 @@ def get_portals_from_census() -> PortalList:
             # FIXME: avoid "None" strings in url column
             lambda mun: Portal(
                 ibge_code=IbgeCode(mun["IBGE7"]), url=URL(mun["fonte"])
-            ) if mun.fonte != "None" else np.nan,
+            )
+            if mun.fonte != "None"
+            else np.nan,
             axis=1,
         )
         .dropna()
