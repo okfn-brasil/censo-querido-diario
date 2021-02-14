@@ -28,6 +28,7 @@ AcceptedCallback = Literal["kaggle"]
 AcceptedSource = Literal["census"]
 ExistingBehavior = Literal["append", "replace", "skip"]
 FetchMode = Literal["ping", "source"]
+AcceptedHttpMethod = Literal["GET", "HEAD"]
 IbgeCode = NewType("IbgeCode", int)  # TODO: make it a UserString
 LogLevel = Literal["error", "warn", "info", "debug"]
 PathLike = Union[str, bytes, "os.PathLike[Any]"]

@@ -26,11 +26,11 @@ support the project.
 
 import asyncio
 import logging
+from typing import cast
 
-# from itertools import chain
 from typing import List
 
-from .models import FetchMode, PortalList
+from .models import AcceptedHttpMethod, FetchMode, PortalList
 
 
 async def _gather_responses(
@@ -52,7 +52,6 @@ async def _gather_responses(
 
     portals = PortalList(portals)
 
-    http_method: str
     if mode == "ping":
         http_method = "HEAD"
     elif mode == "source":
@@ -63,7 +62,7 @@ async def _gather_responses(
     for subset in portals.by_domain():
         task: asyncio.Task = asyncio.create_task(
             subset.fetch_all(
-                method=http_method,
+                method=cast(AcceptedHttpMethod, http_method),
                 max_retries=max_retries,
                 timeout=timeout,
             )

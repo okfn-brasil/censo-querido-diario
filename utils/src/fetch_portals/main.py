@@ -29,7 +29,7 @@ import logging
 import os
 import sys
 from pathlib import Path
-from typing import List, Optional
+from typing import cast, Final, List, Optional
 
 from dotenv import load_dotenv
 
@@ -51,15 +51,28 @@ script_path: Path = Path(os.path.abspath(__file__))
 load_dotenv(os.path.join(script_path.parents[2], ".env"))
 
 
+# load settings from environment, or use defaults
+SOURCE: Final = os.getenv("FETCHPORTALS_SOURCE", "census")
+MODE: Final = os.getenv("FETCHPORTALS_MODE", "ping")
+CALLBACK: Final = os.getenv("FETCHPORTALS_CALLBACK", None)
+LOCAL_DIR: Final = os.getenv("FETCHPORTALS_LOCALDIR", None)
+EXISTING: Final = os.getenv("FETCHPORTALS_EXISTING", "replace")
+MAX_RETRIES: Final = int(os.getenv("FETCHPORTALS_MAX_RETRIES", 3))
+TIMEOUT: Final = float(os.getenv("FETCHPORTALS_TIMEOUT", 10.0))
+LOG_LEVEL: Final = os.getenv("FETCHPORTALS_LOG_LEVEL", "warn")
+
+
 def main(
-    source: AcceptedSource = os.getenv("FETCHPORTALS_SOURCE", "census"),
-    mode: FetchMode = os.getenv("FETCHPORTALS_MODE", "ping"),
-    callback: Optional[AcceptedCallback] = os.getenv("FETCHPORTALS_CALLBACK"),
-    local_dir: Optional[PathLike] = os.getenv("FETCHPORTALS_LOCALDIR"),
-    existing: ExistingBehavior = os.getenv("FETCHPORTALS_EXISTING", "replace"),
-    max_retries: int = os.getenv("FETCHPORTALS_MAX_RETRIES", 3),
-    timeout: float = os.getenv("FETCHPORTALS_TIMEOUT", 10.0),
-    log_level: LogLevel = os.getenv("FETCHPORTALS_LOG_LEVEL", "warn"),
+    source: AcceptedSource = cast(AcceptedSource, SOURCE),
+    mode: FetchMode = cast(FetchMode, MODE),
+    callback: Optional[AcceptedCallback] = cast(
+        Optional[AcceptedCallback], CALLBACK
+    ),
+    local_dir: Optional[PathLike] = LOCAL_DIR,
+    existing: ExistingBehavior = cast(ExistingBehavior, EXISTING),
+    max_retries: int = MAX_RETRIES,
+    timeout: float = TIMEOUT,
+    log_level: LogLevel = cast(LogLevel, LOG_LEVEL),
 ) -> None:
     # init logs
     logging.basicConfig(format="%(asctime)s %(message)s", level=log_level)

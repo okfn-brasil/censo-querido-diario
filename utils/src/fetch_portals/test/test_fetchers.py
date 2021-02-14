@@ -8,10 +8,10 @@ import asyncio
 from typing import List, Set
 
 import pytest
-from httpx import URL
+from yarl import URL
 
 from ..fetchers import fetch_portals
-from ..models import Portal, PortalCapture, PortalList
+from ..models import IbgeCode, Portal, PortalCapture, PortalList
 
 
 @pytest.fixture
@@ -20,19 +20,20 @@ def example_portals() -> PortalList:
 
     # Altinho (PE)
     portal1: Portal = Portal(
-        ibge_code=2600807,
+        ibge_code=IbgeCode(2600807),
         url=URL(
             "http://netuse.inf.br/altinho_pm/portaltransparencia/index.php?"
             + "link=6"
         ),
     )
     portal2: Portal = Portal(
-        ibge_code=2600807, url=URL("http://www.diariomunicipal.com.br/amupe/")
+        ibge_code=IbgeCode(2600807),
+        url=URL("http://www.diariomunicipal.com.br/amupe/"),
     )
 
     # Alto Bela Vista (SC)
     portal3: Portal = Portal(
-        ibge_code=4200754,
+        ibge_code=IbgeCode(4200754),
         url=URL(
             "https://diariomunicipal.sc.gov.br/site/"
             + "?r=site/index&q=cod_entidade%3A13"
@@ -41,7 +42,7 @@ def example_portals() -> PortalList:
 
     # Anchieta (SC)
     portal4: Portal = Portal(
-        ibge_code=4200804,
+        ibge_code=IbgeCode(4200804),
         url=URL(
             "https://diariomunicipal.sc.gov.br/site/"
             + "?r=site/index&q=cod_entidade%3A14"
@@ -50,18 +51,18 @@ def example_portals() -> PortalList:
 
     # Angelim (PE)
     portal5: Portal = Portal(
-        ibge_code=2601003,
+        ibge_code=IbgeCode(2601003),
         url=URL("http://www.diariomunicipal.com.br/amupe/pesquisar"),
     )
     portal6 = Portal(
-        ibge_code=2601003,
+        ibge_code=IbgeCode(2601003),
         url=URL(
             "http://174.142.65.52:16444/transparencia/angelim/prefeitura/"
             + "legislacaomunicipal.faces"
         ),
     )
     portal7 = Portal(
-        ibge_code=2601003,
+        ibge_code=IbgeCode(2601003),
         url=URL(
             "http://174.142.65.52:16444/transparencia/angelim/prefeitura/"
             + "outrosatos.faces"

@@ -51,7 +51,9 @@ def get_portals_from_census() -> PortalList:
     # filter and process relevant data (cities geocodes and portal URLs)
     logging.debug("Processing portals information...")
     portals: List[Portal] = (
-        pd.wide_to_long(df_census, "fonte", i="IBGE7", j="fonte_num", sep="_")
+        pd.wide_to_long(  # type: ignore
+            df_census, "fonte", i="IBGE7", j="fonte_num", sep="_"
+        )
         .reset_index()
         .dropna()
         .apply(
@@ -67,6 +69,4 @@ def get_portals_from_census() -> PortalList:
         .to_list()
     )
 
-    portals = PortalList(portals)
-
-    return portals
+    return PortalList(portals)
