@@ -59,7 +59,7 @@ LOCAL_DIR: Final = os.getenv("FETCHPORTALS_LOCALDIR", None)
 EXISTING: Final = os.getenv("FETCHPORTALS_EXISTING", "replace")
 MAX_RETRIES: Final = int(os.getenv("FETCHPORTALS_MAX_RETRIES", 3))
 TIMEOUT: Final = float(os.getenv("FETCHPORTALS_TIMEOUT", 10.0))
-LOG_LEVEL: Final = os.getenv("FETCHPORTALS_LOG_LEVEL", "warn")
+LOG_LEVEL: Final = os.getenv("FETCHPORTALS_LOG_LEVEL", "warning")
 
 
 def main(
