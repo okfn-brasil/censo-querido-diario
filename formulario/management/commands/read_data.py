@@ -25,7 +25,7 @@ class Command(BaseCommand):
                         'uf': city['UF'],
                         'municipio': city['Município'],
                         'regiao': city['Região'],
-                        'populacao_2010': None if city['População 2010'] == '' else city['População 2010'],
+                        'populacao_2020': None if city['População 2020'] == '' else city['População 2020'],
                         'capital': city['Capital'] == 'Capital',
                     }
                     cities_list.append(Municipio(**kwargs))

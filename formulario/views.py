@@ -67,7 +67,7 @@ def mapped_cities(request):
 
     for city in cities:
         if city['mapeamento__tipo_arquivo']:
-            city['mapeamento__tipo_arquivo'] = Mapeamento.TIPOS_ARQUIVOS[city['mapeamento__tipo_arquivo']][1]
+            city['mapeamento__tipo_arquivo'] = Mapeamento.TIPOS_ARQUIVOS[city['mapeamento__tipo_arquivo']-1][1]
 
     # Pagination on interface
     paginator = Paginator(cities, 50)
@@ -104,7 +104,7 @@ def download_csv_data(request):
     lista = []
 
     # get data from database
-    mapeados = Mapeamento.objects.all().order_by('municipio')
+    mapeados = Mapeamento.objects.filter(validacao=True).order_by('municipio').distinct()
 
     for municipio in mapeados:
         lista.append([
@@ -113,7 +113,7 @@ def download_csv_data(request):
             smart_str(municipio.municipio.ibge7),
             smart_str(municipio.municipio.uf),
             smart_str(municipio.municipio.regiao),
-            smart_str(municipio.municipio.populacao_2010),
+            smart_str(municipio.municipio.populacao_2020),
             smart_str(municipio.municipio.capital),
             smart_str(municipio.fonte_1),
             smart_str(municipio.fonte_2),
@@ -129,7 +129,7 @@ def download_csv_data(request):
 
     # if chk is true, gets all municipios from Municipio table, excluding those that are in Mapeamento table
     if chk_cidades_sem_map:
-        nao_mapeados = Municipio.objects.exclude(id__in=mapeados).order_by('municipio')
+        nao_mapeados = Municipio.objects.exclude(mapeamento__id__in=mapeados).order_by('municipio')
         for municipio in nao_mapeados:
             lista.append([ smart_str(municipio.municipio) ])
 
@@ -145,7 +145,7 @@ def download_csv_data(request):
         smart_str(u"IBGE7"),
         smart_str(u"UF"),
         smart_str(u"regiao"),
-        smart_str(u"populacao_2010"),
+        smart_str(u"populacao_2020"),
         smart_str(u"eh_capital"),
         smart_str(u"fonte_1"),
         smart_str(u"fonte_2"),
