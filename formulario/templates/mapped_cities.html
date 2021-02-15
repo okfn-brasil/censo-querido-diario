@@ -111,17 +111,17 @@
 
               <!-- Lista de checkboxes -->
               <div class="include-only-mapped">
-                <input type="checkbox" name="myCheckbox" value="true" id="chk_cidades_map" onclick="selectOnlyThis(this); onlyMapped(this);">
+                <input type="checkbox" class="myCheckbox" name="chk_cidades_map" value="true" id="chk_cidades_map" onclick="selectOnlyThis(this); onlyMapped(this);">
                 <label for="chk_cidades_map">Baixar cidades mapeadas </label>
               </div>
 
               <div class="include-unmapped">
-                <input type="checkbox" name="myCheckbox" value="true" id="chk_cidades_sem_map" onclick="selectOnlyThis(this); unmapped(this);">
+                <input type="checkbox" class="myCheckbox" name="chk_cidades_sem_map" value="true" id="chk_cidades_sem_map" onclick="selectOnlyThis(this); unmapped(this);">
                 <label for="chk_cidades_sem_map">Incluir cidades sem mapeamento </label>
               </div>
 
               <div class="include-100k">
-                <input type="checkbox" name="myCheckbox" value="true" id="chk_cidades_100k" onclick="selectOnlyThis(this); cidades100k(this);">
+                <input type="checkbox" class="myCheckbox" name="chk_cidades_100k" value="true" id="chk_cidades_100k" onclick="selectOnlyThis(this); cidades100k(this);">
                 <label for="chk_cidades_100k">Baixar apenas cidades com mais de 100 mil habs.</label>
               </div>
               <!-- Lista de checkboxes -->
@@ -131,7 +131,7 @@
 
             <script>
               function selectOnlyThis(id){
-                var myCheckbox = document.getElementsByName("myCheckbox");
+                var myCheckbox = document.getElementsByClassName("myCheckbox");
                 Array.prototype.forEach.call(myCheckbox,function(el){
                   el.checked = false;
                   });
