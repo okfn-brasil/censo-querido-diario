@@ -91,6 +91,7 @@ def faq(request):
 def download_csv_data(request):
 
     chk_cidades_sem_map = request.POST.get('chk_cidades_sem_map')
+    chk_cidades_100k = request.POST.get('chk_cidades_100k')
 
     # response content type
     response = HttpResponse(content_type='text/csv')
@@ -103,8 +104,11 @@ def download_csv_data(request):
 
     lista = []
 
-    # get data from database
-    mapeados = Mapeamento.objects.filter(validacao=True).order_by('municipio').distinct()
+    if chk_cidades_100k:
+        mapeados = Mapeamento.objects.filter(municipio__populacao_2020__gt=100000,
+                                             validacao=True).order_by('municipio').distinct()
+    else:
+        mapeados = Mapeamento.objects.filter(validacao=True).order_by('municipio').distinct()
 
     for municipio in mapeados:
         lista.append([
