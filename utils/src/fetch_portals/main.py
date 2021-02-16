@@ -74,8 +74,12 @@ def main(
     timeout: float = TIMEOUT,
     log_level: LogLevel = cast(LogLevel, LOG_LEVEL),
 ) -> None:
+    """Main program entry point."""
     # init logs
-    logging.basicConfig(format="%(asctime)s %(message)s", level=log_level)
+    logging.basicConfig(
+        format="%(asctime)s %(message)s",
+        level=getattr(logging, log_level.upper())
+    )
 
     # get a list of portals
     if source == "census":
