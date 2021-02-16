@@ -207,7 +207,7 @@ class PortalList(UserList):
                             continue
 
                     # record answer if it is OK or exceeded max tries
-                    logging.info(str(response_status))
+                    logging.info(f"<{url}>: {message} ({response_status})")
                     responses.append(
                         {
                             "initial_url": url,
