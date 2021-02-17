@@ -1,0 +1,5 @@
+.env
+.venv
+local.settings.json
+__azurite*
+__pycache__

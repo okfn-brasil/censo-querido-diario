@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  fetch-portals:
+    build: 
+      context: .
+      dockerfile: fetch_portals.Dockerfile
+    volumes:
+      - ./cache:/usr/src/data
+    env_file: .env
+    environment:
+      - FETCHPORTALS_LOCALDIR=/usr/src/data
