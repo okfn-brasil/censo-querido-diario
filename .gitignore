@@ -129,11 +129,18 @@ dmypy.json
 .pyre/
 
 # Ignore
-.vscode/
+
 censo/bin/
 censo/include/
 censo/share/
 
 # Data
 notebooks/*.csv
+*.zip
+cache
 
+# Azure stuff
+.vscode
+__azurite*
+__blob*
+local.settings.json
