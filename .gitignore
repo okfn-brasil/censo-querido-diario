@@ -137,6 +137,7 @@ censo/share/
 # Data
 notebooks/*.csv
 *.zip
+cache
 
 # Azure stuff
 .vscode
