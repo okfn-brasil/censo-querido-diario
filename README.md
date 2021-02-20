@@ -2,15 +2,15 @@
 
 Temos um longo caminho pela frente. Afinal, precisamos libertar informações de 5.570 municípios. Para começar, queremos fazer um diagnóstico da situação atual dos diários oficiais, reunindo todos os links e os formatos utilizados pelas prefeituras para publicar as informações. 
 
-Descubra como colaborar com o mapeamento dos diários oficiais e a análise dos dados deste censo acessando o [Guia de Contribuição](CONTRIBUTING.md){:target="_blank}.
+Descubra como colaborar com o mapeamento dos diários oficiais e a análise dos dados deste censo acessando o [Guia de Contribuição](CONTRIBUTING.md).
 
 ## Requirements
 
-* [Django](https://www.djangoproject.com/){:target="_blank}
-* [Git](http://git-scm.com/){:target="_blank}
-* [Python](https://www.python.org/){:target="_blank}
-* [Pip](http://www.pip-installer.org/en/latest/){:target="_blank}
-* [Virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/){:target="_blank}
+* [Django](https://www.djangoproject.com/)
+* [Git](http://git-scm.com/)
+* [Python](https://www.python.org/)
+* [Pip](http://www.pip-installer.org/en/latest/)
+* [Virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/)
 
 ## Configuração de Ambiente
 
