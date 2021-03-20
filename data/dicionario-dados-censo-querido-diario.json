@@ -1,0 +1,144 @@
+{ 
+    "metadados":{ 
+        "titulo": "Censo de diários oficiais do poder executivo em cidades com mais de 100 mil habitantes", 
+        "descricao":"Dados coletados durante o mapeamento de diários oficiais municipais do poder executivo em versão eletrônica",
+        "responsavel_dados": "Open Knowledge Brasil", 
+        "fonte_dados": "https://censo.ok.org.br/andamento/",  
+        "etiquetas":"Diário oficial, Municipio, Poder executivo", 
+        "granularidade":"municipio",
+        "licenca":[
+            {             
+                "titulo":"",
+                "endereço":""
+            }
+        ] 
+    }, 
+    "recursos": [
+        { 
+            "titulo": "base_mapeamento", 
+            "identificador": "", 
+            "formato": "csv", 
+            "campos": [ 
+                {
+                    "codigo": "municipio", 
+                    "descricao": "Municípios com mais de 100 mil habitantes",
+                    "tipo": "str", 
+                    "tamanho": 128,            
+                    "valores_permitidos": ""
+                },
+                {
+                    "codigo": "IBGE", 
+                    "descricao": "Código identificador do município no IBGE sem o dígito verificador",
+                    "tipo": "int", 
+                    "tamanho": 6,            
+                    "valores_permitidos": ""
+                },
+                {
+                    "codigo": "IBGE7", 
+                    "descricao": "Código identificador do município no IBGE com o dígito verificador",
+                    "tipo": "int", 
+                    "tamanho": 7,            
+                    "valores_permitidos": ""
+                },
+                {
+                    "codigo": "UF", 
+                    "descricao": "Sigla do estado",
+                    "tipo": "str", 
+                    "tamanho": 2,            
+                    "valores_permitidos": ""
+                }
+                {
+                    "codigo": "regiao", 
+                    "descricao": "Região socio econômica brasileira",
+                    "tipo": "str", 
+                    "tamanho": 15,            
+                    "valores_permitidos": ["Centro-Oeste", "Nordeste", "Norte", "Sudeste", "Sul"]
+                },
+                {
+                    "codigo": "populacao_2020", 
+                    "descricao": "Estimativa populacional do IBGE para o ano 2020",
+                    "tipo": "int", 
+                    "tamanho": 8,            
+                    "valores_permitidos": ""
+                },
+                {
+                    "codigo": "eh_capital", 
+                    "descricao": "Identifica municipios que são capitais",
+                    "tipo": "bool", 
+                    "tamanho": 1,            
+                    "valores_permitidos": ["True", "False"]
+                },
+                {
+                    "codigo": "fonte_1", 
+                    "descricao": "URL da fonte principal de publicação do diário oficial",
+                    "tipo": "str", 
+                    "tamanho": 200,            
+                    "valores_permitidos": ""
+                }
+                {
+                    "codigo": "fonte_2", 
+                    "descricao": "URL de fonte alternativa de publicação do diário oficial",
+                    "tipo": "str", 
+                    "tamanho": 200,            
+                    "valores_permitidos": ""
+                },
+                {
+                    "codigo": "fonte_3", 
+                    "descricao": "URL de fonte alternativa de publicação do diário oficial",
+                    "tipo": "str", 
+                    "tamanho": 200,            
+                    "valores_permitidos": ""
+                },
+                {
+                    "codigo": "fonte_4", 
+                    "descricao": "URL de fonte alternativa de publicação do diário oficial",
+                    "tipo": "str", 
+                    "tamanho": 200,            
+                    "valores_permitidos": ""
+                },
+                {
+                    "codigo": "is_online", 
+                    "descricao": "Identifica a publicação de diários oficiais em meio eletrônico e indexado na internet",
+                    "tipo": "int", 
+                    "tamanho": 1,            
+                    "valores_permitidos": [1, 2, 3]
+                },
+                {
+                    "codigo": "data_inicial", 
+                    "descricao": "Data do primeiro diário oficial localizado na fonte de informação",
+                    "tipo": "date", 
+                    "tamanho": 10,            
+                    "valores_permitidos": ""
+                }
+                {
+                    "codigo": "tipo_arquivo", 
+                    "descricao": "Tipo de arquivo do diário oficial",
+                    "tipo": "str", 
+                    "tamanho": 13,            
+                    "valores_permitidos": ["PDF texto", "PDF imagem", "DOCX", "HTML", "TXT", "Outro formato"]
+                },
+                {
+                    "codigo": "validacao", 
+                    "descricao": "Identifica validação de dados pela equipe de voluntárias do projeto Querido Diário",
+                    "tipo": "bool", 
+                    "tamanho": 1,            
+                    "valores_permitidos": ["True", "False"]
+                },
+                {
+                    "codigo": "navegacao",
+                    "descricao": "Nota para avaliação da navegabilidade do site onde são publicados os diários oficiais",
+                    "tipo": "int", 
+                    "tamanho": "",            
+                    "valores_permitidos": ""
+                },
+                {
+                    "codigo": "observacoes", 
+                    "descricao": "Notas gerais realizadas pela validadora dos dados",
+                    "tipo": "str", 
+                    "tamanho": 255,            
+                    "valores_permitidos": ""
+                }
+            ] 
+        }
+    ]
+}
