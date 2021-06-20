@@ -228,14 +228,14 @@ button:focus {
 
 .box-download{
     max-width: 60%;
-    margin: auto;    
+    margin: auto;      
 }
 
 .form-download{
     text-align: center;
     background-color: #4f2691;
-    padding-top: 15px;
-    padding-bottom: 15px;       
+    display: flex;
+    padding: 10px;    
 }
 
 .btn-group{
@@ -243,16 +243,41 @@ button:focus {
     margin-right: 5px;
 }
 
+.include-only-mapped, .include-unmapped, .include-100k {
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+input .checkbox {
+    display: inline;
+}
+
+.checkbox-label {
+    display: inline-block;
+}
+
+.check-list {
+    text-align: left;
+    margin: auto;
+}
+
+.check-download {
+    margin: auto;
+}
+
 .btn-download{
-    background-color: #966be8;
-    margin-right: 15px;
+    background-color: #966be8;    
 }
 
 .btn-download:hover{
     background-color: #fff;
-    color:#966be8;
-    margin-right: 15px;
+    color:#966be8;    
 } 
+
+.btn-download:disabled {
+    opacity: 0.45; 
+}
 
 .include-mapped {          
     display: flex;
@@ -321,6 +346,18 @@ ul {
     }
     .page-link{
         padding: 5px;
+    }
+    .form-download {
+        display: inline-block;
+    }
+    .include-only-mapped, .include-unmapped, .include-100k {
+        margin-right: 0;
+    }
+    .check-list {
+        text-align: center;
+    }
+    .check-download {
+        padding-top: 10px;
     }
 }
 
@@ -448,9 +485,6 @@ ul {
     }
     .navbar-style{
         font-size: 0.9rem;
-    }
-    .box-download {
-        max-width: 70%;
     }
     .banner-catarse img {
         width: 50%;

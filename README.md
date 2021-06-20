@@ -1,6 +1,8 @@
 # censo-querido-diario
 
-Temos um longo caminho pela frente. Afinal, precisamos libertar informações de 5.570 municípios. Para começar, queremos fazer um diagnóstico da situação atual dos diários oficiais, reunindo todos os links e os formatos utilizados pelas prefeituras para publicar as informações.
+Temos um longo caminho pela frente. Afinal, precisamos libertar informações de 5.570 municípios. Para começar, queremos fazer um diagnóstico da situação atual dos diários oficiais, reunindo todos os links e os formatos utilizados pelas prefeituras para publicar as informações. 
+
+Descubra como colaborar com o mapeamento dos diários oficiais e a análise dos dados deste censo acessando o [Guia de Contribuição](CONTRIBUTING.md).
 
 ## Requirements
 
