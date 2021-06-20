@@ -108,12 +108,61 @@
           {% if context == 'Brasil' %}
           <div class='box-download'>
             <form action="{% url 'get_data' %}" method="POST" class="form-download">{% csrf_token %}
-              <button type="submit" class="btn btn-region btn-download">Baixar dados</button>
-              <div class="include-mapped">
-                <input type="checkbox" name="chk_cidades_sem_map" value="true" id="chk_cidades_sem_map">
-                <label for="chk_cidades_sem_map"> Incluir cidades sem mapeamento </label>
+
+              <!-- Lista de checkboxes -->
+              <div class="check-list">
+              <div class="include-only-mapped">
+                <input type="checkbox" class="myCheckbox" name="chk_cidades_map" value="true" id="chk_cidades_map" onclick="selectOnlyThis(this); onlyMapped(this);">
+                <label class="checkbox-label" for="chk_cidades_map">Baixar cidades mapeadas </label>
               </div>
+
+              <div class="include-unmapped">
+                <input type="checkbox" class="myCheckbox" name="chk_cidades_sem_map" value="true" id="chk_cidades_sem_map" onclick="selectOnlyThis(this); unmapped(this);">
+                <label class="checkbox-label" for="chk_cidades_sem_map">Incluir cidades sem mapeamento </label>
+              </div>
+
+              <div class="include-100k">
+                <input type="checkbox" class="myCheckbox" name="chk_cidades_100k" value="true" id="chk_cidades_100k" onclick="selectOnlyThis(this); cidades100k(this);">
+                <label class="checkbox-label" for="chk_cidades_100k">Baixar apenas cidades com mais de 100 mil habs.</label>
+              </div>
+            </div>
+              <!-- Lista de checkboxes -->
+              <div class="check-download">
+              <button type="submit" class="btn btn-region btn-download" id="btn-download" disabled>Baixar dados</button>
+            </div>
             </form>
+
+            <script>
+              function selectOnlyThis(id){
+                var myCheckbox = document.getElementsByClassName("myCheckbox");
+                Array.prototype.forEach.call(myCheckbox,function(el){
+                  el.checked = false;
+                  });
+                  id.checked = true;
+              }
+         
+              function onlyMapped(onlyMappedCheckbox){
+                if(onlyMappedCheckbox.checked){
+                  document.getElementById("btn-download").disabled = false;
+                } else {
+                  document.getElementById("btn-download").disabled = true;
+                } 
+              }
+              function unmapped(unmappedCheckbox){
+                if(unmappedCheckbox.checked){
+                  document.getElementById("btn-download").disabled = false;
+                } else {
+                  document.getElementById("btn-download").disabled = true;
+                } 
+              }
+              function cidades100k(cidades100kCheckbox){
+                if(cidades100kCheckbox.checked){
+                  document.getElementById("btn-download").disabled = false;
+                } else {
+                  document.getElementById("btn-download").disabled = true;
+                } 
+              }
+            </script>
           </div>
           {% endif %}
         </div>
