@@ -144,3 +144,7 @@ cache
 __azurite*
 __blob*
 local.settings.json
+
+# Geckodriver
+geckodriver
+geckodriver*
