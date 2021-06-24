@@ -22,6 +22,11 @@ $ pip install -r requirements.txt
 ```
 
 ### Carregado os dados
+
+Altere o valor da variável `SECRET_KEY` no arquivo `./censo/settings.py` para um valor aleatório.
+
+Gere as migrations e importe os dados.
+
 ```
 $ python manage.py migrate
 $ python manage.py read_data --file data/municipal_data.csv
