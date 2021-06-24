@@ -3,9 +3,11 @@ version: '3'
 services:
   web:
     build: .
-    command: bash -c "python censo/manage.py makemigrations && python censo/manage.py migrate && python censo/manage.py runserver 0.0.0.0:8000"
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py read_data --file /data/municipal_data.csv && python manage.py runserver 0.0.0.0:8000"
     container_name: censo
     volumes:
-      - .:/censo
+      - ./data/municipal_data.csv:/data/municipal_data.csv:ro
+    environment:
+      - SECRET_KEY=temporary-secret-key-to-generate-staticfiles
     ports:
       - "8000:8000"

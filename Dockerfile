@@ -1,4 +1,4 @@
-FROM python:3.7.2-alpine
+FROM python:3.7.2
 
 ENV PYTHONBREAKPOINT=ipdb.set_trace
 ENV SECRET_KEY=temporary-secret-key-to-generate-staticfiles
@@ -11,8 +11,8 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # set environment variables
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
 COPY . .
 
