@@ -1,0 +1,404 @@
+﻿municipio,IBGE,IBGE7,UF,regiao,populacao_2020,eh_capital,fonte_1,fonte_2,fonte_3,fonte_4,is_online,data_inicial,tipo_arquivo,validacao,navegacao,observacoes
+Abaetetuba (PA),150010,1500107,PA,Região Norte,159080,False,http://www.diariomunicipal.com.br/famep/pesquisar?busca_avancada%5B__paper%5D=1&busca_avancada%5BentidadeUsuaria%5D=25873&busca_avancada%5Bnome_orgao%5D=&busca_avancada%5Btitulo%5D=&busca_avancada%5Bt,None,None,None,1,2016-06-30,HTML,True,None,
+Abreu e Lima (PE),260005,2600054,PE,Região Nordeste,100346,False,http://www.diariomunicipal.com.br/amupe/,None,None,None,1,2013-06-19,PDF texto,True,None,"O Diário Oficial do município de Abreu e Lima - PE integra o portal dos Diário Oficiais dos Municípios de Pernambuco. Para encontrar determinado ato que não esteja na última edição que reúne as outras cidades, o cidadão precisa ir até a aba ""arquivo de publicações""  e buscar o ato até encontrá-lo por meio de datas ou palavras-chave."
+Alagoinhas (BA),290070,2900702,BA,Região Nordeste,152327,False,https://doem.org.br/ba/alagoinhas,None,None,None,1,2015-01-28,PDF texto,True,None,None
+Almirante Tamandaré (PR),410040,4100400,PR,Região Sul,120041,False,http://www.diariomunicipal.com.br/amp/pesquisar?busca_avancada%5BentidadeUsuaria%5D=10741,None,None,None,1,2014-01-08,HTML,True,None,
+Altamira (PA),150060,1500602,PA,Região Norte,115969,False,http://altamira.pa.gov.br/site/download-category/diario-oficial/,None,None,None,1,2013-05-11,PDF imagem,True,None,
+Alvorada (RS),430060,4300604,RS,Região Sul,211352,False,http://www.diariomunicipal.com.br/famurs/pesquisar,None,None,None,1,2016-06-14,HTML,True,None,
+Americana (SP),350160,3501608,SP,Região Sudeste,242018,False,https://diariooficial.americana.sp.gov.br/diario-oficial-index.php,None,None,None,1,2018-09-13,PDF texto,True,None,None
+Ananindeua (PA),150080,1500800,PA,Região Norte,535547,False,http://www.ananindeua.pa.gov.br/diario/,None,None,None,1,2008-01-10,PDF texto,True,None,
+Angra Dos Reis (RJ),330010,3300100,RJ,Região Sudeste,207044,False,http://angra.rj.gov.br/boletim-oficial.asp?indexsigla=imp,None,None,None,1,2005-03-11,PDF texto,True,None,None
+Anápolis (GO),520110,5201108,GO,Região Centro-Oeste,391772,False,http://www.diario.anapolis.go.gov.br:8124/dowebans/page/diarioOficial.jsf,None,None,None,1,2010-05-31,PDF texto,True,None,
+Aparecida de Goiânia (GO),520140,5201405,GO,Região Centro-Oeste,590146,False,https://doe.aparecida.go.gov.br,None,None,None,1,2015-11-02,PDF texto,True,None,
+Apucarana (PR),410140,4101408,PR,Região Sul,136234,False,http://sys.apucarana.pr.gov.br/apucarana-pr/FWLocal/diario_oficial/,None,None,None,1,2008-09-24,DOCX,True,None,"Caso em que o portal está na borda do que consideraríamos um diário oficial, no conceito adotado no Censo. Todos os atos estão agrupados em um mesmo local, com uma coluna de data e possibilidade de aplicar filtros. Mas não há uma separação ""por edição""."
+Aracaju (SE),280030,2800308,SE,Região Nordeste,664908,True,http://sga.aracaju.se.gov.br:5011/legislacao/faces/diario_form_pesq.jsp,None,None,None,1,1991-01-07,PDF imagem,True,None,
+Aracruz (ES),320060,3200607,ES,Região Sudeste,103101,False,None,https://diariomunicipal.es.gov.br/?r=site/index&q=+entidade%3A%22Prefeitura+de+Aracruz%22,None,None,1,2014-09-04,HTML,True,None,
+Araguari (MG),310350,3103504,MG,Região Sudeste,117825,False,https://www.araguari.mg.gov.br/correio,None,None,None,1,2019-04-05,PDF texto,True,None,
+Araguaína (TO),170210,1702109,TO,Região Norte,183381,False,https://diariooficial.araguaina.to.gov.br/,None,None,None,1,2011-12-06,PDF texto,True,None,None
+Arapiraca (AL),270030,2700300,AL,Região Nordeste,233047,False,http://www.diariomunicipal.com.br/ama/pesquisar,None,None,None,1,2016-02-15,PDF texto,True,None,"Tal qual outros municípios alagoanos, o DO de Arapiraca está disponível no portal mantido pela Associação dos Municípios Alagoanos. Sendo assim, infelizmente, não é possível saber o primeiro dia que o DO online de Arapiraca esteve disponivel no portal, uma vez que a busca seria feita de maneira manual."
+Arapongas (PR),410150,4101507,PR,Região Sul,124810,False,https://www.arapongas.pr.gov.br/diario,None,None,None,1,2009-02-11,PDF texto,True,None,
+Araraquara (SP),350320,3503208,SP,Região Sudeste,238339,False,http://www.araraquara.sp.gov.br/governo/atos-oficiais,http://www.araraquara.sp.gov.br/governo/atos-oficiais/atos-em-pdf/,None,None,1,2019-01-31,PDF texto,True,None,
+Araras (SP),350330,3503307,SP,Região Sudeste,135506,False,None,https://publicacoesmunicipais.com.br/eatos/araras,None,None,1,2014-08-07,PDF texto,True,None,
+Araruama (RJ),330020,3300209,RJ,Região Sudeste,134293,False,http://www.ioerj.com.br/portal/modules/conteudoonline/busca_do.php?acao=busca,None,None,None,1,2006-06-26,PDF texto,True,None,
+Araucária (PR),410180,4101804,PR,Região Sul,146214,False,https://araucaria.atende.net/?pg=diariooficial,None,None,None,1,2018-12-19,HTML,True,None,
+Araxá (MG),310400,3104007,MG,Região Sudeste,107337,False,http://araxa.mg.gov.br/doma,None,None,None,1,2014-03-27,PDF texto,True,None,
+Araçatuba (SP),350280,3502804,SP,Região Sudeste,198129,False,https://imprensaoficialmunicipal.com.br/aracatuba,None,None,None,1,2020-04-22,PDF texto,True,None,
+Ariquemes (RO),110002,1100023,RO,Região Norte,109523,False,None,http://www.diariomunicipal.com.br/arom/pesquisar?busca_avancada%5B__paper%5D=1&busca_avancada%5BentidadeUsuaria%5D=1211,None,None,1,2010-09-29,HTML,True,None,
+Assis (SP),350400,3504008,SP,Região Sudeste,105087,False,https://www.gdoe.com.br/assis/,https://www.assis.sp.gov.br/diario/,None,None,1,2012-01-04,PDF imagem,True,None,"As versões antigas (fonte secundária) são PDF texto, mas a nova versão (a partir de 2017) se tornou predominantemente PDF imagem."
+Atibaia (SP),350410,3504107,SP,Região Sudeste,144088,False,http://prefeituradeatibaia.com.br/imprensa/,None,None,None,1,2002-07-20,PDF texto,True,None,
+Açailândia (MA),210005,2100055,MA,Região Nordeste,113121,False,http://www.acailandia.ma.gov.br/diariooficial,None,None,None,1,2015-11-30,PDF texto,True,None,
+Bacabal (MA),210120,2101202,MA,Região Nordeste,104790,False,https://dom.bacabalma.com.br/index.php,None,None,None,1,2017-02-08,PDF texto,True,None,
+Bagé (RS),430160,4301602,RS,Região Sul,121335,False,https://www.diariooficial.rs.gov.br,None,None,None,1,2017-11-14,PDF texto,True,None,"Publica no Diário Oficial do Estado do Rio Grande do Sul.
+
+A ouvidoria do munícipio também informou que mantem os atos oficiais na seção ""mural"" do site da prefeitura: https://www.bage.rs.gov.br/index.php/mural"
+Balneário Camboriú (SC),420200,4202008,SC,Região Sul,145796,False,https://www.diariomunicipal.sc.gov.br/site/?q=cod_entidade%3A31,None,None,None,1,2020-03-02,PDF texto,True,None,
+Barbacena (MG),310560,3105608,MG,Região Sudeste,138204,False,http://barbacena.mg.gov.br/edob.php,None,None,None,1,2013-01-28,PDF texto,True,None,
+Barcarena (PA),150130,1501303,PA,Região Norte,127027,False,http://www.diariomunicipal.com.br/famep/pesquisar,None,None,None,1,2014-01-31,PDF texto,True,0.0,"Página HTML com campos de busca, reúne vários munícipios no campo municipio/entidades"
+Barra Mansa (RJ),330040,3300407,RJ,Região Sudeste,184833,False,https://portaltransparencia.barramansa.rj.gov.br/boletim-oficial/,None,None,None,1,2018-01-03,PDF texto,True,None,
+Barra do Piraí (RJ),330030,3300308,RJ,Região Sudeste,100764,False,https://www.barradopirai.rj.gov.br/portal/index.php?option=com_content&view=article&id=97&Itemid=158,None,None,None,1,2009-01-07,PDF imagem,True,None,"(Taís) O diário possui registros totalmente ilegíveis, como o do dia 07/01/2009 (http://transparencia.portalbarradopirai.com.br/images/boletim/2009/222%20-%20Data%20%2007-01.pdf). Porém, a qualidade melhorou nos registros mais recentes."
+Barreiras (BA),290320,2903201,BA,Região Nordeste,156975,False,https://barreiras.ba.gov.br/diario-oficial/,None,None,None,1,2008-01-02,PDF imagem,True,None,None
+Barretos (SP),350550,3505500,SP,Região Sudeste,122833,False,https://www.barretos.sp.gov.br/jornal,None,None,None,1,2008-12-17,PDF texto,True,None,
+Barueri (SP),350570,3505708,SP,Região Sudeste,276982,False,https://portal.barueri.sp.gov.br/diario,None,None,None,1,2010-01-06,PDF imagem,True,None,None
+Bauru (SP),350600,3506003,SP,Região Sudeste,379297,False,https://www2.bauru.sp.gov.br/juridico/diariooficial.aspx,None,None,None,1,2002-12-04,PDF texto,True,None,None
+Belford Roxo (RJ),330045,3300456,RJ,Região Sudeste,513118,False,https://www.noticiasdebelfordroxo.com/p/atos-oficiais-da-prefeitura-de-broxo.html,https://prefeituradebelfordroxo.rj.gov.br/atos-oficiais/,None,None,1,2012-06-02,PDF texto,True,None,Site oficial fora do ar na ocasião da validação. Adicionado endereço do portal de notícias local que publica os atos oficiais.
+Belo Horizonte (MG),310620,3106200,MG,Região Sudeste,2521564,True,http://portal6.pbh.gov.br/dom/iniciaEdicao.do?method=DomDia,None,None,None,1,1996-01-04,PDF texto,True,None,
+Belém (PA),150140,1501402,PA,Região Norte,1499641,True,http://sistemas.belem.pa.gov.br/diario/painel,None,None,None,1,2005-02-01,PDF texto,True,None,
+Bento Gonçalves (RS),430210,4302105,RS,Região Sul,121803,False,http://www.bentogoncalves.rs.gov.br/diario-oficial/,None,None,None,1,2014-09-19,PDF texto,True,None,
+Betim (MG),310670,3106705,MG,Região Sudeste,444784,False,http://www.betim.mg.gov.br/orgaooficial/,None,None,None,1,2008-01-11,PDF texto,True,None,
+Birigui (SP),350650,3506508,SP,Região Sudeste,124883,False,https://imprensaoficialmunicipal.com.br/birigui/,None,None,None,1,2016-12-28,PDF texto,True,None,None
+Blumenau (SC),420240,4202404,SC,Região Sul,361855,False,https://diariomunicipal.sc.gov.br/site/?r=site/index&q=+entidade%3A%22Prefeitura+municipal+de+Blumenau%22,None,None,None,1,2014-09-19,HTML,True,None,
+Boa Vista (RR),140010,1400100,RR,Região Norte,419652,True,https://www.boavista.rr.gov.br/diario-oficial,None,None,None,1,2011-01-03,PDF texto,True,None,
+Botucatu (SP),350750,3507506,SP,Região Sudeste,148130,False,https://imprensaoficialmunicipal.com.br/botucatu,None,None,None,1,2018-02-23,PDF texto,True,None,None
+Bragança (PA),150170,1501709,PA,Região Norte,128914,False,http://www.diariomunicipal.com.br/famep/pesquisar?busca_avancada%5BentidadeUsuaria%5D=99893,http://www.ioepa.com.br/pesquisa/?q=%22Prefeitura%20Municipal%20de%20Bragan%C3%A7a%22&di=00010101&df=20991201,None,None,1,2018-04-18,HTML,True,None,"Os atos publicados no Diário Oficial dos Municípios do Pará, da Federação dos Municípios do Pará (FAMEP), são disponibilizados em HTML e cobrem o período desde 18/04/2018 até hoje. (FONTE 1)
+
+Os atos publicados no Diário Oficial do Estado do Pará, da Imprensa Oficial do Estado do Pará, são disponibilizados em PDF e cobrem o período de 20/02/2008 até 01/10/2020. (FONTE 2)"
+Bragança Paulista (SP),350760,3507605,SP,Região Sudeste,170533,False,https://imprensaoficialmunicipal.com.br/braganca_paulista,None,None,None,1,2019-01-04,PDF texto,True,None,
+Brasília (DF),530010,5300108,DF,Região Centro-Oeste,3055149,True,http://www.buriti.df.gov.br/ftp/,http://www.dodf.df.gov.br/,None,None,1,2001-10-01,PDF texto,True,None,None
+Breves (PA),150180,1501808,PA,Região Norte,103497,False,http://www.ioepa.com.br/pesquisa/?q=%22PREFEITURA%20MUNICIPAL%20DE%20BREVES%22&di=00010101&df=20991231,http://www.diariomunicipal.com.br/famep/pesquisar?busca_avancada[entidadeUsuaria]=3618,None,None,1,2008-01-02,PDF texto,True,None,"Publicado como seção no Diário Oficial do Pará.
+
+Entre 01/03/2012 e 27/06/2018, publicou também no Diário Oficial dos Municípios do Estado do Pará, mantido pela Federação de Asssociações de Municípios do Estado do Pará."
+Brusque (SC),420290,4202909,SC,Região Sul,137689,False,https://diariomunicipal.sc.gov.br/site/?r=site/index&q=cod_entidade%3A52,None,None,None,1,2014-01-17,PDF texto,True,None,
+Cabo Frio (RJ),330070,3300704,RJ,Região Sudeste,230378,False,http://rj.portaldatransparencia.com.br/prefeitura/cabofrio/?pagina=dop&frompage=1&StartRow=31,None,None,None,1,2020-07-29,PDF texto,True,None,A ementa dos atos oficiais é publicada em HTML na página com as edições do Diário Oficial.
+Cabo de Santo Agostinho (PE),260290,2602902,PE,Região Nordeste,208944,False,http://www.diariomunicipal.com.br/amupe/pesquisar?busca_avancada[entidadeUsuaria]=4602,None,None,None,1,2012-04-24,HTML,True,None,
+Cachoeirinha (RS),430310,4303103,RS,Região Sul,131240,False,https://cachoeirinha.atende.net/#!/tipo/pagina/valor/345,https://cachoeirinha.atende.net/?pg=diariooficial,None,None,1,2013-05-15,PDF texto,True,None,"Há uma mensagem na página da prefeitura que, em breve, o url oficial para o DOM será endereço cadastrad na fonte 2 quando acabarem de aprimorar o site. Por enquanto, está na fonte 1."
+Cachoeiro de Itapemirim (ES),320120,3201209,ES,Região Sudeste,210589,False,https://prefeitura.cachoeiro.es.gov.br/servicos/site.php?nomePagina=DIARIO,None,None,None,1,2000-02-02,PDF texto,True,None,
+Caieiras (SP),350900,3509007,SP,Região Sudeste,102775,False,https://caieiras.sp.gov.br/?id=imprensa-oficial,None,None,None,1,2009-11-30,PDF texto,True,None,
+Camaragibe (PE),260345,2603454,PE,Região Nordeste,158899,False,http://www.diariomunicipal.com.br/amupe/pesquisar?busca_avancada[entidadeUsuaria]=8729,None,None,None,1,2013-05-15,HTML,True,None,
+Camaçari (BA),290570,2905701,BA,Região Nordeste,304302,False,http://www.camacari.ba.gov.br/arquivos/diario-oficial/,None,None,None,1,2007-09-08,PDF imagem,True,None,None
+Cambé (PR),410370,4103701,PR,Região Sul,107341,False,http://jornaloficial.cambe.pr.gov.br:8080/JornalOficial/,None,None,None,1,2018-05-16,PDF texto,True,None,
+Cametá (PA),150210,1502103,PA,Região Norte,139364,False,http://www.diariomunicipal.com.br/famep/pesquisar?busca_avancada[__paper]=12&busca_avancada[entidadeUsuaria]=587006,http://www.ioepa.com.br/pesquisa/?q=%22PREFEITURA%20MUNICIPAL%20DE%20CAMET%C3%81%22&di=00010101&df=20991231,https://prefeituradecameta.pa.gov.br/categoria/atos-oficiais/,None,1,2008-01-09,HTML,True,None,"Parece estar publicando no site da Federação de Associações de Municípios do Estado do Pará (FAMEP) desde 17/09/2020.
+
+Até 26/08/2020, publicava como uma seção do Diário Oficial do Estado."
+Campina Grande (PB),250400,2504009,PB,Região Nordeste,411807,False,https://campinagrande.pb.gov.br/semanario-oficial/,None,None,None,1,2018-12-03,PDF texto,True,None,None
+Campinas (SP),350950,3509502,SP,Região Sudeste,1213792,False,http://www.campinas.sp.gov.br/diario-oficial/,None,None,None,1,1995-01-05,PDF texto,True,None,None
+Campo Grande (MS),500270,5002704,MS,Região Centro-Oeste,906092,True,http://portal.capital.ms.gov.br/diogrande,None,None,None,1,1988-01-09,PDF imagem,True,None,
+Campo Largo (PR),410420,4104204,PR,Região Sul,133865,False,http://acervo.maven.com.br/pub/diariocampolargo/?flip=acervo,None,None,None,1,2006-01-20,PDF texto,True,None,"A exibição padrão no site é PDF imagem, mas há um botão para gerar um PDF (texto) para download."
+Campos Dos Goytacazes (RJ),330100,3301009,RJ,Região Sudeste,511168,False,https://www.campos.rj.gov.br/diario-oficial.php,http://www.ioerj.com.br/portal/modules/conteudoonline/busca_do.php,None,None,1,2010-06-10,PDF texto,True,None,"Além do diário oficial da página da prefeitura, também há publicações na seção ""Municipalidades"" do diário oficial do estado."
+Canoas (RS),430460,4304606,RS,Região Sul,348208,False,https://sistemas.canoas.rs.gov.br/domc/publicacoes-por-data,None,None,None,1,2018-05-29,PDF texto,True,None,
+Caraguatatuba (SP),351050,3510500,SP,Região Sudeste,123389,False,http://www.caraguatatuba.sp.gov.br/pmc/category/diario-oficial/,None,None,None,1,2017-06-20,PDF texto,True,None,
+Carapicuíba (SP),351060,3510609,SP,Região Sudeste,403183,False,http://www.carapicuiba.sp.gov.br/index.php/carapicuiba/atos-oficiais/21-DiarioOficial,None,None,None,1,2018-02-21,PDF texto,True,None,
+Cariacica (ES),320130,3201308,ES,Região Sudeste,383917,False,https://www.cariacica.es.gov.br/publicacoes/diario-oficial,None,None,None,1,2014-07-01,PDF texto,True,None,
+Caruaru (PE),260410,2604106,PE,Região Nordeste,365278,False,http://diario-oficial.caruaru.pe.gov.br/,None,None,None,1,2011-12-07,PDF texto,True,None,
+Cascavel (PR),410480,4104808,PR,Região Sul,332333,False,http://www.cascavel.pr.gov.br/servicos/orgao_oficial.php,None,None,None,1,2009-05-25,PDF imagem,True,None,O Diário Oficial de Cascavel é dividido em cadernos. Não em um documento com todos os atos.
+Castanhal (PA),150240,1502400,PA,Região Norte,203251,False,http://www.castanhal.pa.gov.br/cidadao/#DiarioOficial,None,None,None,1,2012-01-13,PDF texto,True,None,
+Catalão (GO),520510,5205109,GO,Região Centro-Oeste,110983,False,http://diariooficial.abc.go.gov.br/buscanova/#/q=PREFEITURA%20MUNICIPAL%20DE%20CATAL%C3%83O,None,None,None,1,2007-11-13,PDF texto,True,None,
+Catanduva (SP),351110,3511102,SP,Região Sudeste,122497,False,https://www.govbrdioenet.com.br/list/catanduva,None,None,None,1,2016-03-18,PDF texto,True,None,
+Caucaia (CE),230370,2303709,CE,Região Nordeste,365212,False,http://www.caucaia.ce.gov.br/index.php?tabela=pagina&acao=diario_buscar_data,None,None,None,1,2002-06-03,PDF texto,True,None,None
+Caxias (MA),210300,2103000,MA,Região Nordeste,165525,False,http://caxias.ma.gov.br/diario-oficial-do-municipio/,None,None,None,1,2017-03-15,PDF texto,True,None,
+Caxias do Sul (RS),430510,4305108,RS,Região Sul,517451,False,https://doe.caxias.rs.gov.br/,None,None,None,1,2016-05-02,PDF texto,True,None,
+Chapecó (SC),420420,4204202,SC,Região Sul,224013,False,https://www.diariomunicipal.sc.gov.br/site/?r=site/index&q=+entidade%3A%22Prefeitura+municipal+de+Chapec%C3%B3%22,None,None,None,1,2015-10-01,HTML,True,None,
+Codó (MA),210330,2103307,MA,Região Nordeste,123116,False,https://www.diariooficial.ma.gov.br/public/index.xhtml,https://dom.codo.ma.gov.br/,None,None,1,2001-12-17,PDF texto,True,None,"Há uma interface de um diário oficial municipal (FONTE 2), mas o único conteúdo retornado por uma busca genérica (letra ""a"") são alguns decretos municipais. Há até uma lista de links dos ""últimos diários"", mas esses links apenas retornam (uma versão quebrada d)a mesma página de busca.
+
+Por outro lado, o município parece publicar frequentemente no Diário Oficial do Estado do Maranhão (FONTE 1). Para identificar as publicações do município, preencher o formulário de busca com o caderno ""Terceiros"" e o termo de pesquisa ""Prefeitura Municipal de Codó"" (com aspas)."
+Colatina (ES),320150,3201506,ES,Região Sudeste,123400,False,https://diariomunicipal.es.gov.br/?r=site/index&q=cod_entidade%3A19,http://www.colatina.es.gov.br/atosoficiais/,None,None,1,2005-01-28,HTML,True,None,"As publicações no Diário Oficial dos Municípios do Espírito Santo (DOM/ES) existem a partir de 08/08/2014, e estão disponíveis em HTML e DOCX (Fonte 1). Antes disso, as publicações estão disponíveis a partir de 28/01/2005, em PDF, em portal do próprio município (Fonte 2)."
+Colombo (PR),410580,4105805,PR,Região Sul,246540,False,http://www.diariomunicipal.com.br/amp/pesquisar,None,None,None,1,2013-06-18,HTML,True,None,"O Diário Oficial do município de Colombo-PR integra o portal dos Diário Oficiais dos Municípios de Paraná. Para encontrar determinado ato que não esteja na última edição que reúne as outras cidades, o cidadão precisa ir até a aba ""arquivo de publicações""  e buscar o ato até encontrá-lo por meio de datas ou palavras-chave."
+Conselheiro Lafaiete (MG),311830,3118304,MG,Região Sudeste,129606,False,https://www.jornalminasgerais.mg.gov.br,None,None,None,1,2010-12-21,PDF texto,True,None,"Publicado no caderno ""Publicações de terceiros"" do Diário Oficial do Estado de Minas Gerais."
+Contagem (MG),311860,3118601,MG,Região Sudeste,668949,False,http://www.contagem.mg.gov.br/?se=doc,None,None,None,1,2005-01-31,PDF texto,True,None,
+Coronel Fabriciano (MG),311940,3119401,MG,Região Sudeste,110290,False,https://www.fabriciano.mg.gov.br/diario/1/visualizar,None,None,None,1,2015-02-24,PDF texto,True,None,
+Corumbá (MS),500320,5003207,MS,Região Centro-Oeste,112058,False,http://do.corumba.ms.gov.br/corumba,None,None,None,1,2021-06-26,PDF imagem,True,None,O site apresenta uma interface que não possibilita encontrar a data de publicação do primeiro arquivo no portal.
+Cotia (SP),351300,3513009,SP,Região Sudeste,253608,False,https://leismunicipais.com.br/diario-oficial/sp/cotia,None,None,None,1,2011-01-31,PDF texto,True,None,None
+Crato (CE),230420,2304202,CE,Região Nordeste,133031,False,https://mail.crato.ce.gov.br/diario-oficial/,None,None,None,1,2010-01-05,PDF texto,True,None,
+Criciúma (SC),420460,4204608,SC,Região Sul,217311,False,https://www.criciuma.sc.gov.br/site/doe.php#conteudo,None,None,None,1,2015-06-12,PDF texto,True,None,None
+Cubatão (SP),351350,3513504,SP,Região Sudeste,131626,False,http://www.cubatao.sp.gov.br/diario-oficial/,None,None,None,1,2019-05-10,PDF texto,True,None,
+Cuiabá (MT),510340,5103403,MT,Região Centro-Oeste,618124,True,http://www.diariomunicipal.com.br/amm-mt/pesquisar,https://diariomunicipal.org/mt/amm/publicacoes/?e=432,https://diariooficial.cuiaba.mt.gov.br/,None,1,2014-02-14,HTML,True,None,
+Curitiba (PR),410690,4106902,PR,Região Sul,1948626,True,https://legisladocexterno.curitiba.pr.gov.br/DiarioConsultaExterna_Pesquisa.aspx,https://www.jusbrasil.com.br/diarios/DOM-CTBA/,None,None,1,2020-09-11,PDF texto,True,None,None
+Diadema (SP),351380,3513801,SP,Região Sudeste,426757,False,http://www.imprensaoficial.com.br/DO/BuscaDO2001Resultado_11_3.aspx?filtropalavraschave=%22PREFEITURA+MUNICIPAL+DE+DIADEMA%22,None,None,None,1,1981-03-20,PDF texto,True,None,URL completa (para busca até 16/12/2020)
+Divinópolis (MG),312230,3122306,MG,Região Sudeste,240408,False,http://www.diariomunicipal.com.br/amm-mg/pesquisar?busca_avancada[__paper]=1&busca_avancada[entidadeUsuaria]=760,None,None,None,1,2010-05-05,HTML,True,None,
+Dourados (MS),500370,5003702,MS,Região Centro-Oeste,225495,False,http://do.dourados.ms.gov.br/,None,None,None,1,2002-12-02,PDF texto,True,None,
+Duque de Caxias (RJ),330170,3301702,RJ,Região Sudeste,924624,False,https://duquedecaxias.rj.gov.br/portal/boletim-oficial.html,None,None,None,1,2013-01-02,PDF texto,True,None,
+Embu (SP),351500,3515004,SP,Região Sudeste,276535,False,http://www.imprensaoficial.com.br/DO/BuscaDO2001Resultado_11_3.aspx?filtropalavraschave=%22PREFEITURA+MUNICIPAL+DE+EMBU%22&f=xhitlist&xhitlist_vpc=first&xhitlist_x=Advanced&xhitlist_q=%5bfield+%27dc%3,None,None,None,1,2003-02-15,PDF texto,True,None,"Publicado como seção no Diário Oficial do Estado de São Paulo.
+
+URL direta:
+http://www.imprensaoficial.com.br/DO/BuscaDO2001Resultado_11_3.aspx?filtropalavraschave=%22PREFEITURA+MUNICIPAL+DE+EMBU+DAS+ARTES%22&filtrogrupos=Executivo+&xhitlist_mh=9999&filtrogrupossalvar=Executivo+&xhitlist_hc=%5bXML%5d%5bKwic%2c3%5d&xhitlist_vps=15&filtrotodosgrupos=False&xhitlist_d=Executivo+&filtrotipopalavraschavesalvar=UP&xhitlist_s=&xhitlist_sel=title%3bField%3adc%3atamanho%3bField%3adc%3adatapubl%3bField%3adc%3acaderno%3bitem-bookmark%3bhit-context&xhitlist_xsl=xhitlist.xsl&CampoOrdenacao=datapublicacao&DirecaoOrdenacao=descending
+
+(URL encurtada no campo ""Fonte"" devido à restrição no número de caracteres)
+
+Embu das Artes era chamada de Estância Turística de Embu ou Embu (diferente de Embu-Guaçu)."
+Erechim (RS),430700,4307005,RS,Região Sul,106633,False,https://www.diariooficial.rs.gov.br/,None,None,None,1,2017-11-08,HTML,True,None,Publicado como seção no Diário Oficial do Rio Grande do Sul.
+Eunápolis (BA),291072,2910727,BA,Região Nordeste,114396,False,http://www.eunapolis.ba.io.org.br/diarioOficial,None,None,None,1,2010-01-15,PDF texto,True,None,None
+Fazenda Rio Grande (PR),410765,4107652,PR,Região Sul,102004,False,https://www.fazendariogrande.pr.gov.br/transparencia/geral/diario-oficial-online,None,None,None,1,2011-09-25,PDF imagem,True,None,
+Feira de Santana (BA),291080,2910800,BA,Região Nordeste,619609,False,https://www.diariooficial.feiradesantana.ba.gov.br/,None,None,None,1,2015-06-01,PDF texto,True,None,None
+Ferraz de Vasconcelos (SP),351570,3515707,SP,Região Sudeste,196500,False,http://ferrazdevasconcelos.sp.gov.br/web/?page_id=3027,None,None,None,1,2017-03-29,PDF texto,True,None,
+Florianópolis (SC),420540,4205407,SC,Região Sul,508826,True,http://www.pmf.sc.gov.br/governo/index.php?pagina=govdiariooficial,None,None,None,1,2009-06-02,PDF texto,True,None,None
+Formosa (GO),520800,5208004,GO,Região Centro-Oeste,123684,False,https://diariooficial.abc.go.gov.br/buscanova/#/q=%22PREFEITURA%20MUNICIPAL%20DE%20FORMOSA%22,None,None,None,1,2017-06-11,PDF texto,True,None,Publica dentro do Diário Oficial do Estado de Goiás.
+Fortaleza (CE),230440,2304400,CE,Região Nordeste,2686612,True,https://diariooficial.fortaleza.ce.gov.br/,None,None,None,1,1952-12-27,PDF imagem,True,None,
+Foz do Iguaçu (PR),410830,4108304,PR,Região Sul,258248,False,https://www5.pmfi.pr.gov.br/diarioOficial,None,None,None,1,2007-09-29,PDF texto,True,None,None
+Franca (SP),351620,3516200,SP,Região Sudeste,355901,False,https://www.franca.sp.gov.br/pmf-diario/,None,None,None,1,2014-04-08,PDF texto,True,None,"Não é possível filtrar por data. Para saber a data inicial, foi necessário fazer uma busca manual."
+Francisco Morato (SP),351630,3516309,SP,Região Sudeste,177633,False,http://imprensaoficial.franciscomorato.sp.gov.br/frm_consultarEdicao.jsp,None,None,None,1,2017-10-31,PDF texto,True,None,
+Franco da Rocha (SP),351640,3516408,SP,Região Sudeste,156492,False,http://francodarocha.sp.gov.br/franco/artigo/pesquisa/104,None,None,None,1,2013-06-26,PDF texto,True,None,
+Garanhuns (PE),260600,2606002,PE,Região Nordeste,140577,False,http://www.diariomunicipal.com.br/amupe/pesquisar,None,None,None,1,2013-07-01,HTML,True,None,
+Goiânia (GO),520870,5208707,GO,Região Centro-Oeste,1536097,True,https://www.goiania.go.gov.br/casa-civil/diario-oficial/,None,None,None,1,1960-04-21,PDF texto,True,None,
+Governador Valadares (MG),312770,3127701,MG,Região Sudeste,281046,False,https://www.valadares.mg.gov.br/diario-eletronico/caderno/diario-oficial-eletronico/1,None,None,None,1,2014-03-07,PDF texto,True,None,
+Gravataí (RS),430920,4309209,RS,Região Sul,283620,False,https://gravatai.atende.net/?pg=diariooficial&pagina=1,None,None,None,1,2015-05-04,HTML,True,None,
+Guarapari (ES),320240,3202405,ES,Região Sudeste,126701,False,https://diariomunicipal.es.gov.br/?r=site/edicoes,None,None,None,1,2014-05-05,PDF texto,True,None,
+Guarapuava (PR),410940,4109401,PR,Região Sul,182644,False,https://www.guarapuava.pr.gov.br/boletins-oficiais/,None,None,None,1,2002-01-14,PDF texto,True,None,
+Guaratinguetá (SP),351840,3518404,SP,Região Sudeste,122505,False,https://guaratingueta.sp.gov.br/diario-oficial-da-estancia-turistica-de-guaratingueta/,None,None,None,1,2015-06-23,PDF imagem,True,None,
+Guarujá (SP),351870,3518701,SP,Região Sudeste,322750,False,https://www.guaruja.sp.gov.br/edicoes-diario-oficial/,None,None,None,1,2015-01-06,PDF texto,True,None,
+Guarulhos (SP),351880,3518800,SP,Região Sudeste,1392121,False,https://www.guarulhos.sp.gov.br/diario-oficial,None,None,None,1,2004-08-24,PDF texto,True,None,"Não existe uma forma de pesquisar por data, e não é possível ver o período para o qual os diários estão disponíveis."
+Hortolândia (SP),351907,3519071,SP,Região Sudeste,234259,False,https://publicacoesmunicipais.com.br/eatos/,https://publicacoesmunicipais.com.br:8443/api/Acts?idEntity=126,None,None,1,2017-04-27,PDF texto,True,None,"A fonte secundária retorna um JSON com as edições existentes, identificadas pelo parâmetro ""edition"". Para requisitar um arquivo PDF com o número da edição, basta usar a URL ""https://publicacoesmunicipais.com.br:8443/api/acts/hortolandia/{edition}""."
+Ibirité (MG),312980,3129806,MG,Região Sudeste,182153,False,https://www.ibirite.mg.gov.br/diario-eletronico/caderno/diario-municipal/1,None,None,None,1,2015-10-13,PDF texto,True,None,
+Igarassu (PE),260680,2606804,PE,Região Nordeste,118370,False,http://www.diariomunicipal.com.br/amupe/pesquisar?busca_avancada[entidadeUsuaria]=12392,None,None,None,1,2014-07-14,HTML,True,None,
+Iguatu (CE),230550,2305506,CE,Região Nordeste,103074,False,http://www.diariomunicipal.com.br/aprece/pesquisar?busca_avancada[entidadeUsuaria]=12438,None,None,None,1,2014-06-16,HTML,True,None,
+Ilhéus (BA),291360,2913606,BA,Região Nordeste,159923,False,https://www.ilheus.ba.gov.br/diario-eletronico,None,None,None,1,2007-04-11,PDF texto,True,None,None
+Imperatriz (MA),210530,2105302,MA,Região Nordeste,259337,False,https://www.diariooficial.ma.gov.br/public/index.xhtml,None,None,None,1,2002-01-11,PDF texto,True,None,"Publica no caderno ""Terceiros"" do Diário Oficial do Estado do Maranhão, como ""PREFEITURA MUNICIPAL DE IMPERATRIZ"".
+
+Não é possível ordenar os diários por data"
+Indaiatuba (SP),352050,3520509,SP,Região Sudeste,256223,False,https://imprensaoficialmunicipal.com.br/indaiatuba,None,None,None,1,2017-12-01,PDF texto,True,None,None
+Ipatinga (MG),313130,3131307,MG,Região Sudeste,265409,False,https://www.ipatinga.mg.gov.br/diariooficial,None,None,None,1,2012-03-20,PDF texto,True,None,
+Itabira (MG),313170,3131703,MG,Região Sudeste,120904,False,https://www.jornalminasgerais.mg.gov.br,None,None,None,1,2010-12-22,PDF texto,True,None,
+Itaboraí (RJ),330190,3301900,RJ,Região Sudeste,242543,False,https://www.itaborai.rj.gov.br/diario-oficial/,None,None,None,1,2019-01-23,PDF texto,True,None,
+Itabuna (BA),291480,2914802,BA,Região Nordeste,213685,False,http://www.itabuna.ba.gov.br/diariooficial.html,None,None,None,1,2018-03-01,PDF imagem,True,None,None
+Itacoatiara (AM),130190,1301902,AM,Região Norte,102701,False,http://www.diariomunicipal.com.br/aam/pesquisar,None,None,None,1,2017-01-10,HTML,True,None,
+Itaguaí (RJ),330200,3302007,RJ,Região Sudeste,134819,False,https://itaguai.rj.gov.br/jornal-oficial.php,None,None,None,1,2015-05-12,PDF texto,True,None,
+Itaituba (PA),150360,1503606,PA,Região Norte,101395,False,http://www.diariomunicipal.com.br/famep/pesquisar?busca_avancada%5B__paper%5D=1&busca_avancada%5BentidadeUsuaria%5D=64022&busca_avancada%5Bnome_orgao%5D=&busca_avancada%5Btitulo%5D=&busca_avancada%5Bt,None,None,None,1,2017-08-02,PDF texto,True,None,
+Itajaí (SC),420820,4208203,SC,Região Sul,223112,False,https://portaldocidadao.itajai.sc.gov.br/servico_link/61,https://www.diariomunicipal.sc.gov.br/site/?r=site/index&q=+entidade%3A%22Prefeitura+municipal+de+Itaja%C3%AD%22,None,None,1,2005-01-01,PDF texto,True,None,"Os arquivos da fonte secundária (desde março de 2020) estão disponíveis em PDF texto, HTML e DOCX."
+Itanhaém (SP),352210,3522109,SP,Região Sudeste,103102,False,http://www2.itanhaem.sp.gov.br/boletim-oficial/,None,None,None,1,2004-04-22,PDF texto,True,None,
+Itapecerica da Serra (SP),352220,3522208,SP,Região Sudeste,177662,False,https://www.itapecerica.sp.gov.br/imprensa-oficial,None,None,None,1,2009-10-30,PDF imagem,True,None,
+Itaperuna (RJ),330220,3302205,RJ,Região Sudeste,103800,False,https://www.itaperuna.rj.gov.br/?pg=jornal_oficial,None,None,None,1,2015-11-19,PDF imagem,True,None,
+Itapetininga (SP),352230,3522307,SP,Região Sudeste,165526,False,https://semanario.itapetininga.sp.gov.br/arquivo-do-semanario-oficial/,None,None,None,1,2006-07-22,PDF texto,True,None,A prefeitura publica semanalmente e chama de semanário.
+Itapevi (SP),352250,3522505,SP,Região Sudeste,240961,False,https://itapevi.sp.gov.br/diario-oficial/,http://www.itapevi.sp.gov.br/noticiasNovo/sec_gabinete/diario_oficial.php,None,None,1,2009-01-17,PDF imagem,True,None,None
+Itapipoca (CE),230640,2306405,CE,Região Nordeste,130539,False,http://pesquisa.doe.seplag.ce.gov.br/doepesquisa/sead.do,None,None,None,1,1966-08-08,PDF texto,True,None,"Publicado como parte do Diário Oficial do Estado.
+
+A URL direta para consultar os atos do município é:
+http://pesquisa.doe.seplag.ce.gov.br/doepesquisa/sead.do?page=pesquisaAvancada&action=PesquisarBasica&cmd=10&flag=1&dataini=&datafim=&numDiario=&numPagina=&numCaderno=&checkbox=5&siglaOrgao=&idOrgaoOrigem=160&nomSiglaOrgao=&nomOrgao=Prefeitura+Municipal+de+Itapipoca&idTipoMateria=&dscTipoMateria=&dataMatIni=&dataMatFim=&numMateria=&consultar=
+
+(URL encurtada no registro da fonte por conta do limite de caracteres)"
+Itaquaquecetuba (SP),352310,3523107,SP,Região Sudeste,375011,False,https://www.itaquaquecetuba.sp.gov.br/diariooficial/,None,None,None,1,2018-09-03,PDF texto,True,None,"(Taís) Embora haja um decreto (documento publicado em 03/09/2018) que regulamenta a publicação do Diário Oficial no site em questão, os registros correspondem a documentos isolados (decretos, portarias, editais, etc.) publicados por diferentes departamentos da prefeitura. Dessa forma, há datas com mais de 6 documentos registrados e não há um documento unificado referente ao DO."
+Itatiba (SP),352340,3523404,SP,Região Sudeste,122581,False,http://www.itatiba.sp.gov.br/Edicao-Online/imprensaoficial/,None,None,None,1,2003-05-30,PDF texto,True,None,
+Itu (SP),352390,3523909,SP,Região Sudeste,175568,False,https://itu.sp.gov.br/imprensa-oficial/,https://itu.sp.gov.br/governo/imprensa-oficial-edicoes-anteriores/,None,None,1,2011-09-15,PDF imagem,True,None,None
+Ituiutaba (MG),313420,3134202,MG,Região Sudeste,105255,False,https://www.jornalminasgerais.mg.gov.br,None,None,None,1,2010-12-16,PDF texto,True,None,
+Itumbiara (GO),521150,5211503,GO,Região Centro-Oeste,105809,False,https://itumbiara.com.br/diario/,None,None,None,1,2010-05-17,PDF texto,True,None,
+Jaboatão Dos Guararapes (PE),260790,2607901,PE,Região Nordeste,706867,False,https://diariooficial.jaboatao.pe.gov.br/,None,None,None,1,2015-12-12,HTML,True,None,
+Jacareí (SP),352440,3524402,SP,Região Sudeste,235416,False,https://boletinsoficiais.geosiap.net/pmjacarei/public/publicacoes,None,None,None,1,2004-03-27,PDF texto,True,None,
+Jandira (SP),352500,3525003,SP,Região Sudeste,126356,False,https://portal.jandira.sp.gov.br/jopej/,http://200.98.169.8/transparencia/(S(h3tkjinwluu2ot4made4yf4v))/Web_DOCUMENTOS.aspx,None,None,1,2020-07-28,PDF texto,True,None,None
+Japeri (RJ),330227,3302270,RJ,Região Sudeste,105548,False,http://siapegov.japeri.rj.gov.br/portal-transparencia/publicacoes,None,None,None,1,2019-01-01,PDF imagem,True,None,Ainda não tem nenhum diário publicado em 2021. O último é de 17/12/2020.
+Jaraguá do Sul (SC),420890,4208906,SC,Região Sul,181173,False,https://diariomunicipal.sc.gov.br/site/?r=site/index&q=cod_entidade%3A138,None,None,None,1,2016-01-22,PDF texto,True,None,
+Jataí (GO),521190,5211909,GO,Região Centro-Oeste,102065,False,http://www.jatai.go.gov.br/diariooficial/,None,None,None,1,2013-03-04,PDF texto,True,0.0,
+Jaú (SP),352530,3525300,SP,Região Sudeste,151881,False,http://www.jau.sp.gov.br/jornal-oficial,None,None,None,1,2007-06-13,PDF texto,True,None,
+Jequié (BA),291800,2918001,BA,Região Nordeste,156126,False,http://www.ipmbrasil.org.br/diariooficial/ba/pmjequie/diario,None,None,None,1,2014-02-05,PDF texto,True,None,
+Ji-paraná (RO),110012,1100122,RO,Região Norte,130009,False,https://www.domjp.com.br/,None,None,None,1,2010-01-04,PDF imagem,True,None,
+Joinville (SC),420910,4209102,SC,Região Sul,597658,False,https://www.joinville.sc.gov.br/jornal,https://www.diariomunicipal.sc.gov.br/site/?q=cod_entidade%3A141,None,None,1,2009-01-02,PDF texto,True,None,
+João Pessoa (PB),250750,2507507,PB,Região Nordeste,817511,True,http://antigo.joaopessoa.pb.gov.br/semanariooficial/,None,None,None,1,1991-01-02,PDF texto,True,None,None
+Juazeiro (BA),291840,2918407,BA,Região Nordeste,218162,False,http://doem.org.br/ba/juazeiro,None,None,None,1,2013-03-07,PDF imagem,True,None,None
+Juazeiro do Norte (CE),230730,2307304,CE,Região Nordeste,276264,False,https://juazeiro.ce.gov.br/Imprensa/Diario-Oficial/,None,None,None,1,2009-01-05,PDF texto,True,None,None
+Juiz de Fora (MG),313670,3136702,MG,Região Sudeste,573285,False,https://www.pjf.mg.gov.br/e_atos/e_atos.php,https://www.pjf.mg.gov.br/e_atos/anos_anteriores.php,None,None,1,2010-01-05,HTML,True,None,
+Jundiaí (SP),352590,3525904,SP,Região Sudeste,423006,False,https://imprensaoficial.jundiai.sp.gov.br/,None,None,None,1,2006-04-04,PDF texto,True,None,None
+Lagarto (SE),280350,2803500,SE,Região Nordeste,105221,False,https://segrase.se.gov.br/buscanova/#/q=Prefeitura%20de%20Lagarto,None,None,None,1,2016-01-11,Outro formato,True,None,O ambiente aberto permite visualizar apenas como imagem.
+Lages (SC),420930,4209300,SC,Região Sul,157349,False,https://diariomunicipal.sc.gov.br/site/?r=site/index&q=cod_entidade%3A145,None,None,None,1,2010-12-27,PDF texto,True,None,
+Lauro de Freitas (BA),291920,2919207,BA,Região Nordeste,201635,False,https://io.org.br/ba/laurodefreitas/diarioOficial,None,None,None,1,2013-07-13,PDF texto,True,None,
+Lavras (MG),313820,3138203,MG,Região Sudeste,104783,False,http://187.60.128.132:8082/portalcidadao/#075f539f0b7223f116d2c85c4ce1b1752fccb0db1fd92284312b33310fb199ef6050e9373e0f36365cbb7737a0e49e582e657146a648fd13d54aa9e4338df879e807578fb1eeafd72884ceb96cdaaa,None,None,None,1,2010-11-04,PDF texto,True,None,
+Leme (SP),352670,3526704,SP,Região Sudeste,104346,False,https://www.leme.sp.gov.br/imprensa,None,None,None,1,2003-01-05,PDF texto,True,None,
+Limeira (SP),352690,3526902,SP,Região Sudeste,308482,False,http://servicosonline.limeira.sp.gov.br/jof/NetJornal_cns_edicoes_cons_site/,None,None,None,1,2011-04-05,PDF imagem,True,None,
+Linhares (ES),320320,3203205,ES,Região Sudeste,176688,False,https://ioes.dio.es.gov.br/buscanova/#/caderno_municipios/p=14&q=Linhares,None,None,None,1,2020-10-22,PDF texto,True,None,"Publicado como seção dentro do DIário Oficial dos Municípios Capixabas, da Imprensa Oficial do Espírito Santo."
+Londrina (PR),411370,4113700,PR,Região Sul,575377,False,https://www.londrina.pr.gov.br/busca-jornal,None,None,None,1,1997-02-06,PDF texto,True,None,None
+Luziânia (GO),521250,5212501,GO,Região Centro-Oeste,211508,False,http://diariooficial.abc.go.gov.br/buscanova/#/q=%22PREFEITURA%20MUNICIPAL%20DE%20LUZI%C3%82NIA%22,None,None,None,1,2007-11-23,PDF texto,True,None,
+Macapá (AP),160030,1600303,AP,Região Norte,512902,True,https://macapa.ap.gov.br/diarios-oficiais/,None,None,None,1,2018-01-02,PDF imagem,True,None,
+Macaé (RJ),330240,3302403,RJ,Região Sudeste,261501,False,http://sistemas.macae.rj.gov.br:84/diariooficial/,None,None,None,1,2020-05-22,PDF texto,True,None,
+Maceió (AL),270430,2704302,AL,Região Nordeste,1025360,True,http://www.maceio.al.gov.br/noticias/diario-oficial/,None,None,None,1,2013-01-10,PDF texto,True,None,None
+Magé (RJ),330250,3302502,RJ,Região Sudeste,246433,False,http://mage.rj.gov.br/bio/,None,None,None,1,2019-10-16,PDF texto,True,None,"No site, há indicação de edições desde de 2016, porém as anteriores à data indicada estão fora do ar (erro 404)."
+Mairiporã (SP),352850,3528502,SP,Região Sudeste,101937,False,http://mairipora.sp.gov.br/imprensa-oficial/,None,None,None,1,2006-11-08,PDF imagem,True,None,
+Manaus (AM),130260,1302603,AM,Região Norte,2219580,True,https://diario.imprensaoficial.am.gov.br/,None,None,None,1,1956-01-01,PDF texto,True,None,O diário do dia também está disponível em HTML.
+Marabá (PA),150420,1504208,PA,Região Norte,283542,False,http://www.diariomunicipal.com.br/famep/pesquisar,None,None,None,1,2015-08-20,HTML,True,None,
+Maracanaú (CE),230765,2307650,CE,Região Nordeste,229458,False,http://pesquisa.doe.seplag.ce.gov.br/doepesquisa/sead.do,None,None,None,1,1990-07-13,PDF texto,True,None,"Publicado em conjunto com o Diário Oficial do Estado.
+
+A URL completa para consultar os atos do município é:
+http://pesquisa.doe.seplag.ce.gov.br/doepesquisa/sead.do?page=pesquisaAvancada&action=PesquisarBasica&cmd=10&flag=1&dataini=&datafim=&numDiario=&numPagina=&numCaderno=&checkbox=5&siglaOrgao=&idOrgaoOrigem=63&nomSiglaOrgao=&nomOrgao=Prefeitura%20Municipal%20de%20Maracana%FA&idTipoMateria=&dscTipoMateria=&dataMatIni=&dataMatFim=&numMateria=&consultar=
+
+(encurtado na fonte de publicação porque os caracteres são limitados)"
+Maranguape (CE),230770,2307700,CE,Região Nordeste,130346,False,http://pesquisa.doe.seplag.ce.gov.br/doepesquisa/sead.do?page=pesquisaAvancada&action=PesquisarBasica&cmd=10&flag=1&nomOrgao=Prefeitura+Municipal+de+Maranguape&checkbox=5,None,None,None,1,1999-01-11,PDF texto,True,None,"Há registro de diários anteriores (desde a década de 1950, ou antes), mas os links estão quebrados."
+Maricá (RJ),330270,3302700,RJ,Região Sudeste,164504,False,https://www.marica.rj.gov.br/jom/,None,None,None,1,2006-07-17,PDF texto,True,None,
+Maringá (PR),411520,4115200,PR,Região Sul,430157,False,http://venus.maringa.pr.gov.br/arquivos/orgao_oficial/seleciona_ano_oom.php,None,None,None,1,2007-01-05,PDF texto,True,None,
+Marituba (PA),150442,1504422,PA,Região Norte,133685,False,http://www.diariomunicipal.com.br/famep/pesquisar,None,None,None,1,2018-04-18,HTML,True,None,
+Marília (SP),352900,3529005,SP,Região Sudeste,240590,False,https://www.marilia.sp.gov.br/portal/diario-oficial,None,None,None,1,2009-06-01,PDF texto,True,None,
+Mauá (SP),352940,3529401,SP,Região Sudeste,477552,False,http://dom.maua.sp.gov.br/,None,None,None,1,2010-07-15,HTML,True,None,"(Taís) O site contém publicações separadas por categoria (poder executivo, legislativo, legislações) e seções. Não consegui conferir qual foi a primeira publicação pois cada seção possui quantidades diferentes de registros.
+
+(Géssika) O site é muito desorganizado. São vários links que tentam traduzir as ações da gestão de maneira separada em uma página num determinado dia, além de confundir o cidadão colocando as iniciativas da câmara municipal em um mesmo espaço."
+Mesquita (RJ),330285,3302858,RJ,Região Sudeste,176569,False,https://transparencia.mesquita.rj.gov.br/?serv=18,None,None,None,1,2015-07-15,PDF texto,True,None,
+Mogi Guaçu (SP),353070,3530706,SP,Região Sudeste,153033,False,https://mogiguacu.sp.gov.br/publicacao-editais/,None,None,None,1,2020-01-04,HTML,True,None,
+Moji Das Cruzes (SP),353060,3530607,SP,Região Sudeste,450785,False,https://www.imprensaoficial.com.br/DO/BuscaDO2001Resultado_11_3.aspx?filtropalavraschave=%22PREFEITURA+MUNICIPAL+DE+MOGI+DAS+CRUZES%22,None,None,None,1,2003-01-03,PDF texto,True,None,
+Montes Claros (MG),314330,3143302,MG,Região Sudeste,413487,False,http://diariooficial.montesclaros.mg.gov.br,None,None,None,1,2013-07-02,PDF texto,True,None,
+Mossoró (RN),240800,2408003,RN,Região Nordeste,300618,False,http://jom.prefeiturademossoro.com.br,None,None,None,1,2008-01-30,PDF texto,True,None,
+Muriaé (MG),314390,3143906,MG,Região Sudeste,109392,False,http://www.diariomunicipal.com.br/amm-mg/pesquisar?busca_avancada[entidadeUsuaria]=37073,None,None,None,1,2017-01-10,HTML,True,None,
+Natal (RN),240810,2408102,RN,Região Nordeste,890480,True,https://www.natal.rn.gov.br/dom/,None,None,None,1,2003-11-19,PDF texto,True,None,None
+Nilópolis (RJ),330320,3303203,RJ,Região Sudeste,162693,False,http://nilopolis.rj.gov.br/site/diario-oficial-online/,http://www.vozdosmunicipios.com.br/atos.php,None,None,1,2018-08-31,PDF imagem,True,None,
+Niterói (RJ),330330,3303302,RJ,Região Sudeste,515317,False,http://niteroi.rj.gov.br/do.html,None,None,None,1,2003-07-01,PDF texto,True,None,None
+Nossa Senhora do Socorro (SE),280480,2804805,SE,Região Nordeste,185706,False,https://www.in.gov.br/consulta/-/buscar/dou?q=%22Munic%C3%ADpio+de+Nossa+Senhora+do+Socorro%22&orgPrin=Prefeituras&orgSub=Estado+de+Sergipe,None,None,None,1,2018-07-02,HTML,True,None,"Parece publicar no Diário Oficial da União (há mais de uma centena de atos, inclusive recentes).
+
+Embora uma interface própria de busca dos diários exista e esteja linkada no portal da prefeitura (http://www.nossasenhoradosocorro.se.io.org.br/diarioOficial), a única publicação retornada nela é um ato de 15/05/2017. Todo o resto retorna vazio.
+
+Há menções à Prefeitura de Nossa Senhora do Socorro no Diário Oficial do Estado de Sergipe, mas todos parecem ser falsos positivos - atos em que a prefeitura figura como parte, mas que são publicados por órgãos do Governo Estadual (acordos, doações etc.)."
+Nova Friburgo (RJ),330340,3303401,RJ,Região Sudeste,191158,False,https://plenussistemas.dioenet.com.br/list/nova-friburgo,None,None,None,1,2019-10-17,PDF texto,True,None,None
+Nova Iguaçu (RJ),330350,3303500,RJ,Região Sudeste,823302,False,https://diario.novaiguacu.rj.gov.br/,http://www.novaiguacu.rj.gov.br/diario-oficial/,None,None,1,2014-09-17,PDF texto,True,None,None
+Nova Serrana (MG),314520,3145208,MG,Região Sudeste,105520,False,https://www.novaserrana.mg.gov.br/portal/diario-oficial,None,None,None,1,2015-10-27,PDF texto,True,None,
+Novo Gama (GO),521523,5215231,GO,Região Centro-Oeste,117703,False,http://diariooficial.abc.go.gov.br/buscanova/#/q=%22PREFEITURA%20MUNICIPAL%20DE%20NOVO%20GAMA%22,None,None,None,1,2007-11-07,PDF texto,True,None,
+Novo Hamburgo (RS),431340,4313409,RS,Região Sul,247032,False,https://www.diariooficial.rs.gov.br,None,None,None,1,2017-11-14,HTML,True,None,
+Olinda (PE),260960,2609600,PE,Região Nordeste,393115,False,http://www.diariomunicipal.com.br/amupe/pesquisar,http://www.diariomunicipal.com.br/amupe/,None,None,1,2012-01-23,PDF texto,True,None,"O Diário Oficial de Olinda é hospedado no site dos Diários Oficiais da Associação dos Municípios de Pernambuco como publicação diária em um mesmo documento com outras cidades do interior. Também é possível fazer a busca na mesma página colocando como filtro o nome da cidade. Ao fazer isso, os atos da administração não ficam disponíveis em um documento só, mas em várias abas que o cidadão deve baixar uma por uma."
+Osasco (SP),353440,3534401,SP,Região Sudeste,699944,False,http://www.osasco.sp.gov.br/imprensa-oficial?page=1,None,None,None,1,2002-02-08,PDF texto,True,None,None
+Ourinhos (SP),353470,3534708,SP,Região Sudeste,114352,False,https://www.ourinhos.sp.gov.br/diario-oficial,None,None,None,1,2005-01-20,PDF imagem,True,None,
+Palhoça (SC),421190,4211900,SC,Região Sul,175272,False,https://diariomunicipal.sc.gov.br/site/?r=site/index&q=cod_entidade%3A185,None,None,None,1,2011-09-08,PDF texto,True,None,
+Palmas (TO),172100,1721000,TO,Região Norte,306296,True,http://diariooficial.palmas.to.gov.br/,http://diariooficial.palmas.to.gov.br/todos-diarios/,None,None,1,2010-03-22,PDF texto,True,None,None
+Paragominas (PA),150550,1505502,PA,Região Norte,114503,False,http://www.diariomunicipal.com.br/famep/pesquisar?busca_avancada%5B__paper%5D=1&busca_avancada%5BentidadeUsuaria%5D=76930&busca_avancada%5Bnome_orgao%5D=&busca_avancada%5Btitulo%5D=&busca_avancada%5Bt,None,None,None,1,2018-01-03,HTML,True,None,
+Paranaguá (PR),411820,4118204,PR,Região Sul,156174,False,http://www.diariomunicipal.com.br/amp/pesquisar?busca_avancada[entidadeUsuaria]=16026,None,None,None,1,2015-04-02,HTML,True,None,
+Parauapebas (PA),150553,1505536,PA,Região Norte,213576,False,http://www.ioepa.com.br/pesquisa/?q=%22PREFEITURA%20MUNICIPAL%20DE%20PARAUAPEBAS%22&di=00010101&df=20991231,None,None,None,1,2008-01-02,PDF texto,True,None,"Publicado como parte do Diário Oficial do Pará, pelo menos até 05/10/2020 (sem publicações no veículo desde então).
+
+Editais publicados de forma avulsa na página da prefeitura: https://www.parauapebas.pa.gov.br/index.php/editais2.html
+
+Existe a previsão de implementação de um diário oficial eletrônico próprio, em parceria com a Imprensa Oficial do Estado do Pará: https://www.parauapebas.pa.gov.br/index.php/ultimas-noticias/2690-implantacao-do-diario-oficial-eletronico-de-parauapebas-avanca.html
+
+Foi protocolada uma manifestação na Ouvidoria do município, que resultou na informação de que o sistema ainda não estava implementado (até 25/11/2020, data do memorando) devido à ""necessidade de customização do sistema responsável pela operacionalização do envio das matérias a serem publicadas"" (Memo. n. 427/2020-SEPLAN/GAB)."
+Parintins (AM),130340,1303403,AM,Região Norte,115363,False,http://www.diariomunicipal.com.br/aam/pesquisar,None,None,None,1,2010-03-11,HTML,True,None,
+Parnamirim (RN),240325,2403251,RN,Região Nordeste,267036,False,http://diariooficial.parnamirim.rn.gov.br/#/,None,None,None,1,2018-07-17,PDF texto,True,None,None
+Parnaíba (PI),220770,2207702,PI,Região Nordeste,153482,False,http://dom.parnaiba.pi.gov.br/,None,None,None,1,2017-08-01,PDF texto,True,None,
+Passo Fundo (RS),431410,4314100,RS,Região Sul,204722,False,http://www.pmpf.rs.gov.br/transparencia/secao.php?t=11&p=150,None,None,None,1,2013-01-03,PDF texto,True,None,
+Passos (MG),314790,3147907,MG,Região Sudeste,115337,False,https://www.jornalminasgerais.mg.gov.br/,None,None,None,1,2010-12-17,PDF texto,True,None,"Publica na seção ""Terceiros"" do Jornal Minas Gerais (diário oficial do estado de Minas Gerais). Buscar por ""Prefeitura Municipal de Passos"" (com aspas).
+
+Atos entre julho de 2005 e dezembro de 2010 deveriam estar disponíveis em <http://pesquisa.iof.mg.gov.br/pesquisa/pesquisaNew.asp>, mas o formulário estava não responsivo durante a validação."
+Patos (PB),251080,2510808,PB,Região Nordeste,108192,False,http://patos.pb.gov.br/servicos/diario-oficial,None,None,None,1,2016-08-01,PDF texto,True,None,
+Patos de Minas (MG),314800,3148004,MG,Região Sudeste,153585,False,http://patosdeminas.mg.gov.br/home/prefeitura-de-patos-de-minas/secretaria-municipal-de-governo/diario-oficial-do-municipio/,None,None,None,1,2019-10-15,PDF texto,True,None,
+Paulista (PE),261070,2610707,PE,Região Nordeste,334376,False,https://www.imprensaoficialmunicipal.com.br/paulista,None,None,None,1,2020-06-15,PDF texto,True,None,None
+Paulo Afonso (BA),292400,2924009,BA,Região Nordeste,118516,False,http://www.pauloafonso.ba.io.org.br/diarioOficial,None,None,None,1,2009-10-26,PDF texto,True,None,None
+Paulínia (SP),353650,3536505,SP,Região Sudeste,112003,False,http://www.paulinia.sp.gov.br/semanarios,None,None,None,1,2009-01-05,PDF texto,True,None,
+Paço do Lumiar (MA),210750,2107506,MA,Região Nordeste,123747,False,https://www.pacodolumiar.ma.gov.br/diariooficial/?Esf=1,None,None,None,1,2017-08-03,PDF texto,True,None,
+Pelotas (RS),431440,4314407,RS,Região Sul,343132,False,http://www.diariomunicipal.com.br/famurs/pesquisar?busca_avancada%5B__paper%5D=1&busca_avancada%5BentidadeUsuaria%5D=108852&busca_avancada%5Bnome_orgao%5D=&busca_avancada%5Btitulo%5D=&busca_avancada%5,None,None,None,1,2018-11-20,HTML,True,None,
+Petrolina (PE),261110,2611101,PE,Região Nordeste,354317,False,https://petrolina.pe.gov.br/diario-oficial/,None,None,None,1,2014-03-06,PDF texto,True,None,
+Petrópolis (RJ),330390,3303906,RJ,Região Sudeste,306678,False,http://www.petropolis.rj.gov.br/pmp/index.php/servicos-na-web/informacoes/diario-oficial/viewcategory/3-diario-oficial.html,None,None,None,1,2001-10-02,PDF texto,True,None,None
+Pindamonhangaba (SP),353800,3538006,SP,Região Sudeste,170132,False,http://jornaltribunadonorte.net/editais/,None,None,None,1,2016-05-18,PDF texto,True,None,
+Pinhais (PR),411915,4119152,PR,Região Sul,133490,False,https://pinhais.atende.net/?pg=diariooficial,None,None,None,1,2017-05-26,PDF texto,True,None,
+Piracicaba (SP),353870,3538709,SP,Região Sudeste,407252,False,https://diariooficial.piracicaba.sp.gov.br,None,None,None,1,2009-03-03,PDF imagem,True,None,None
+Piraquara (PR),411950,4119509,PR,Região Sul,114970,False,http://www.diariomunicipal.com.br/amp/pesquisar,None,None,None,1,2012-11-27,HTML,True,None,
+Ponta Grossa (PR),411990,4119905,PR,Região Sul,355336,False,http://pontagrossa.pr.gov.br/diario-oficial,None,None,None,1,2009-07-06,PDF texto,True,None,
+Porto Alegre (RS),431490,4314902,RS,Região Sul,1488252,True,http://www2.portoalegre.rs.gov.br/dopa/,None,None,None,1,2003-09-03,PDF texto,True,None,None
+Porto Seguro (BA),292530,2925303,BA,Região Nordeste,150658,False,https://doem.org.br/pl/ba/portoseguro,None,None,None,1,2017-01-05,PDF imagem,True,None,None
+Porto Velho (RO),110020,1100205,RO,Região Norte,539354,True,https://www.portovelho.ro.gov.br/dom/,http://www.diariomunicipal.com.br/arom/,None,None,1,2007-01-02,PDF texto,True,None,As primeiras edições são PDF imagem.
+Pouso Alegre (MG),315250,3152501,MG,Região Sudeste,152549,False,https://pousoalegre.mg.gov.br/pouso-alegre.asp?id=3#ancora,http://www.diariomunicipal.com.br/amm-mg/pesquisar?busca_avancada%5B__paper%5D=1&busca_avancada%5BentidadeUsuaria%5D=14062&busca_avancada%5Bnome_orgao%5D=&busca_avancada%5Btitulo%5D=&busca_avancada%5B,None,None,1,2015-01-14,PDF texto,True,None,"(Taís) Fonte 1: contém publicações quinzenais/mensais do jornal do município, onde é publicado o diário.
+Fonte 2: diário unificado para vários municípios, para saber a data inicial é preciso fazer uma consulta manual.
+
+(Validação) Os arquivos na fonte principal são PDF-Texto. Na fonte secundária, os textos estão em HTML, mas são protegidos por reCAPTCHA."
+Poá (SP),353980,3539806,SP,Região Sudeste,118349,False,https://www.diariodesuzano.com.br/noticias/atos-oficiais/,None,None,None,1,2020-05-05,Outro formato,True,None,Imagem (jpg)
+Poços de Caldas (MG),315180,3151800,MG,Região Sudeste,168641,False,http://transparencia.pocosdecaldas.mg.gov.br:8081/portalcidadao/#075f539f0b7223f116d2c85c4ce1b1752fccb0db1fd92284312b33310fb199ef6050e9373e0f36365cbb7737a0e49e582e657146a648fd13d54aa9e4338df879e807578,None,None,None,1,2018-08-28,PDF texto,True,None,
+Praia Grande (SP),354100,3541000,SP,Região Sudeste,330845,False,http://www.imprensaoficial.com.br/DO/BuscaDO2001Resultado_11_3.aspx?filtropalavraschave=%22PRAIA+GRANDE%22&f=xhitlist&xhitlist_vpc=first&xhitlist_x=Advanced&xhitlist_q=%5bfield+%27dc%3adatapubl%27%3a%,None,None,None,1,2003-01-03,PDF texto,True,None,
+Presidente Prudente (SP),354140,3541406,SP,Região Sudeste,230371,False,https://www.gdoe.com.br/presidenteprudente,None,None,None,1,2017-12-11,PDF imagem,True,None,None
+Queimados (RJ),330414,3304144,RJ,Região Sudeste,151335,False,https://www.queimados.rj.gov.br/diario/portal,None,None,None,1,2015-02-02,PDF texto,True,None,
+Recife (PE),261160,2611606,PE,Região Nordeste,1653461,True,https://dome.recife.pe.gov.br/dome/,https://www.cepe.com.br/prefeituradiario/,http://www.recife.pe.gov.br/diariooficial-acervo/,None,1,2001-01-01,PDF imagem,True,None,"(Taís) A versão unificada do DO só está disponível a partir de 30/04/2015 (fonte 2). Antes disso, os documentos eram disponibilizados separadamente (fonte 3)."
+Resende (RJ),330420,3304201,RJ,Região Sudeste,132312,False,http://resende.rj.gov.br/blogtransparencia/page/boletim_oficial.asp,None,None,None,1,2009-01-09,PDF texto,True,None,
+Ribeirão Das Neves (MG),315460,3154606,MG,Região Sudeste,338197,False,http://www.diariomunicipal.com.br/amm-mg/pesquisar?busca_avancada%5B__paper%5D=1&busca_avancada%5BentidadeUsuaria%5D=20953,None,None,None,1,2015-11-26,HTML,True,None,
+Ribeirão Pires (SP),354330,3543303,SP,Região Sudeste,124159,False,http://www.ribeiraopires.sp.gov.br/diario-oficial,None,None,None,1,2016-05-25,PDF texto,True,None,"Não é possível saber a primeira data que o Diário Oficial de Ribeirão Pires-SP foi disponibilizado virtualmente, uma vez que a busca precisaria ser manual, clicando num aba horizontal para voltar data por data. 
+
+(Géssika Costa)"
+Ribeirão Preto (SP),354340,3543402,SP,Região Sudeste,711825,False,https://www.ribeiraopreto.sp.gov.br/diario-oficial/index.xhtml,https://www.ribeiraopreto.sp.gov.br/dom/i73ind_edicoes.php,None,None,1,1997-07-04,PDF texto,True,None,None
+Rio Branco (AC),120040,1200401,AC,Região Norte,413418,True,http://www.diario.ac.gov.br/,None,None,None,1,2009-06-22,PDF texto,True,None,"Publicado dentro da seção ""Municipalidade"" do Diário Oficial do Acre"
+Rio Claro (SP),354390,3543907,SP,Região Sudeste,208008,False,https://www.rioclaro.sp.gov.br/diariooficial/index.php,None,None,None,1,2008-11-13,PDF texto,True,None,
+Rio Das Ostras (RJ),330452,3304524,RJ,Região Sudeste,155193,False,https://www.riodasostras.rj.gov.br/jornal-oficial/,None,None,None,1,2013-01-02,PDF texto,True,None,
+Rio Grande (RS),431560,4315602,RS,Região Sul,211965,False,https://www.in.gov.br/consulta/-/buscar/dou?q=%22Munic%C3%ADpio+de+Rio+Grande%22&orgPrin=Prefeituras&orgSub=Estado+do+Rio+Grande+do+Sul,None,None,None,3,None,None,True,None,"Não encontrado veículo de publicação oficial no portal do município, no portal de transparência, no Diário Oficial do Estado do Rio Grande do Sul, nem no Diário Oficial dos Municípios do Rio Grande do Sul, da Federação de Associações de Municípios do RS (FAMURS).
+
+Há um agregador de atos oficiais no portal da prefeitura: https://www.riogrande.rs.gov.br/pagina/publicacoes-legais/#link
+
+Além disso, há menções no histórico de notícias da prefeitura (https://www.riogrande.rs.gov.br/pagina/?s=%22di%C3%A1rio+oficial%22) a publicação de atos no Diário Oficial da União. No entanto, uma busca no site da imprensa nacional retorna apenas dois resultados para ""Prefeitura Municipal de Rio Grande"" (https://www.in.gov.br/consulta/-/buscar/dou?q=%22Prefeitura+Municipal+de+Rio+Grande%22&s=todos&exactDate=all&sortType=0&delta=20&orgPrin=Prefeituras&orgSub=Estado+do+Rio+Grande+do+Sul) e 24 para ""Município de Rio Grande"" (https://www.in.gov.br/consulta/-/buscar/dou?q=%22Munic%C3%ADpio+de+Rio+Grande%22&s=todos&exactDate=all&sortType=0&delta=20&orgPrin=Prefeituras&orgSub=Estado+do+Rio+Grande+do+Sul)
+
+Em 15 e 18/01/2021 foi tentado contato telefêonico ((53)3233.8400 e imprensa (53)3233-7281/3233-6052), sem sucesso. Em 22/01/2021, foi protocolado pedido de acesso à informação por meio do endereço <https://riogrande.ccanet.com.br/transparencia/pedidoacessoinformacao/solicitacaoinformacao>, mas o sistema não gera um número de protocolo atendimento para acompanhamento do pedido."
+Rio Verde (GO),521880,5218805,GO,Região Centro-Oeste,241518,False,http://diariooficial.abc.go.gov.br/buscanova/#/q=PREFEITURA%20MUNICIPAL%20DE%20RIO%20VERDE,None,None,None,1,2007-11-05,PDF texto,True,None,
+Rio de Janeiro (RJ),330455,3304557,RJ,Região Sudeste,6747815,True,https://doweb.rio.rj.gov.br/,None,None,None,1,2008-07-02,PDF texto,True,None,None
+Rondonópolis (MT),510760,5107602,MT,Região Centro-Oeste,236042,False,http://www.rondonopolis.mt.gov.br/diario-oficial/,None,None,None,1,2004-09-01,PDF texto,True,None,
+Sabará (MG),315670,3156700,MG,Região Sudeste,137125,False,https://www.jornalminasgerais.mg.gov.br/,None,None,None,1,2010-12-15,PDF texto,True,None,Publicado como seção dentro do Jornal Minas Gerais (publicação oficial do Estado de Minas Gerais)
+Salto (SP),354520,3545209,SP,Região Sudeste,119736,False,https://imprensaoficialmunicipal.com.br/salto,None,None,None,1,2018-02-01,PDF imagem,True,None,None
+Salvador (BA),292740,2927408,BA,Região Nordeste,2886698,True,http://www.dom.salvador.ba.gov.br/,None,None,None,1,2001-01-01,PDF texto,True,None,"A data indicada para o inicio dos diários (01/01/2001) é a expressamente mencionada no site e a primeira acessível na busca por datas. Mas, na busca por números das edições, é possível acessar edições desde 01/09/1994."
+Santa Bárbara D´oeste (SP),354580,3545803,SP,Região Sudeste,194390,False,http://www.imprensaoficial.com.br/DO/BuscaDO2001Resultado_11_3.aspx?filtropalavraschave=%22PREFEITURA+MUNICIPAL+DE+SANTA+B%c3%81RBARA+D%27OESTE%22&f=xhitlist&xhitlist_vpc=first&xhitlist_x=Advanced&xhi,None,None,None,1,2007-06-20,PDF texto,True,None,
+Santa Cruz do Capibaribe (PE),261250,2612505,PE,Região Nordeste,109897,False,http://200.238.101.22/docreader/docmulti.aspx?bib=FULL&pesq=%22Prefeitura%20Municipal%20de%20Santa%20Cruz%20do%20Capibaribe%22,https://www.santacruzdocapibaribe.pe.gov.br/artigos/diariooficial/,None,None,1,1992-07-10,PDF imagem,True,None,"Chama de ""diário oficial"" uma página do site da prefeitura onde publica os atos de forma completa (todos os tipos de atos estão lá) e datada, mas desagregada (não há a divisão por edição). (FONTE 2)
+
+Por outro lado, a partir de algum momento (estimado em 10/07/1992, na falta de forma de melhor de visualizar as ocorrências - ver anomalias) até 28/12/2019, publicava pelo menos parte de seus atos no Diário Oficial do Estado de Pernambuco (FONTE 1)."
+Santa Cruz do Sul (RS),431680,4316808,RS,Região Sul,131365,False,https://www.diariooficial.rs.gov.br/,https://www.diariooficial.rs.gov.br/resultado?td=DOE&ecc=95440517000108&ecd=MUNICIPIO%20DE%20SANTA%20CRUZ%20DO%20SUL&di=2020-11-26&df=2020-11-26,None,None,1,2017-11-14,PDF texto,True,None,
+Santa Luzia (MG),315780,3157807,MG,Região Sudeste,220444,False,https://www.santaluzia.mg.gov.br/dom/,None,None,None,1,2020-06-23,HTML,True,None,"Abaixo da opção de baixar a edição em PDF, há uma lista com excertos de todos os artigos do dia, com um ""Leia mais..."" para acessar o texto em PDF."
+Santa Maria (RS),431690,4316907,RS,Região Sul,283677,False,https://www.diariooficial.rs.gov.br,None,None,None,1,2017-11-27,HTML,True,None,
+Santa Rita (PB),251370,2513703,PB,Região Nordeste,137349,False,https://diario.santarita.pb.gov.br/,None,None,None,1,2013-04-13,PDF texto,True,None,
+Santana (AP),160060,1600600,AP,Região Norte,123096,False,https://santana.ap.gov.br/diario-oficial/,None,None,None,1,2019-01-08,PDF imagem,True,None,
+Santana de Parnaíba (SP),354730,3547304,SP,Região Sudeste,142301,False,https://www.santanadeparnaiba.sp.gov.br/imprensa_oficial.html,None,None,None,1,2013-11-15,PDF texto,True,None,
+Santarém (PA),150680,1506807,PA,Região Norte,306480,False,http://www.diariomunicipal.com.br/famep/pesquisar,None,None,None,1,2017-12-26,HTML,True,None,
+Santo André (SP),354780,3547809,SP,Região Sudeste,721368,False,http://www.santoandre.sp.gov.br/publicacao/edicao/consultaedicao.aspx,https://digital.maven.com.br/pub/AtosOficiais/,None,None,1,2011-02-08,PDF imagem,True,None,
+Santo Antônio de Jesus (BA),292870,2928703,BA,Região Nordeste,102380,False,http://www.santoantoniodejesus.ba.io.org.br/diarioOficial,None,None,None,1,2020-09-11,PDF imagem,True,None,None
+Santos (SP),354850,3548500,SP,Região Sudeste,433656,False,https://diariooficial.santos.sp.gov.br/,None,None,None,1,2001-05-05,PDF imagem,True,None,
+Sapucaia do Sul (RS),432000,4320008,RS,Região Sul,141808,False,https://www.diariooficial.rs.gov.br/,http://www.diariomunicipal.com.br/famurs/pesquisar?busca_avancada[entidadeUsuaria]=78480,None,None,1,2017-11-09,HTML,True,None,
+Senador Canedo (GO),522045,5220454,GO,Região Centro-Oeste,118451,False,http://prefeituradesenadorcanedo.sigepnet.com.br/,None,None,None,1,2017-12-28,HTML,True,None,"Permite baixar os arquivos em PDF, Excel e CSV"
+Serra (ES),320500,3205002,ES,Região Sudeste,527240,False,https://diariomunicipal.es.gov.br/?r=site/index&q=cod_municipio%3A70,None,None,None,1,2014-08-01,HTML,True,None,
+Sertãozinho (SP),355170,3551702,SP,Região Sudeste,127142,False,http://diarioeletronicooficial.com.br/diario/sertaozinho-sp,None,None,None,1,2019-08-07,PDF texto,True,None,
+Sete Lagoas (MG),316720,3167202,MG,Região Sudeste,241835,False,https://www.setelagoas.mg.gov.br/diario-eletronico,None,None,None,1,2013-04-16,PDF texto,True,None,
+Simões Filho (BA),293070,2930709,BA,Região Nordeste,135783,False,http://simoesfilho.ba.gov.br/ultimos-diarios/,None,None,None,1,2018-03-02,PDF texto,True,None,None
+Sinop (MT),510790,5107909,MT,Região Centro-Oeste,146005,False,https://www.tce.mt.gov.br/diario,https://diariomunicipal.org/mt/amm/publicacoes/?e=344,None,None,1,2015-02-26,PDF texto,True,None,"Segundo [esta notícia](https://web.archive.org/web/20201128142947/https://www.sinop.mt.gov.br/Noticias/Prefeitura-de-sinop-adota-diario-oficial-de-contas-para-divulgacao-de-atos-oficiais-5214/) no portal oficial da Prefeitura de Sinop, os atos oficiais passaram a ser publicados no Diário Oficial de Contas do Mato Grosso a partir de 01/07/2017. O período de início indicado inclui as duas fontes de publicação."
+Sobral (CE),231290,2312908,CE,Região Nordeste,210711,False,http://www.sobral.ce.gov.br/diario/pesquisa,None,None,None,1,2017-02-06,PDF texto,True,None,None
+Sorocaba (SP),355220,3552205,SP,Região Sudeste,687357,False,http://noticias.sorocaba.sp.gov.br/jornal/,None,None,None,1,2005-01-07,PDF texto,True,None,None
+Sumaré (SP),355240,3552403,SP,Região Sudeste,286211,False,https://www.sumare.sp.gov.br/index2.php?p=Diario.Oficial&edicao=todas,None,None,None,1,2011-02-11,PDF texto,True,None,
+Suzano (SP),355250,3552502,SP,Região Sudeste,300559,False,https://www.suzano.sp.gov.br/web/transparencia/imprensa-oficial/,None,None,None,1,2017-08-01,HTML,True,None,"Site em HTML com itens de menu com Editais e Licitações e outras. 
+Escolha por ano, abre DO em PDF"
+São Bernardo do Campo (SP),354870,3548708,SP,Região Sudeste,844483,False,https://www.saobernardo.sp.gov.br/web/sbc/imprensa-oficial,https://www.saobernardo.sp.gov.br/web/sbc/todas-as-edicoes,None,None,1,2002-05-03,PDF texto,True,None,None
+São Caetano do Sul (SP),354880,3548807,SP,Região Sudeste,161957,False,https://diariooficial.saocaetanodosul.sp.gov.br/publico/Default.aspx,None,None,None,1,2017-04-25,PDF texto,True,None,
+São Carlos (SP),354890,3548906,SP,Região Sudeste,254484,False,http://www.saocarlos.sp.gov.br/index.php/diario-oficial.html,None,None,None,1,2009-06-11,PDF texto,True,None,
+São Félix do Xingu (PA),150730,1507300,PA,Região Norte,132138,False,https://transparencia.sfxingu.pa.gov.br/diario/?ent=1,None,None,None,1,2017-01-02,PDF texto,True,None,
+São Gonçalo (RJ),330490,3304904,RJ,Região Sudeste,1091737,False,https://servicos.pmsg.rj.gov.br/diario_oficial.php,None,None,None,1,2010-01-05,PDF texto,True,None,
+São Gonçalo do Amarante (RN),241200,2412005,RN,Região Nordeste,103672,False,https://saogoncalo.rn.gov.br/diario-oficial/,https://saogoncalo.rn.gov.br/jornal-oficial/,None,None,1,2013-01-02,PDF texto,True,None,"A fonte principal tem os diários a partir de 22/03/2017. A fonte alternativa tem os diários anteriores, desde 2013."
+São José (SC),421660,4216602,SC,Região Sul,250181,False,https://diariomunicipal.sc.gov.br/site/?r=site/index&q=cod_municipio%3A158,None,None,None,1,2013-05-16,PDF texto,True,None,
+São José Dos Campos (SP),354990,3549904,SP,Região Sudeste,729737,False,http://servicos2.sjc.sp.gov.br/servicos/portal_da_transparencia/boletim_municipio.aspx,None,None,None,1,2015-08-07,PDF texto,True,None,
+São José Dos Pinhais (PR),412550,4125506,PR,Região Sul,329058,False,http://www.diariooficial.sjp.pr.gov.br/index.php,None,None,None,1,2017-11-01,PDF texto,True,None,
+São José de Ribamar (MA),211120,2111201,MA,Região Nordeste,179028,False,https://www.saojosederibamar.ma.gov.br/diario-eletronico,None,None,None,1,2015-12-02,PDF texto,True,None,
+São José do Rio Preto (SP),354980,3549805,SP,Região Sudeste,464983,False,https://www.riopreto.sp.gov.br/DiarioOficial/Diario.action,None,None,None,1,2006-04-25,PDF texto,True,None,"Não é possível saber a primeira data, uma vez que a busca teria que ser feita manualmente, sugerindo data por data até achar o dia inicial.
+
+Outro ponto importante é que as informações do Diário Oficial de Ribeirão Preto não se encontram em um documento só. São divididas por atos e tipos de informações. Por exemplo:  decretos, edital de compras, portarias. O cidadão precisa baixar uma por aí se quiser acompanhar os atos todos."
+São João de Meriti (RJ),330510,3305109,RJ,Região Sudeste,472906,False,https://transparencia.meriti.rj.gov.br/?serv=1045,https://meriti.rj.gov.br/dom/,None,None,1,2011-09-30,PDF texto,True,None,
+São Leopoldo (RS),431870,4318705,RS,Região Sul,238648,False,http://www.diariomunicipal.com.br/famurs/pesquisar?busca_avancada[entidadeUsuaria]=6586,None,None,None,1,2012-09-06,HTML,True,None,
+São Lourenço da Mata (PE),261370,2613701,PE,Região Nordeste,114079,False,http://www.diariomunicipal.com.br/amupe/pesquisar?busca_avancada[entidadeUsuaria]=591,None,None,None,1,2010-03-31,HTML,True,None,
+São Luís (MA),211130,2111300,MA,Região Nordeste,1108975,True,http://sistemas.semad.saoluis.ma.gov.br/easysearch/,None,None,None,1,1993-01-19,PDF texto,True,None,"O texto do PDF parece proveniente de OCR - aparentemente, um OCR de qualidade."
+São Mateus (ES),320490,3204906,ES,Região Sudeste,132642,False,https://ioes.dio.es.gov.br/buscanova/#/caderno_municipios/p=1&q=Prefeitura%20Municipal%20de%20S%C3%A3o%20Mateus,None,None,None,1,2020-10-27,PDF texto,True,None,"Seção dentro do Diário Oficial dos Municípios Capixabas, da Imprensa Oficial do Espírito Santo."
+São Paulo (SP),355030,3550308,SP,Região Sudeste,12325232,True,http://www.docidadesp.imprensaoficial.com.br/Busca.aspx,None,None,None,1,1975-12-02,PDF texto,True,None,None
+São Pedro da Aldeia (RJ),330520,3305208,RJ,Região Sudeste,106049,False,https://transparencia.pmspa.rj.gov.br/,http://arquivos.pmspa.rj.gov.br/iframe/boletim-informativo,None,None,1,2002-12-30,PDF imagem,True,None,
+São Vicente (SP),355100,3551009,SP,Região Sudeste,368355,False,http://www.saovicente.sp.gov.br/publico/noticia_assunto_lista.php?cod_menu=141,None,None,None,1,2019-08-28,HTML,True,None,
+Taboão da Serra (SP),355280,3552809,SP,Região Sudeste,293652,False,http://ts.sp.gov.br/leis-e-normas/imprensa-oficial/,None,None,None,1,2005-03-01,PDF texto,True,None,
+Tailândia (PA),150795,1507953,PA,Região Norte,108969,False,http://www.ioepa.com.br/pesquisa/?q=%22Prefeitura%20Municipal%20de%20Tail%C3%A2ndia%22&di=00010101&df=20991201,None,None,None,1,2008-01-07,PDF texto,True,None,"Publica no Diário Oficial do Estado do Pará.
+
+Também possui uma página com atos oficiais escaneados (.jpg): http://www.tailandia.pa.gov.br/category/atos/"
+Tangará da Serra (MT),510795,5107958,MT,Região Centro-Oeste,105711,False,https://diariomunicipal.org/mt/amm/publicacoes/?e=341,None,None,None,1,2015-02-26,HTML,True,None,
+Tatuí (SP),355400,3554003,SP,Região Sudeste,122967,False,http://tatui.sp.gov.br/diario-oficial,None,None,None,1,2010-07-29,Outro formato,True,None,"Só existem 2 diários oficiais disponíveis no site como publicações (15 e 22 fev. 2019), no entanto a página reúne todas as publicações oficiais do munícipio e cada uma delas está disponível em um formato de arquivo diferente, por exemplo: as execuções orçamentárias estão em .xls, os editais de pregões em .docx e a legislação em .pdf
+
+A data de início é a data do ato oficial mais antigo encontrado, após buscas nas seções ""Editais de chamamento"", ""Leis municipais"", ""Decretos municipais"" e ""Audiências públicas"" (ver anomalia). Foram desconsideradas datas anteriores das seções ""Contas Públicas"" e ""Leis orçamentárias"", que contém arquivos de anos anteriores, mas sem os respectivos atos publicados. 
+
+Embora haja editais de chamamento e avisos de audiência pública desde 2010/2011, as seções de leis e decretos parecem conter atos só a partir de 2015."
+Taubaté (SP),355410,3554102,SP,Região Sudeste,317915,False,https://www.taubate.sp.gov.br/publicacoes-2/,None,None,None,1,2013-06-04,PDF texto,True,None,
+Teixeira de Freitas (BA),293135,2931350,BA,Região Nordeste,162438,False,http://diario.teixeiradefreitas.ba.gov.br/,None,None,None,1,2015-04-15,PDF imagem,True,None,None
+Teresina (PI),221100,2211001,PI,Região Nordeste,868075,True,http://dom.pmt.pi.gov.br/lista_diario.php,None,None,None,1,2005-01-07,PDF texto,True,None,None
+Teresópolis (RJ),330580,3305802,RJ,Região Sudeste,184240,False,https://teresopolis.rj.gov.br/transparencia/diario-oficial/,None,None,None,1,2009-10-01,PDF texto,True,None,None
+Teófilo Otoni (MG),316860,3168606,MG,Região Sudeste,140937,False,http://www.diariomunicipal.com.br/amm-mg/pesquisar?busca_avancada[entidadeUsuaria]=53316,None,None,None,1,2017-05-26,HTML,True,None,
+Timon (MA),211220,2112209,MA,Região Nordeste,170222,False,http://timon.ma.gov.br/semgov/diario/listagem.php?pagina=0,None,None,None,1,2013-03-20,PDF texto,True,None,None
+Toledo (PR),412770,4127700,PR,Região Sul,142645,False,https://www.toledo.pr.gov.br/pagina/orgao-oficial,None,None,None,1,2010-01-06,PDF texto,True,None,
+Trindade (GO),522140,5221403,GO,Região Centro-Oeste,129823,False,http://www.diariomunicipal.com.br/agm/pesquisar?busca_avancada[__paper]=932&busca_avancada[entidadeUsuaria]=51721,None,None,None,1,2018-08-01,HTML,True,None,
+Três Lagoas (MS),500830,5008305,MS,Região Centro-Oeste,123281,False,http://diariooficialms.com.br/assomasul,http://www.diariomunicipal.com.br/ms/pesquisar?busca_avancada[__paper]=1&busca_avancada[entidadeUsuaria]=475,None,None,1,2010-01-13,PDF texto,True,None,"De 2010 a fev. 2019 os Diários estão disponíveis em: http://www.diariomunicipal.com.br/ms/pesquisar?busca_avancada[__paper]=1&busca_avancada[entidadeUsuaria]=475
+
+De dez. 2019 até hoje os Diários estão disponíveis em: http://diariooficialms.com.br/assomasul"
+Tubarão (SC),421870,4218707,SC,Região Sul,106422,False,https://diariomunicipal.sc.gov.br/site/?r=site/index&q=cod_municipio%3A260,None,None,None,1,2017-04-05,Outro formato,True,None,"O formato do arquivo depende do tipo de ato, por exemplo os Decretos estão em .odt e os pregões em .pdf"
+Tucuruí (PA),150810,1508100,PA,Região Norte,115144,False,http://www.diariomunicipal.com.br/famep/pesquisar,None,None,None,1,2019-12-13,HTML,True,None,
+Uberaba (MG),317010,3170107,MG,Região Sudeste,337092,False,"http://www.uberaba.mg.gov.br/portal/conteudo,10453",None,None,None,1,2003-04-25,PDF texto,True,None,
+Uberlândia (MG),317020,3170206,MG,Região Sudeste,699097,False,https://www.uberlandia.mg.gov.br/prefeitura/orgaos-municipais/procuradoria-geral-do-municipio/diario-oficial-uberlandia/,None,None,None,1,2005-01-03,PDF texto,True,None,
+Ubá (MG),316990,3169901,MG,Região Sudeste,116797,False,https://www.uba.mg.gov.br/diario-eletronico,None,None,None,1,2010-07-13,PDF texto,True,None,
+Umuarama (PR),412810,4128104,PR,Região Sul,112500,False,https://www.in.gov.br/consulta/-/buscar/dou?q=%22Munic%C3%ADpio+de+Umuarama%22&orgPrin=Prefeituras&orgSub=Estado+do+Paran%C3%A1,https://www.documentos.dioe.pr.gov.br/dioe/consultaPublicaPDF.do?action=pgLocalizar&dataInicialEntrada=01%2F04%2F2004&dataFinalEntrada=01%2F10%2F2004&search=%22Munic%EDpio+de+Umuarama%22,None,None,1,2004-04-14,HTML,True,None,"Há publicações tanto no Diário Oficial da União (desde 09/03/2018; em HTML) quanto no Diário Oficial do Paraná - Caderno Comércio, Indústria e Serviços (desde 14/04/2004)."
+Uruguaiana (RS),432240,4322400,RS,Região Sul,126866,False,https://www.diariooficial.rs.gov.br/,None,None,None,1,2017-11-17,HTML,True,None,Seção no Diário Oficial do Estado.
+Valinhos (SP),355620,3556206,SP,Região Sudeste,131210,False,http://www.valinhos.sp.gov.br/boletins,None,None,None,1,2006-01-03,PDF texto,True,None,
+Valparaíso de Goiás (GO),522185,5221858,GO,Região Centro-Oeste,172135,False,https://acessoainformacao.valparaisodegoias.go.gov.br/atos_adm/mp/id=2,None,None,None,1,2015-01-15,PDF imagem,True,None,None
+Varginha (MG),317070,3170701,MG,Região Sudeste,136602,False,https://www.varginha.mg.gov.br/portal/jornal/,None,None,None,1,2013-01-02,PDF texto,True,None,
+Vespasiano (MG),317120,3171204,MG,Região Sudeste,129765,False,http://www.diariomunicipal.com.br/amm-mg/pesquisar?busca_avancada[entidadeUsuaria]=577,None,None,None,1,2010-03-25,HTML,True,None,
+Viamão (RS),432300,4323002,RS,Região Sul,256302,False,https://www.in.gov.br/consulta/-/buscar/dou?q=%22Munic%C3%ADpio+de+Viam%C3%A3o%22&orgPrin=Prefeituras&orgSub=Estado+do+Rio+Grande+do+Sul,None,None,None,3,None,None,True,None,"Endereço existe (https://www.viamao.rs.gov.br/portal/diario-oficial), mas nenhum diário é disponibilizado ali. Também há menção a um Diário Oficial do Município em pelo menos uma notícia no portal: https://www.viamao.rs.gov.br/portal/noticias/0/3/4978/recred-dezembro-tem-desconto-de-ate-60-nos-juros-e-multas
+
+Não foi possível encontrar outro endereço em pesquisas em motores de buscas, nem como link no site oficial, nem no diário da Associação de Municípios do Rio Grande do Sul (http://www.diariomunicipal.com.br/famurs/pesquisar), nem no Diário Oficial do Estado (https://www.diariooficial.rs.gov.br/).
+
+Alguns atos avulsos são publicados no Portal da Transparência (https://www.viamao.rs.gov.br/portal/transparencia). Alguns atos são publicados no Diário Oficial da União (Fonte 1).
+
+Foi realizada tentativa de contato com o atendimento da prefeitura em 13/01/2021, pelo número disponível no site (51 3492 7600), mas ninguém atendeu. No mesmo dia, foi aberto o Pedido de Acesso à Informação n. 26585925/2021, solicitando esclarecimentos sobre os veículos de publicação de atos oficiais utilizados pela Prefeitura de Viamão entre janeiro de 2020 e janeiro de 2021.
+
+TENTATIVA DE CONTATO POR TELEFONE EM 18/01/2021, MAS NINGUÉM ATENDEU."
+Vila Velha (ES),320520,3205200,ES,Região Sudeste,501325,False,https://www.vilavelha.es.gov.br/diariooficial/ConsultaDiario.aspx,None,None,None,1,2016-01-07,PDF texto,True,None,
+Vilhena (RO),110030,1100304,RO,Região Norte,102211,False,http://dov.vilhena.ro.gov.br/,None,None,None,1,2017-03-07,PDF texto,True,None,
+Vitória (ES),320530,3205309,ES,Região Sudeste,365855,True,https://ioes.dio.es.gov.br/caderno_municipios,https://diariooficial.vitoria.es.gov.br/,None,None,1,2020-07-10,PDF texto,True,None,"Aparentemente, Vitória deixou recentemente de publicar diário oficial próprio, passando a publicar na Diário Oficial dos Municípios Capixabas (da Imprensa Oficial do Estado - IOES). O site inicialmente mapeado, <https://diariooficial.vitoria.es.gov.br/> parece estar fora do ar desde Outubro de 2020 - justamente quando começam a existir publicações no IOES. Snapshots do portal antigo são acessíveis no Web Archive (<https://web.archive.org/web/*/https://diariooficial.vitoria.es.gov.br/>), mas esses não incluem o conteúdo dos diários.
+
+O portal antigo foi mantido como fonte alternativa, para referência, embora se encontre fora do ar."
+Vitória da Conquista (BA),293330,2933307,BA,Região Nordeste,341128,False,https://dom.pmvc.ba.gov.br/,None,None,None,1,2013-06-26,PDF imagem,True,None,
+Vitória de Santo Antão (PE),261640,2616407,PE,Região Nordeste,139583,False,http://www.diariomunicipal.com.br/amupe/pesquisar?busca_avancada[entidadeUsuaria]=46229,None,None,None,1,2017-03-21,HTML,True,None,
+Volta Redonda (RJ),330630,3306305,RJ,Região Sudeste,273988,False,https://new.voltaredonda.rj.gov.br/8-interno/658-vr-destaque,None,None,None,1,2003-01-02,PDF texto,True,None,
+Votorantim (SP),355700,3557006,SP,Região Sudeste,123599,False,https://www.votorantim.sp.gov.br/portal/diario-oficial,None,None,None,1,2018-04-20,PDF texto,True,None,
+Várzea Grande (MT),510840,5108402,MT,Região Centro-Oeste,287526,False,https://diariomunicipal.org/mt/amm/publicacoes/?e=334,None,None,None,1,2015-02-26,HTML,True,None,
+Várzea Paulista (SP),355650,3556503,SP,Região Sudeste,123071,False,https://transparencia5.varzeapaulista.sp.gov.br/?pag=111&opt=0,None,None,None,1,2010-08-10,PDF texto,True,None,
+Águas Lindas de Goiás (GO),520025,5200258,GO,Região Centro-Oeste,217698,False,http://diariooficial.abc.go.gov.br/buscanova/#/q=PREFEITURA%20MUNICIPAL%20DE%20AGUAS%20LINDAS%20DE%20GOI%C3%81S,None,None,None,1,2017-11-01,PDF texto,True,None,Também reúne atos oficiais em: https://aguaslindasdegoias.go.gov.br/?s=loa
