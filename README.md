@@ -17,7 +17,8 @@ Descubra como colaborar com o mapeamento dos diários oficiais e a análise dos 
 ### **Instalando todas as dependências**
 
 ```
-$ mkvirtualenv censo -p python3
+$ python3 -m venv .venv
+$ source .venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
