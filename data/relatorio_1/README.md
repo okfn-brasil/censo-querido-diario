@@ -8,4 +8,11 @@ Os arquivos preprocessamento.py, distribuicao_geografica.py, formatos_publicacao
 
 # Como executar
 
-Baixe todos os arquivos do diretório relatorio_1 e garanta que estejam no mesmo diretório (ou pasta) em seu computador. Execute apenas relatorio1.py. Ao final da execução, diversos ar aquivos .csv existirão, referentes às informações utilizadas no relatório 1 do Censo de Diários Oficiais do Querido Diário.
+Com o arquivo de dados nessa mesma pasta, o ambiente virtual ativado e com a dependências do repositório já baixadas, execute:
+
+```sh
+python relatorio_1.py
+```
+
+Ao final da execução, diversos arquivos .csv existirão, referentes às informações utilizadas no relatório 1 do Censo de Diários Oficiais do Querido Diário.
+
