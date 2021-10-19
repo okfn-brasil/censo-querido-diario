@@ -1,59 +1,58 @@
-# -*- coding: utf-8 -*-
-
 # importa bibliotecas
 import pandas as pd
+import os
 
-import preprocessamento as prep
-import distribuicao_geografica as dg
-import formatos_publicacao as fp
-import dominios as dm
-import acervo_historico as ah
+import preprocessamento
+import distribuicao_geografica
+import formatos_publicacao
+import dominios
+import acervo_historico
 
 # importa conjunto de dados
-df = pd.read_csv("./Base_mapeamento_cidades_mais_de_100_mil_habitantes.csv")
+municipios = pd.read_csv("./Base_mapeamento_cidades_mais_de_100_mil_habitantes.csv")
+
+# cria diretório onde ficarão os arquivos de saída
+os.mkdir("resultados")
 
 # PRE-PROCESSAMENTO
-df = prep.recorta_perfil(df)
-df = prep.substitui_sem_diario(df)
-df = prep.substitui_formato(df)
-df = prep.remove_variaveis(df)
-fontes = prep.trata_fontes(df)
-df = prep.trata_datas(df)
-df = prep.conta_fontes(df, fontes)
+municipios = preprocessamento.recorta_perfil(municipios)
+municipios = preprocessamento.substitui_sem_diario(municipios)
+municipios = preprocessamento.substitui_formato(municipios)
+municipios = preprocessamento.remove_variaveis(municipios)
+fontes = preprocessamento.trata_fontes(municipios)
+municipios = preprocessamento.trata_datas(municipios)
+municipios = preprocessamento.conta_fontes(municipios, fontes)
 
 
 # QUANTIDADES ANALISADAS
-n_cidades = df.shape[0]
-print("Mapeamento: %.f cidades mapeadas" %(n_cidades))
+n_cidades = municipios.shape[0]
+print(f"Mapeamento do relatório: {n_cidades} cidades com mais de 100 mil habitantes mapeadas")
 cobertura = n_cidades/5570*100
-print("Cobertura do relatório: %.2f porcento das cidades do país" %(cobertura))
-n_fontes = fontes.shape[0]
-print("Fontes mapeadas: %.f" %(n_fontes))
+print(f"Cobertura do relatório: {cobertura}% das cidades do país")
+numero_fontes = fontes.shape[0]
+print(f"Fontes de publicação de diários oficias mapeadas: {numero_fontes}")
 
 
 # DISTRIBUIÇÃO GEOGRAFICA
-dg.municipios_UF(df)
-dg.municipios_regiao(df)
+distribuicao_geografica.municipios_por_uf(municipios)
+distribuicao_geografica.municipios_por_regiao(municipios)
 
 
-# FORMATOS DE PUBLICACAO 
-# municipios
-fp.formatos_publicacao(df)          # estatisticas do formato
-fp.publica_HTML(df)                     # destaque às publicacoes em HTML
-# UF
-fp.formatos_UF(df)                  # estatisticas do formato
+# FORMATOS DE PUBLICACAO
+formatos_publicacao.formatos_publicacao(municipios)
+formatos_publicacao.publica_html(municipios)
+formatos_publicacao.formatos_por_uf(municipios)
 
 
 # FONTES DE PUBLICACAO
-dm.dominio(fontes)
-dm.dominio_UF(fontes)
-dm.publica_HTML(fontes)
-dm.is_gov(fontes)
-dm.is_https(fontes)
-dm.qntd_fontes(df)
+dominios.dominio(fontes)
+dominios.dominio_por_uf(fontes)
+dominios.eh_gov(fontes)
+dominios.eh_https(fontes)
+dominios.quantidade_fontes(municipios)
 
 
 # ACERVO HISTÓRICO
-ah.diarios_antigos(df)
-ah.diarios_novos(df)
-ah.dist_anual(df)
+acervo_historico.diarios_antigos(municipios)
+acervo_historico.diarios_novos(municipios)
+acervo_historico.distribuicao_anual(municipios)
