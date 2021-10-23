@@ -41,15 +41,17 @@ distribuicao_geografica.municipios_por_regiao(municipios)
 # FORMATOS DE PUBLICACAO
 formatos_publicacao.formatos_publicacao(municipios)
 formatos_publicacao.publica_html(municipios)
-formatos_publicacao.formatos_por_uf(municipios)
 
 
 # FONTES DE PUBLICACAO
 dominios.dominio(fontes)
-dominios.dominio_por_uf(fontes)
-dominios.eh_gov(fontes)
-dominios.eh_https(fontes)
+dominios.maiores_dominios(fontes)
 dominios.quantidade_fontes(municipios)
+dominios.tipos_fontes(fontes)
+dominios.eh_gov(fontes)
+dominios.maiores_fontes_gov(fontes)
+dominios.maiores_fontes_privadas(fontes)
+dominios.eh_https(fontes)
 
 
 # ACERVO HISTÓRICO
