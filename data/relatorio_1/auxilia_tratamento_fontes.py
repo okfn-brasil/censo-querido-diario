@@ -4,6 +4,8 @@ from urllib.parse import urlsplit
 import nltk
 import re
 
+
+nltk.download('stopwords')
 # importa conjunto de dados
 municipios = pd.read_csv("./Base_mapeamento_cidades_mais_de_100_mil_habitantes.csv")
 
