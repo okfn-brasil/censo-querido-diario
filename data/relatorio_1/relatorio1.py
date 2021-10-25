@@ -1,6 +1,7 @@
 # importa bibliotecas
+import pathlib
+
 import pandas as pd
-import os
 
 import preprocessamento
 import distribuicao_geografica
@@ -12,7 +13,7 @@ import acervo_historico
 municipios = pd.read_csv("./Base_mapeamento_cidades_mais_de_100_mil_habitantes.csv")
 
 # cria diretório onde ficarão os arquivos de saída
-os.mkdir("resultados")
+pathlib.Path("resultados").mkdir(exist_ok=True)
 
 # PRE-PROCESSAMENTO
 municipios = preprocessamento.recorta_perfil(municipios)
