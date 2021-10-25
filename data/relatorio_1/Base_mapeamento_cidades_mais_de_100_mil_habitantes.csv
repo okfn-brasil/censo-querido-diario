@@ -53,7 +53,7 @@ Bragança (PA),150170,1501709,PA,Região Norte,128914,False,http://www.diariomun
 
 Os atos publicados no Diário Oficial do Estado do Pará, da Imprensa Oficial do Estado do Pará, são disponibilizados em PDF e cobrem o período de 20/02/2008 até 01/10/2020. (FONTE 2)"
 Bragança Paulista (SP),350760,3507605,SP,Região Sudeste,170533,False,https://imprensaoficialmunicipal.com.br/braganca_paulista,None,None,None,1,2019-01-04,PDF texto,True,None,
-Brasília (DF),530010,5300108,DF,Região Centro-Oeste,3055149,True,http://www.buriti.df.gov.br/ftp/,http://www.dodf.df.gov.br/,None,None,1,2001-10-01,PDF texto,True,None,None
+Brasília (DF),530010,5300108,DF,Região Centro-Oeste,3055149,True,http://www.dodf.df.gov.br/,None,None,None,1,2001-10-01,PDF texto,True,None,
 Breves (PA),150180,1501808,PA,Região Norte,103497,False,http://www.ioepa.com.br/pesquisa/?q=%22PREFEITURA%20MUNICIPAL%20DE%20BREVES%22&di=00010101&df=20991231,http://www.diariomunicipal.com.br/famep/pesquisar?busca_avancada[entidadeUsuaria]=3618,None,None,1,2008-01-02,PDF texto,True,None,"Publicado como seção no Diário Oficial do Pará.
 
 Entre 01/03/2012 e 27/06/2018, publicou também no Diário Oficial dos Municípios do Estado do Pará, mantido pela Federação de Asssociações de Municípios do Estado do Pará."
@@ -104,7 +104,7 @@ Crato (CE),230420,2304202,CE,Região Nordeste,133031,False,https://mail.crato.ce
 Criciúma (SC),420460,4204608,SC,Região Sul,217311,False,https://www.criciuma.sc.gov.br/site/doe.php#conteudo,None,None,None,1,2015-06-12,PDF texto,True,None,None
 Cubatão (SP),351350,3513504,SP,Região Sudeste,131626,False,http://www.cubatao.sp.gov.br/diario-oficial/,None,None,None,1,2019-05-10,PDF texto,True,None,
 Cuiabá (MT),510340,5103403,MT,Região Centro-Oeste,618124,True,http://www.diariomunicipal.com.br/amm-mt/pesquisar,https://diariomunicipal.org/mt/amm/publicacoes/?e=432,https://diariooficial.cuiaba.mt.gov.br/,None,1,2014-02-14,HTML,True,None,
-Curitiba (PR),410690,4106902,PR,Região Sul,1948626,True,https://legisladocexterno.curitiba.pr.gov.br/DiarioConsultaExterna_Pesquisa.aspx,https://www.jusbrasil.com.br/diarios/DOM-CTBA/,None,None,1,2020-09-11,PDF texto,True,None,None
+Curitiba (PR),410690,4106902,PR,Região Sul,1948626,True,https://legisladocexterno.curitiba.pr.gov.br/DiarioConsultaExterna_Pesquisa.aspx,None,None,None,1,2020-09-11,PDF texto,True,None,21/10/2021: fonte secundária removida pois não corresponde a uma fonte original de publicação
 Diadema (SP),351380,3513801,SP,Região Sudeste,426757,False,http://www.imprensaoficial.com.br/DO/BuscaDO2001Resultado_11_3.aspx?filtropalavraschave=%22PREFEITURA+MUNICIPAL+DE+DIADEMA%22,None,None,None,1,1981-03-20,PDF texto,True,None,URL completa (para busca até 16/12/2020)
 Divinópolis (MG),312230,3122306,MG,Região Sudeste,240408,False,http://www.diariomunicipal.com.br/amm-mg/pesquisar?busca_avancada[__paper]=1&busca_avancada[entidadeUsuaria]=760,None,None,None,1,2010-05-05,HTML,True,None,
 Dourados (MS),500370,5003702,MS,Região Centro-Oeste,225495,False,http://do.dourados.ms.gov.br/,None,None,None,1,2002-12-02,PDF texto,True,None,
@@ -138,7 +138,9 @@ Guarapuava (PR),410940,4109401,PR,Região Sul,182644,False,https://www.guarapuav
 Guaratinguetá (SP),351840,3518404,SP,Região Sudeste,122505,False,https://guaratingueta.sp.gov.br/diario-oficial-da-estancia-turistica-de-guaratingueta/,None,None,None,1,2015-06-23,PDF imagem,True,None,
 Guarujá (SP),351870,3518701,SP,Região Sudeste,322750,False,https://www.guaruja.sp.gov.br/edicoes-diario-oficial/,None,None,None,1,2015-01-06,PDF texto,True,None,
 Guarulhos (SP),351880,3518800,SP,Região Sudeste,1392121,False,https://www.guarulhos.sp.gov.br/diario-oficial,None,None,None,1,2004-08-24,PDF texto,True,None,"Não existe uma forma de pesquisar por data, e não é possível ver o período para o qual os diários estão disponíveis."
-Hortolândia (SP),351907,3519071,SP,Região Sudeste,234259,False,https://publicacoesmunicipais.com.br/eatos/hortolandia,https://publicacoesmunicipais.com.br:8443/api/Acts?idEntity=126,None,None,1,2017-04-27,PDF texto,True,None,"A fonte secundária retorna um JSON com as edições existentes, identificadas pelo parâmetro ""edition"". Para requisitar um arquivo PDF com o número da edição, basta usar a URL ""https://publicacoesmunicipais.com.br:8443/api/acts/hortolandia/{edition}""."
+Hortolândia (SP),351907,3519071,SP,Região Sudeste,234259,False,https://publicacoesmunicipais.com.br/eatos/hortolandia,None,None,None,1,2017-04-27,PDF texto,True,None,"A fonte secundária retorna um JSON com as edições existentes, identificadas pelo parâmetro ""edition"". Para requisitar um arquivo PDF com o número da edição, basta usar a URL ""https://publicacoesmunicipais.com.br:8443/api/acts/hortolandia/{edition}"".
+
+21/10/2021: Fonte secundária removida pois não corresponde a uma fonte de publicação"
 Ibirité (MG),312980,3129806,MG,Região Sudeste,182153,False,https://www.ibirite.mg.gov.br/diario-eletronico/caderno/diario-municipal/1,None,None,None,1,2015-10-13,PDF texto,True,None,
 Igarassu (PE),260680,2606804,PE,Região Nordeste,118370,False,http://www.diariomunicipal.com.br/amupe/pesquisar?busca_avancada[entidadeUsuaria]=12392,None,None,None,1,2014-07-14,HTML,True,None,
 Iguatu (CE),230550,2305506,CE,Região Nordeste,103074,False,http://www.diariomunicipal.com.br/aprece/pesquisar?busca_avancada[entidadeUsuaria]=12438,None,None,None,1,2014-06-16,HTML,True,None,
@@ -173,7 +175,7 @@ Ituiutaba (MG),313420,3134202,MG,Região Sudeste,105255,False,https://www.jornal
 Itumbiara (GO),521150,5211503,GO,Região Centro-Oeste,105809,False,https://itumbiara.com.br/diario/,None,None,None,1,2010-05-17,PDF texto,True,None,
 Jaboatão Dos Guararapes (PE),260790,2607901,PE,Região Nordeste,706867,False,https://diariooficial.jaboatao.pe.gov.br/,None,None,None,1,2015-12-12,HTML,True,None,
 Jacareí (SP),352440,3524402,SP,Região Sudeste,235416,False,https://boletinsoficiais.geosiap.net/pmjacarei/public/publicacoes,None,None,None,1,2004-03-27,PDF texto,True,None,
-Jandira (SP),352500,3525003,SP,Região Sudeste,126356,False,https://portal.jandira.sp.gov.br/jopej/,http://200.98.169.8/transparencia/(S(h3tkjinwluu2ot4made4yf4v))/Web_DOCUMENTOS.aspx,None,None,1,2020-07-28,PDF texto,True,None,None
+Jandira (SP),352500,3525003,SP,Região Sudeste,126356,False,https://portal.jandira.sp.gov.br/jopej/,None,None,None,1,2020-07-28,PDF texto,True,None,21/10/2021: fonte secundária removida pois a url estava associada a sessão original
 Japeri (RJ),330227,3302270,RJ,Região Sudeste,105548,False,http://siapegov.japeri.rj.gov.br/portal-transparencia/publicacoes,None,None,None,1,2019-01-01,PDF imagem,True,None,Ainda não tem nenhum diário publicado em 2021. O último é de 17/12/2020.
 Jaraguá do Sul (SC),420890,4208906,SC,Região Sul,181173,False,https://diariomunicipal.sc.gov.br/site/?r=site/index&q=cod_entidade%3A138,None,None,None,1,2016-01-22,PDF texto,True,None,
 Jataí (GO),521190,5211909,GO,Região Centro-Oeste,102065,False,http://www.jatai.go.gov.br/diariooficial/,None,None,None,1,2013-03-04,PDF texto,True,0.0,
