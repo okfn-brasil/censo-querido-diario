@@ -60,7 +60,7 @@ Se tiver alguma dúvida, faça um comentário na issue relacionada à análise e
   - [WebPageTest](https://github.com/WPO-Foundation/webpagetest-docs/)
 - Métricas automatizadas de acessibilidade:
   - [Ferramentas recomendadas pela Web Accessibilility Initiative](https://www.w3.org/WAI/test-evaluate/#tools)
-  - [Validators, brunopulis](https://github.com/brunopulis/awesome-a11y/blob/master/topics/validators.md)
+  - [Validators, brunopulis](https://github.com/brunopulis/awesome-a11y/blob/master/topics/tools.md#validators)
 - [Métricas de complexidade visual e fluência de uso - Interfacemetrics](https://interfacemetrics.aalto.fi/)
 - Análise de proprietários de domínios
   - [Whois](https://www.whois.com/)
