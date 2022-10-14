@@ -97,7 +97,13 @@ def download_csv_data(request):
     response = HttpResponse(content_type='text/csv')
 
     # decide the file name
-    response['Content-Disposition'] = 'attachment; filename="base_mapeamento.csv"'
+    file_name = "base_cidades_mapeadas.csv"
+    if chk_cidades_sem_map:
+        file_name = "base_inclui_nao_mapeadas.csv"
+    elif chk_cidades_100k:
+        file_name = "base_cem_mil_habs.csv"
+
+    response['Content-Disposition'] = 'attachment; filename="%s"' % file_name
 
     writer = csv.writer(response, csv.excel)
     response.write(u'\ufeff'.encode('utf8'))
